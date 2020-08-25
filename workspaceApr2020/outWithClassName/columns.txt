@@ -1,0 +1,35 @@
+'mainProjectName': Main project name (GitHub project)
+'projectName': Eclipse project name (subproject/module in GitHub)
+'filePath': The path to the file containing the test case
+'typeName': The fully qualified name of the type that declares the test case
+'methodName': The name of the test case (method name)
+'methodShortSignature': Method (test case) short signature as internally represented in the JVM
+'methodVerboseSignature': Method (test case) signature as represented in the source code
+'methodAnnotations': Method (test case) annotations
+'numberOfFirstLevelStatements': Number of statements in the method's body (only first level statements. Nested statements are not counted)
+'numberOfStatements': Total number of statements. The entire body AST is traversed and all statements are counted
+For H2 -> 'numberOfMethodInvocations': Number of statements that are method invocations (complete AST)
+For H2 -> 'distinctMethodInvocations': List of distinct method invocations (complete AST)
+For H2 -> 'numberOfDistinctMethodInvocations': Number of distinct method invocations (complete AST)
+For H2 -> 'distinctMethodInvocationsInSameClass': List of distinct method invocations in the same class
+For H2 -> 'numberOfDistinctMethodInvocationsInSameClass': Number of distinct method invocations in the same class
+For H2 -> 'distinctTestCaseMethodInvocationsInSameClass': List of distinct test case method invocations in same class
+For H2 -> 'numberOfDistinctTestCaseMethodInvocationsInSameClass': Number of distinct test case method invocations in the same class
+For H3 -> 'numberOfMethodInvocationsWithExceptions': Number of statements that are method invocations with exceptions being thrown (complete AST)
+For H3 -> 'numberOfExceptionsThrown': Number of exceptions thrown in method invocations
+For H3 -> 'numberOfExceptionsThrownAndCaughtExact': Number of exceptions thrown in method invocations and specifically caught (there is a "throw X" and a corresponding "catch X")
+For H3 -> 'numberOfExceptionsThrownAndCaughtPartial': // Number of exceptions thrown in method invocations and specifically caught but not an exact match (there is a "throw X" and a "catch Y" where Y may be X or a supertype of X)
+For H3 -> 'exceptionsThrownInMethodInvocations': List of exceptions thrown in all method invocations (complete AST)
+For H1 -> 'numberOfAssertions': Number of JUnit assertions, without going inside method invocations
+'numberOfAssertionsWithRecursion': Number of JUnit assertions, recursively going inside method invocations up to 5 recursion levels
+For H2 -> 'distinctMethodsInSameClassThatCallThisOne': List of distinct methods in the same class that call this one
+For H2 -> 'numberOfdistinctMethodsInSameClassThatCallThisOne': Number of distinct methods in the same class that call this one
+For H2 -> 'distinctTestCasesInSameClassThatCallThisOne': List of distinct test cases in the same class that call this one
+For H2 -> 'numberOfdistinctTestCasesInSameClassThatCallThisOne': Number of distinct test cases in the same class that call this one
+'hasCommitData': Whether this test case has commit data gathered by BEAGLE+NICAD (Andrew's file). We're looking for "yes"-only values here
+'mainProjectName2',  # Main project name (GitHub project) - repeated from mainProjectName for matching
+'methodName2': Aggregated list of test cases for each project which has code clone or edited at some time - repeated from methodName for matching
+'filePath2': The path to the file containing the test case in Andrew's file (the first slash is not present here)
+For all H -> 'noBugFixes': The number of changes to that test case which considered a bug fix
+For all H -> 'noCommitFixes': The number of commits changes that test case and classified as a bug fix
+For all H -> 'noClones' # The number of code clones detected by Nicad5 Tool  
