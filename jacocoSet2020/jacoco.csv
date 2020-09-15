@@ -1,0 +1,11 @@
+projectName,typeName,methodName,locCovered
+ambrose-common,com.twitter.ambrose.service.impl.InMemoryStatsServiceTest,testGetEventsSince,126
+ambrose-common,com.twitter.ambrose.service.impl.InMemoryStatsServiceTest,testGetEventsMax,128
+ambrose-common,com.twitter.ambrose.model.DAGNodeTest,testRoundTrip,126
+ambrose-common,com.twitter.ambrose.model.JobTest,testPolymorphism,126
+ambrose-common,com.twitter.ambrose.service.impl.InMemoryStatsServiceTest,testGetAllEvents,126
+ambrose-common,com.twitter.ambrose.util.JSONUtilTest,test,140
+ambrose-common,com.twitter.ambrose.model.EventTest,testFromJson,126
+ambrose-common,com.twitter.ambrose.service.impl.hraven.HRavenStatsWriteServiceTest,testInitHBaseConfiguration,140
+ambrose-common,com.twitter.ambrose.model.JobTest,testRoundTrip,126
+ambrose-common,com.twitter.ambrose.model.EventTest,testRoundTrip,126

@@ -1,0 +1,42 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Ambrose Common,com.twitter.ambrose.server,ScriptStatusServer.new SocketConnector() {...},27,0,0,0,6,0,2,0,2,0
+Ambrose Common,com.twitter.ambrose.server,ScriptStatusServer,193,0,4,0,49,0,9,0,7,0
+Ambrose Common,com.twitter.ambrose.server,APIHandler,262,0,24,0,72,0,21,0,9,0
+Ambrose Common,com.twitter.ambrose.util,JSONUtil,71,82,0,0,17,20,4,5,4,5
+Ambrose Common,com.twitter.ambrose.util,AmbroseUtils,45,0,0,0,14,0,5,0,5,0
+Ambrose Common,com.twitter.ambrose.model.hadoop,CounterGroup,97,0,8,0,23,0,11,0,7,0
+Ambrose Common,com.twitter.ambrose.model.hadoop,MapReduceJobState,234,0,22,0,66,0,39,0,28,0
+Ambrose Common,com.twitter.ambrose.model.hadoop,CounterInfo,36,0,0,0,13,0,5,0,5,0
+Ambrose Common,com.twitter.ambrose.model.hadoop,MapReduceJob,144,0,20,0,40,0,19,0,9,0
+Ambrose Common,com.twitter.ambrose.model.hadoop,CounterGroupId,94,0,0,0,14,0,4,0,4,0
+Ambrose Common,com.twitter.ambrose.model.hadoop,CounterId,704,0,0,0,74,0,4,0,4,0
+Ambrose Common,com.twitter.ambrose.model.hadoop,MapReduceHelper,176,0,6,0,39,0,11,0,8,0
+Ambrose Common,com.twitter.ambrose.service.impl.hraven,HRavenWorkflowIndexReadService,196,0,8,0,41,0,11,0,7,0
+Ambrose Common,com.twitter.ambrose.service.impl.hraven,HRavenStatsWriteService.new Thread() {...},10,0,0,0,3,0,2,0,2,0
+Ambrose Common,com.twitter.ambrose.service.impl.hraven,HRavenStatsWriteService.HRavenQueueRunnable,139,0,8,0,32,0,7,0,3,0
+Ambrose Common,com.twitter.ambrose.service.impl.hraven,HRavenStatsReadService.new TypeReference() {...},6,0,0,0,1,0,1,0,1,0
+Ambrose Common,com.twitter.ambrose.service.impl.hraven,HRavenStatsReadService,150,0,8,0,38,0,11,0,7,0
+Ambrose Common,com.twitter.ambrose.service.impl.hraven,HRavenStatsWriteService,665,0,57,0,151,0,46,0,16,0
+Ambrose Common,com.twitter.ambrose.service.impl.hraven,HRavenStatsWriteService.HRavenEventRunnable,41,0,0,0,10,0,2,0,2,0
+Ambrose Common,com.twitter.ambrose.model,Event.new TypeReference() {...},0,3,0,0,0,1,0,1,0,1
+Ambrose Common,com.twitter.ambrose.model,Event.new TypeReference() {...},3,0,0,0,1,0,1,0,1,0
+Ambrose Common,com.twitter.ambrose.model,Event.JobStartedEvent,0,6,0,0,0,2,0,1,0,1
+Ambrose Common,com.twitter.ambrose.model,Event.WorkflowProgressField,40,0,0,0,3,0,4,0,4,0
+Ambrose Common,com.twitter.ambrose.model,Event.JobFailedEvent,6,0,0,0,2,0,1,0,1,0
+Ambrose Common,com.twitter.ambrose.model,DAGNode.new TypeReference() {...},3,0,0,0,1,0,1,0,1,0
+Ambrose Common,com.twitter.ambrose.model,Event.JobProgressEvent,0,6,0,0,0,2,0,1,0,1
+Ambrose Common,com.twitter.ambrose.model,Event.JobFinishedEvent,0,6,0,0,0,2,0,1,0,1
+Ambrose Common,com.twitter.ambrose.model,WorkflowSummary.Status,60,0,0,0,5,0,4,0,4,0
+Ambrose Common,com.twitter.ambrose.model,DAGNode,51,92,6,10,9,24,9,10,3,8
+Ambrose Common,com.twitter.ambrose.model,Workflow,31,0,0,0,10,0,6,0,6,0
+Ambrose Common,com.twitter.ambrose.model,Workflow.new TypeReference() {...},3,0,0,0,1,0,1,0,1,0
+Ambrose Common,com.twitter.ambrose.model,Event,79,50,8,0,14,15,9,9,3,9
+Ambrose Common,com.twitter.ambrose.model,WorkflowId,105,0,0,0,18,0,9,0,9,0
+Ambrose Common,com.twitter.ambrose.model,Event.WorkflowProgressEvent,6,0,0,0,2,0,1,0,1,0
+Ambrose Common,com.twitter.ambrose.model,Job.new TypeReference() {...},0,3,0,0,0,1,0,1,0,1
+Ambrose Common,com.twitter.ambrose.model,PaginatedList,10,6,0,0,4,3,3,1,3,1
+Ambrose Common,com.twitter.ambrose.model,DAGNode.new TypeReference() {...},0,3,0,0,0,1,0,1,0,1
+Ambrose Common,com.twitter.ambrose.model,WorkflowSummary,45,21,0,0,20,8,13,1,13,1
+Ambrose Common,com.twitter.ambrose.model,Event.Type,5,75,0,0,0,2,1,3,1,3
+Ambrose Common,com.twitter.ambrose.model,Job,35,71,6,6,8,21,9,9,3,9
+Ambrose Common,com.twitter.ambrose.service.impl,InMemoryStatsService,152,107,23,8,42,26,22,8,8,6
