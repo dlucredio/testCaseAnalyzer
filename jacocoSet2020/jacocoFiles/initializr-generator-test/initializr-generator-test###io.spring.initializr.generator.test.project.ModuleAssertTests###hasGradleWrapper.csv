@@ -1,0 +1,19 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.io,NodeAssert,43,97,0,2,14,18,3,9,3,8
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.io,TextTestUtils,37,21,7,1,6,4,6,1,2,1
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.io,AbstractTextAssert,42,69,3,7,5,12,5,5,2,3
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.io,TextAssert,0,10,0,0,0,4,0,2,0,2
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.buildsystem.gradle,GroovyDslGradleBuildAssert,10,132,1,3,3,13,2,8,1,7
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.buildsystem.gradle,GroovyDslGradleSettingsAssert,0,31,0,0,0,4,0,3,0,3
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test,InitializrMetadataTestBuilder,510,0,8,0,110,0,41,0,37,0
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.project,ProjectGeneratorTester,54,0,0,0,11,0,7,0,7,0
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.project,AbstractProjectGenerationTester,177,0,8,0,39,0,26,0,22,0
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.project,ModuleAssert,0,5,0,0,0,2,0,1,0,1
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.project,JvmModuleAssert,0,6,0,0,0,2,0,1,0,1
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.project,AbstractJvmModuleAssert,75,130,0,0,9,20,6,8,6,8
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.project,AbstractProjectAssert,11,163,2,6,3,27,2,12,0,10
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.project,AbstractProjectAssert.new SimpleFileVisitor() {...},0,19,0,0,0,3,0,2,0,2
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.project,AbstractModuleAssert,12,105,0,0,2,15,1,7,1,7
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.project,ProjectStructure,47,0,2,0,10,0,5,0,4,0
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.project,ProjectAssetTester,158,0,10,0,29,0,18,0,13,0
+Spring Initializr :: Generator (Test Infrastructure),io.spring.initializr.generator.test.buildsystem.maven,MavenBuildAssert,37,578,22,46,9,121,22,43,0,31

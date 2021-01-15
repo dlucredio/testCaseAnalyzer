@@ -22,20 +22,23 @@ def main():
         fOutput.write(','.join(header)+'\n')
 
 
-        files = os.listdir(args.jacoco_input_folder)
+        directories = os.listdir(args.jacoco_input_folder)
 
-        for f in files:
-            data = f[:-4].split("###")
-            projectName = data[0]
-            className = data[1]
-            testCaseName = data[2]
+        for d in directories:
+            files = os.listdir(args.jacoco_input_folder+"/"+d)
 
-            with open(args.jacoco_input_folder+"/"+f, "r+") as fin:
-                headerline = fin.readline()
-                total = 0
-                for row in csv.reader(fin):
-                    total += int(row[8]) # jacoco Column for LOC covered
-            fOutput.write(projectName+','+className+','+testCaseName+','+str(total)+'\n')
+            for f in files:
+                data = f[:-4].split("###")
+                projectName = data[0]
+                className = data[1]
+                testCaseName = data[2]
+
+                with open(args.jacoco_input_folder+"/"+d+"/"+f, "r+") as fin:
+                    headerline = fin.readline()
+                    total = 0
+                    for row in csv.reader(fin):
+                        total += int(row[8]) # jacoco Column for LOC covered
+                fOutput.write(projectName+','+className+','+testCaseName+','+str(total)+'\n')
         
             
 

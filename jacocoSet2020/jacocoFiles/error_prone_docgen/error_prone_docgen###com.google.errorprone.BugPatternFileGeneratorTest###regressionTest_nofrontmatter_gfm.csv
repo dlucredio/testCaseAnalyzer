@@ -1,0 +1,16 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Documentation tool for generating Error Prone bugpattern documentation,com.google.errorprone,AutoValue_BugPatternIndexWriter_IndexEntry,78,17,11,1,18,7,9,3,3,3
+Documentation tool for generating Error Prone bugpattern documentation,com.google.errorprone,DocGenTool.Options,9,0,0,0,3,0,1,0,1,0
+Documentation tool for generating Error Prone bugpattern documentation,com.google.errorprone,DocGenTool.Target,21,29,0,0,1,3,2,2,2,2
+Documentation tool for generating Error Prone bugpattern documentation,com.google.errorprone,DocGenTool.TargetEnumConverter,7,0,0,0,2,0,2,0,2,0
+Documentation tool for generating Error Prone bugpattern documentation,com.google.errorprone,BugPatternFileGenerator,101,482,30,26,14,109,23,13,1,7
+Documentation tool for generating Error Prone bugpattern documentation,com.google.errorprone,ExampleInfo,0,11,0,0,0,2,0,2,0,2
+Documentation tool for generating Error Prone bugpattern documentation,com.google.errorprone,BugPatternIndexWriter,0,137,0,4,0,42,0,5,0,3
+Documentation tool for generating Error Prone bugpattern documentation,com.google.errorprone,ExampleInfo.ExampleKind,21,29,0,0,1,3,2,2,2,2
+Documentation tool for generating Error Prone bugpattern documentation,com.google.errorprone,BugPatternIndexWriter.IndexEntry,0,26,0,2,0,3,0,4,0,3
+Documentation tool for generating Error Prone bugpattern documentation,com.google.errorprone,AutoValue_ExampleInfo,140,32,16,4,30,13,14,4,4,4
+Documentation tool for generating Error Prone bugpattern documentation,com.google.errorprone,BugPatternIndexWriter.MiniDescription,0,11,0,0,0,3,0,2,0,2
+Documentation tool for generating Error Prone bugpattern documentation,com.google.errorprone,AutoValue_BugPatternIndexWriter_MiniDescription,81,19,10,2,19,8,9,3,3,3
+Documentation tool for generating Error Prone bugpattern documentation,com.google.errorprone,BugPatternFileGenerator.PathToExampleInfo,24,33,3,1,5,10,2,2,0,2
+Documentation tool for generating Error Prone bugpattern documentation,com.google.errorprone,BugPatternFileGenerator.ExampleFilter,2,29,1,3,0,5,1,3,0,2
+Documentation tool for generating Error Prone bugpattern documentation,com.google.errorprone,DocGenTool,199,0,18,0,45,0,14,0,5,0

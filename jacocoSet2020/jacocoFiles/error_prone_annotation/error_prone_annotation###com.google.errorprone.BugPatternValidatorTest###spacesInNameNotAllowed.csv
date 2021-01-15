@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+@BugPattern annotation,com.google.errorprone,BugPattern.SeverityLevel,5,55,0,0,0,5,1,3,1,3
+@BugPattern annotation,com.google.errorprone,BugPattern.ProvidesFix,8,61,0,0,1,8,2,3,2,3
+@BugPattern annotation,com.google.errorprone,BugPatternValidator,8,51,2,9,2,9,3,5,1,1
+@BugPattern annotation,com.google.errorprone,BugPattern.LinkType,5,55,0,0,0,8,1,3,1,3
+@BugPattern annotation,com.google.errorprone,BugPattern.StandardTags,3,0,0,0,1,0,1,0,1,0
+@BugPattern annotation,com.google.errorprone,ValidationException,0,4,0,0,0,2,0,1,0,1

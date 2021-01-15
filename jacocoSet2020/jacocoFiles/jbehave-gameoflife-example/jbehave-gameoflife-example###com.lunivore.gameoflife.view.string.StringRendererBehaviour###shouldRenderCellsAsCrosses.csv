@@ -1,0 +1,21 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JBehave Game of Life Example,default,ICanToggleACellFromDefaultPackage,3,0,0,0,1,0,1,0,1,0
+JBehave Game of Life Example,com.lunivore.gameoflife.steps,GridSteps,34,0,0,0,9,0,4,0,4,0
+JBehave Game of Life Example,com.lunivore.gameoflife.stories,TheGridStartsEmpty,3,0,0,0,1,0,1,0,1,0
+JBehave Game of Life Example,com.lunivore.gameoflife.stories,ICanToggleACell,3,0,0,0,1,0,1,0,1,0
+JBehave Game of Life Example,com.lunivore.gameoflife,GridStory,44,0,0,0,5,0,3,0,3,0
+JBehave Game of Life Example,com.lunivore.gameoflife,GridStories,62,0,0,0,12,0,4,0,4,0
+JBehave Game of Life Example,com.lunivore.gameoflife.domain,Grid.new Grid() {...},6,3,0,0,3,1,3,1,3,1
+JBehave Game of Life Example,com.lunivore.gameoflife.domain,Grid,0,5,0,0,0,1,0,1,0,1
+JBehave Game of Life Example,com.lunivore.gameoflife.domain,Cell,0,46,1,3,0,11,1,4,0,3
+JBehave Game of Life Example,com.lunivore.gameoflife.domain,GameObserver.new GameObserver() {...},4,0,0,0,2,0,2,0,2,0
+JBehave Game of Life Example,com.lunivore.gameoflife.domain,GameObserver,5,0,0,0,1,0,1,0,1,0
+JBehave Game of Life Example,com.lunivore.gameoflife.domain,Game.new Grid() {...},0,24,0,0,0,4,0,4,0,4
+JBehave Game of Life Example,com.lunivore.gameoflife.domain,Game,5,53,0,2,1,16,1,5,1,4
+JBehave Game of Life Example,com.lunivore.gameoflife.view.swing,GameFrame,97,0,0,0,28,0,6,0,6,0
+JBehave Game of Life Example,com.lunivore.gameoflife.view.swing,ImageRenderer.new Runnable() {...},17,0,0,0,4,0,2,0,2,0
+JBehave Game of Life Example,com.lunivore.gameoflife.view.swing,GameFrame.new ActionListener() {...},11,0,0,0,3,0,2,0,2,0
+JBehave Game of Life Example,com.lunivore.gameoflife.view.swing,GameFrame.new MouseAdapter() {...},23,0,0,0,5,0,2,0,2,0
+JBehave Game of Life Example,com.lunivore.gameoflife.view.swing,ImageRenderer,121,0,6,0,27,0,7,0,4,0
+JBehave Game of Life Example,com.lunivore.gameoflife.view.swing,SwingRenderer,4,0,0,0,2,0,2,0,2,0
+JBehave Game of Life Example,com.lunivore.gameoflife.view.string,StringRenderer,0,62,0,8,0,11,0,8,0,4

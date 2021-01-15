@@ -1,0 +1,425 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+lavagna,io.lavagna.web.support,ResourceController.AngularTemplate,27,0,0,0,6,0,3,0,3,0
+lavagna,io.lavagna.web.support,ResourceController.BeforeAfter,2,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.web.support,ResourceController.JS,34,0,0,0,5,0,3,0,3,0
+lavagna,io.lavagna.web.support,ResourceController,804,0,42,0,139,0,37,0,16,0
+lavagna,io.lavagna.web.helper,AbstractPermissionUrlPath,142,0,10,0,29,0,12,0,7,0
+lavagna,io.lavagna.web.helper,UserArgumentResolver,19,0,0,0,5,0,3,0,3,0
+lavagna,io.lavagna.web.helper,AbstractPermissionUrlPath.CardDataIdUrlPath,29,0,2,0,7,0,3,0,2,0
+lavagna,io.lavagna.web.helper,ExpectPermission.Helper,28,0,6,0,8,0,5,0,2,0
+lavagna,io.lavagna.web.helper,AbstractPermissionUrlPath.LabelListValuedIdPath,28,0,2,0,7,0,3,0,2,0
+lavagna,io.lavagna.web.helper,GeneralHandlerExceptionResolver,84,0,4,0,18,0,6,0,4,0
+lavagna,io.lavagna.web.helper,GsonHttpMessageConverter,73,0,0,0,13,0,4,0,4,0
+lavagna,io.lavagna.web.helper,NoOpOwnershipChecker,5,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.web.helper,AbstractPermissionUrlPath.LabelValueIdUrlPath,28,0,2,0,7,0,3,0,2,0
+lavagna,io.lavagna.web.helper,AbstractPermissionUrlPath.CardIdUrlPath,29,0,2,0,7,0,3,0,2,0
+lavagna,io.lavagna.web.helper,PermissionMethodInterceptor,363,0,30,0,65,0,20,0,5,0
+lavagna,io.lavagna.web.helper,AbstractPermissionUrlPath.ColumnDefinitionIdUrlPath,29,0,2,0,7,0,3,0,2,0
+lavagna,io.lavagna.web.helper,AbstractPermissionUrlPath.ColumnIdUrlPath,29,0,2,0,7,0,3,0,2,0
+lavagna,io.lavagna.web.helper,AbstractPermissionUrlPath.BoardShortNameUrlPath,27,0,2,0,7,0,3,0,2,0
+lavagna,io.lavagna.web.helper,UserSession,356,0,34,0,78,0,30,0,13,0
+lavagna,io.lavagna.web.helper,AbstractPermissionUrlPath.LabelIdUrlPath,28,0,2,0,7,0,3,0,2,0
+lavagna,io.lavagna.web.helper,AbstractPermissionUrlPath.EventIdUrlPath,29,0,2,0,7,0,3,0,2,0
+lavagna,io.lavagna.web.helper,CardCommentOwnershipChecker,41,0,2,0,12,0,3,0,2,0
+lavagna,io.lavagna.web.helper,AbstractPermissionUrlPath.ProjectShortNameUrlPath,7,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.model.util,DataOutputStreamUtils,61,0,12,0,19,0,13,0,7,0
+lavagna,io.lavagna.model.util,CalendarTokenNotFoundException,3,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.model.util,ShortNameGenerator,8,151,0,18,2,24,1,12,1,3
+lavagna,io.lavagna.web.api,BoardColumnController,272,0,4,0,49,0,12,0,10,0
+lavagna,io.lavagna.web.api,UsersAdministrationController,125,0,6,0,26,0,9,0,6,0
+lavagna,io.lavagna.web.api,ApplicationConfigurationController,105,0,4,0,19,0,9,0,7,0
+lavagna,io.lavagna.web.api,ProjectController,571,0,22,0,128,0,35,0,24,0
+lavagna,io.lavagna.web.api,LoginInfoController,144,0,8,0,27,0,8,0,4,0
+lavagna,io.lavagna.web.api,CardLabelController,401,0,8,0,80,0,21,0,17,0
+lavagna,io.lavagna.web.api,UserController,242,0,6,0,47,0,17,0,14,0
+lavagna,io.lavagna.web.api,EndpointInfoController,85,0,6,0,19,0,6,0,3,0
+lavagna,io.lavagna.web.api,ProjectController.UpdateColumnDefinition,17,0,0,0,7,0,5,0,5,0
+lavagna,io.lavagna.web.api,CardController,637,0,38,0,111,0,37,0,18,0
+lavagna,io.lavagna.web.api,CardController.NewCardFile,17,0,0,0,7,0,5,0,5,0
+lavagna,io.lavagna.web.api,BulkOperationLabelController,328,0,0,0,51,0,12,0,12,0
+lavagna,io.lavagna.web.api,CardController.CardData,67,0,0,0,25,0,15,0,15,0
+lavagna,io.lavagna.web.api,CardLabelController.Value,10,0,0,0,4,0,3,0,3,0
+lavagna,io.lavagna.web.api,LoginInfoController.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.web.api,MilestoneController,333,0,14,0,60,0,13,0,6,0
+lavagna,io.lavagna.web.api,UserController.PasswordChange,17,0,0,0,7,0,5,0,5,0
+lavagna,io.lavagna.web.api,PermissionController.ToggleSearchPermission,10,0,0,0,4,0,3,0,3,0
+lavagna,io.lavagna.web.api,ExportImportController,88,0,0,0,19,0,5,0,5,0
+lavagna,io.lavagna.web.api,SetupController,87,0,0,0,16,0,4,0,4,0
+lavagna,io.lavagna.web.api,ProjectPermissionController,224,0,12,0,41,0,15,0,9,0
+lavagna,io.lavagna.web.api,CardDataController.Content,10,0,0,0,4,0,3,0,3,0
+lavagna,io.lavagna.web.api,LoginInfoController.OAuthProviderInfo,27,0,0,0,9,0,5,0,5,0
+lavagna,io.lavagna.web.api,CardLabelController.SwapListValue,17,0,0,0,7,0,5,0,5,0
+lavagna,io.lavagna.web.api,CalendarController,64,0,0,0,16,0,7,0,7,0
+lavagna,io.lavagna.web.api,UsersAdministrationController.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.web.api,Utils,26,0,2,0,6,0,3,0,2,0
+lavagna,io.lavagna.web.api,SetupController.ConfWithUser,10,0,0,0,4,0,3,0,3,0
+lavagna,io.lavagna.web.api,EndpointInfoController.EndpointsInfo,42,0,2,0,11,0,5,0,4,0
+lavagna,io.lavagna.web.api,BoardController,164,0,4,0,34,0,9,0,7,0
+lavagna,io.lavagna.web.api,UsersAdministrationController.Edit,17,0,0,0,7,0,5,0,5,0
+lavagna,io.lavagna.web.api,UsersAdministrationController.Update,10,0,0,0,4,0,3,0,3,0
+lavagna,io.lavagna.web.api,ConfigurationController,11,0,0,0,4,0,2,0,2,0
+lavagna,io.lavagna.web.api,BoardColumnController.BoardColumnToCreate,17,0,0,0,7,0,5,0,5,0
+lavagna,io.lavagna.web.api,CardController.CardIds,10,0,0,0,4,0,3,0,3,0
+lavagna,io.lavagna.web.api,CardDataController.OrderData,10,0,0,0,4,0,3,0,3,0
+lavagna,io.lavagna.web.api,CardDataController,1170,0,42,0,194,0,52,0,31,0
+lavagna,io.lavagna.web.api,ProjectController.ProjectColumn,33,0,0,0,14,0,7,0,7,0
+lavagna,io.lavagna.web.api,UsersAdministrationController.PasswordReset,10,0,0,0,4,0,3,0,3,0
+lavagna,io.lavagna.web.api,SearchController,237,0,30,0,46,0,28,0,13,0
+lavagna,io.lavagna.web.api,EndpointInfoController.EndpointInfo,152,0,20,0,21,0,18,0,8,0
+lavagna,io.lavagna.web.api,CalendarController.DisableCalendarRequest,6,0,0,0,3,0,1,0,1,0
+lavagna,io.lavagna.web.api,ApiHooksController,68,0,0,0,16,0,8,0,8,0
+lavagna,io.lavagna.web.api,CardController.ColumnOrders,10,0,0,0,4,0,3,0,3,0
+lavagna,io.lavagna.web.api,SearchController.new TypeToken() {...},3,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.web.api,PermissionController,188,0,8,0,38,0,15,0,11,0
+lavagna,io.lavagna.query,DB,3,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service.mailreceiver,ImapMailReceiver.SimpleMessageCountListener,16,0,2,0,6,0,3,0,2,0
+lavagna,io.lavagna.service.mailreceiver,ImapMailReceiver.DefaultSearchTermStrategy,180,0,22,0,39,0,13,0,2,0
+lavagna,io.lavagna.service.mailreceiver,AbstractMailReceiver,828,0,88,0,189,0,79,0,35,0
+lavagna,io.lavagna.service.mailreceiver,ImapMailReceiver,334,0,32,0,74,0,28,0,12,0
+lavagna,io.lavagna.service.mailreceiver,Pop3MailReceiver,73,0,6,0,20,0,9,0,6,0
+lavagna,io.lavagna.service.mailreceiver,ImapMailReceiver.IdleCanceler,23,0,2,0,10,0,3,0,2,0
+lavagna,io.lavagna.service.mailreceiver,AbstractMailReceiver.IntegrationMimeMessage,76,0,4,0,20,0,7,0,5,0
+lavagna,io.lavagna.web.security,Redirector,37,0,4,0,6,0,4,0,2,0
+lavagna,io.lavagna.web.security,AnonymousUserFilter,96,0,12,0,18,0,10,0,4,0
+lavagna,io.lavagna.web.security,AbstractBaseFilter,31,0,2,0,11,0,5,0,4,0
+lavagna,io.lavagna.web.security,SecurityConfiguration.LogoutConfigurer,20,0,0,0,5,0,2,0,2,0
+lavagna,io.lavagna.web.security,LoginHandler.AbstractLoginHandler,44,0,0,0,12,0,3,0,3,0
+lavagna,io.lavagna.web.security,SecurityConfiguration,155,0,6,0,31,0,14,0,11,0
+lavagna,io.lavagna.web.security,SecurityConfiguration.new SecurityConfiguration.LoginHandlerFinder() {...},8,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.web.security,SecurityConfiguration.LogoutUrlMatcher,48,0,2,0,12,0,4,0,3,0
+lavagna,io.lavagna.web.security,RememberMeFilter,47,0,2,0,12,0,5,0,4,0
+lavagna,io.lavagna.web.security,CSFRFilter,186,0,32,0,39,0,22,0,6,0
+lavagna,io.lavagna.web.security,SecurityConfiguration.Mode,79,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.web.security,CSRFToken,27,0,0,0,6,0,4,0,4,0
+lavagna,io.lavagna.web.security,SecurityConfiguration.LoginUrlMatcher,64,0,6,0,15,0,6,0,3,0
+lavagna,io.lavagna.web.security,SecurityConfiguration.BasicUrlMatcher,131,0,10,0,30,0,13,0,8,0
+lavagna,io.lavagna.web.security,SecurityFilter,165,0,18,0,35,0,16,0,7,0
+lavagna,io.lavagna.web.security,SecurityConfiguration.AlwaysTrueRequestMatcher,5,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.web.security.login,PasswordLogin,112,0,8,0,23,0,10,0,6,0
+lavagna,io.lavagna.web.security.login,OAuthLogin,293,0,24,0,58,0,20,0,8,0
+lavagna,io.lavagna.web.security.login,DemoLogin,98,0,8,0,20,0,9,0,5,0
+lavagna,io.lavagna.web.security.login,LdapLogin,119,0,12,0,24,0,12,0,6,0
+lavagna,io.lavagna.web.security.login,OAuthLogin.CustomOAuthResultHandlerFactory,23,0,0,0,6,0,4,0,4,0
+lavagna,io.lavagna.web.security.login,OAuthLogin.OAuthConfiguration,91,0,16,0,24,0,13,0,5,0
+lavagna,io.lavagna.web.api.model,DisplayNameEmail,31,0,0,0,5,0,9,0,9,0
+lavagna,io.lavagna.web.api.model,TrelloRequest,17,0,0,0,3,0,5,0,5,0
+lavagna,io.lavagna.web.api.model,UpdateRole,10,0,0,0,2,0,3,0,3,0
+lavagna,io.lavagna.web.api.model,UserPublicProfile,61,0,0,0,7,0,5,0,5,0
+lavagna,io.lavagna.web.api.model,PluginCode,59,0,0,0,1,0,11,0,11,0
+lavagna,io.lavagna.web.api.model,TaskStatistics,97,0,8,0,18,0,13,0,9,0
+lavagna,io.lavagna.web.api.model,CreateRequest,10,0,0,0,2,0,3,0,3,0
+lavagna,io.lavagna.web.api.model,TrelloImportRequest,31,0,0,0,5,0,9,0,9,0
+lavagna,io.lavagna.web.api.model,CreateRole,10,0,0,0,2,0,3,0,3,0
+lavagna,io.lavagna.web.api.model,Suggestion,12,0,0,0,1,0,2,0,2,0
+lavagna,io.lavagna.web.api.model,BulkOperation,24,0,0,0,4,0,4,0,4,0
+lavagna,io.lavagna.web.api.model,ValidationException,11,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.web.api.model,MilestoneDetail,36,0,0,0,4,0,5,0,5,0
+lavagna,io.lavagna.web.api.model,Conf,10,0,0,0,2,0,3,0,3,0
+lavagna,io.lavagna.web.api.model,Milestones,21,0,0,0,2,0,3,0,3,0
+lavagna,io.lavagna.web.api.model,MilestoneInfo,21,0,0,0,2,0,3,0,3,0
+lavagna,io.lavagna.web.api.model,Users,10,0,0,0,2,0,3,0,3,0
+lavagna,io.lavagna.web.api.model,UpdateRequest,24,0,0,0,4,0,7,0,7,0
+lavagna,io.lavagna.web.api.model,TaskStatisticsAndHistory,62,0,0,0,8,0,8,0,8,0
+lavagna,io.lavagna.web.api.model,TrelloImportRequest.BoardIdAndShortName,17,0,0,0,3,0,5,0,5,0
+lavagna,io.lavagna.common,CookieNames,31,0,0,0,8,0,5,0,5,0
+lavagna,io.lavagna.common,DatabaseMigrationDoneEvent,4,0,0,0,2,0,1,0,1,0
+lavagna,io.lavagna.common,Version,47,0,2,0,9,0,4,0,3,0
+lavagna,io.lavagna.common,Constants,3,25,0,0,1,2,1,1,1,1
+lavagna,io.lavagna.common,Json.CustomDateSerializer,10,3,2,0,1,1,2,1,1,1
+lavagna,io.lavagna.common,Json,6,14,0,0,1,5,1,1,1,1
+lavagna,io.lavagna.common,Read,178,0,12,0,31,0,11,0,5,0
+lavagna,io.lavagna.common,LavagnaEnvironment,42,96,3,5,7,24,3,9,1,7
+lavagna,io.lavagna.service,EventService,24,23,1,1,4,6,1,2,0,2
+lavagna,io.lavagna.service,MailTicketRepository,173,9,8,0,24,4,18,1,14,1
+lavagna,io.lavagna.service,CardDataRepository.new RowCallbackHandler() {...},29,0,0,0,7,0,2,0,2,0
+lavagna,io.lavagna.service,CardDataRepository.new AbstractLobCreatingPreparedStatementCallback() {...},44,0,0,0,6,0,2,0,2,0
+lavagna,io.lavagna.service,PermissionService,802,84,58,2,146,16,61,5,32,4
+lavagna,io.lavagna.service,EventEmitter,1120,9,10,0,202,4,68,1,63,1
+lavagna,io.lavagna.service,ImportService.TrelloBoardInfo,15,0,0,0,6,0,3,0,3,0
+lavagna,io.lavagna.service,Scheduler.EmailNotificationHandler,92,0,4,0,19,0,4,0,2,0
+lavagna,io.lavagna.service,CardRepository.new RowCallbackHandler() {...},21,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,CardDataRepository,536,12,14,0,83,5,43,2,36,2
+lavagna,io.lavagna.service,SearchFilter.SearchFilterValue,15,0,0,0,6,0,3,0,3,0
+lavagna,io.lavagna.service,UserRepository.new RowCallbackHandler() {...},21,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,UserRepository,383,25,16,0,63,6,34,3,26,3
+lavagna,io.lavagna.service,CardService,564,40,32,0,91,11,32,2,16,2
+lavagna,io.lavagna.service,SetupService,9,9,0,0,3,4,1,1,1,1
+lavagna,io.lavagna.service,SearchFilter.FilterType.new SearchFilter.FilterType() {...},53,0,2,0,7,0,3,0,2,0
+lavagna,io.lavagna.service,SearchFilter.FilterType.new SearchFilter.FilterType() {...},12,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,SearchFilter.FilterType.new SearchFilter.FilterType() {...},16,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,SearchFilter.FilterType.new SearchFilter.FilterType() {...},53,0,2,0,7,0,3,0,2,0
+lavagna,io.lavagna.service,SearchFilter.FilterType.new SearchFilter.FilterType() {...},66,0,2,0,13,0,3,0,2,0
+lavagna,io.lavagna.service,ImportService.TrelloChecklistItem,9,0,0,0,4,0,1,0,1,0
+lavagna,io.lavagna.service,ApiHooksService.EventToRun,228,0,20,0,40,0,12,0,2,0
+lavagna,io.lavagna.service,SearchFilter.FilterType.new SearchFilter.FilterType() {...},15,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,SearchFilter.FilterType.new SearchFilter.FilterType() {...},15,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,SearchFilter.FilterType.new SearchFilter.FilterType() {...},26,0,0,0,4,0,2,0,2,0
+lavagna,io.lavagna.service,SearchFilter.FilterType.new SearchFilter.FilterType() {...},52,0,2,0,7,0,3,0,2,0
+lavagna,io.lavagna.service,ImportService.TrelloBoard,29,0,0,0,10,0,5,0,5,0
+lavagna,io.lavagna.service,ExcelExportService.new Comparator() {...},21,0,0,0,4,0,2,0,2,0
+lavagna,io.lavagna.service,ExcelExportService.new Object() {...},54,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},23,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},43,0,0,0,6,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},43,0,0,0,6,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},51,0,0,0,5,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},36,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},51,0,0,0,5,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},32,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},32,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},32,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,ExcelExportService.new Predicate() {...},32,0,8,0,8,0,6,0,2,0
+lavagna,io.lavagna.service,BulkOperationService.FilterByLabelId,32,0,4,0,9,0,4,0,2,0
+lavagna,io.lavagna.service,LavagnaExporter,581,36,28,0,83,13,25,1,9,1
+lavagna,io.lavagna.service,SupportedEventType,430,0,8,0,41,0,11,0,7,0
+lavagna,io.lavagna.service,ImportService.TrelloComment,21,0,0,0,8,0,4,0,4,0
+lavagna,io.lavagna.service,SearchFilter.SearchContext,21,0,0,0,8,0,4,0,4,0
+lavagna,io.lavagna.service,BoardColumnRepository,167,53,6,0,27,13,14,3,11,3
+lavagna,io.lavagna.service,NotificationService,488,63,28,0,79,18,20,2,6,2
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},37,0,0,0,7,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},37,0,0,0,7,0,2,0,2,0
+lavagna,io.lavagna.service,Ldap,157,363,2,12,28,72,5,14,4,6
+lavagna,io.lavagna.service,MySqlFullTextSupportService,40,9,0,0,12,4,4,2,4,2
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},23,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},23,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},32,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},36,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},36,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,Utils,28,0,4,0,7,0,4,0,2,0
+lavagna,io.lavagna.service,LavagnaExporter.new Object() {...},61,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},27,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},27,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},42,0,0,0,4,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},36,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,SupportedEventType.new SupportedEventType() {...},36,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,CardService.new Comparator() {...},16,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.service,ImportService.TrelloImportResponse,19,0,0,0,5,0,3,0,3,0
+lavagna,io.lavagna.service,CardDataService,701,9,36,0,116,4,44,1,26,1
+lavagna,io.lavagna.service,ApiHooksService.new Object() {...},47,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,CardRepository,488,76,29,1,93,14,41,5,26,5
+lavagna,io.lavagna.service,BoardRepository,50,92,0,0,9,19,8,4,8,4
+lavagna,io.lavagna.service,ProjectService,311,151,18,2,51,28,30,9,21,8
+lavagna,io.lavagna.service,MailTicketService,955,27,88,0,191,10,69,2,25,2
+lavagna,io.lavagna.service,FirstRunCheckService,171,27,8,2,19,7,6,2,1,2
+lavagna,io.lavagna.service,PermissionService.RoleAndPermissionsWithUsers,11,0,0,0,4,0,2,0,2,0
+lavagna,io.lavagna.service,CardLabelRepository.new RowCallbackHandler() {...},42,0,2,0,6,0,3,0,2,0
+lavagna,io.lavagna.service,ImportService.TrelloCard,59,0,0,0,18,0,9,0,9,0
+lavagna,io.lavagna.service,StatisticsService,323,6,10,0,48,3,26,1,21,1
+lavagna,io.lavagna.service,LdapConnection.InitialDirContextCloseable,4,0,0,0,2,0,1,0,1,0
+lavagna,io.lavagna.service,LavagnaImporter.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,LavagnaImporter.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,LavagnaImporter.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,LavagnaImporter.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,LavagnaImporter.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,LavagnaImporter.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,LavagnaImporter.new Comparator() {...},21,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,SearchFilter.FilterType,149,0,0,0,15,0,2,0,2,0
+lavagna,io.lavagna.service,BulkOperationService.FilterByLabelIdAndLabelValueAndUniqueness,44,0,8,0,10,0,6,0,2,0
+lavagna,io.lavagna.service,EventRepository,181,131,4,2,24,20,18,7,16,6
+lavagna,io.lavagna.service,BulkOperationService,609,15,32,0,95,6,37,1,21,1
+lavagna,io.lavagna.service,Scheduler,92,0,6,0,25,0,8,0,5,0
+lavagna,io.lavagna.service,LdapConnection,30,3,0,0,6,1,1,1,1,1
+lavagna,io.lavagna.service,NotificationService.new Mustache.Lambda() {...},13,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,LabelService,10,123,0,2,2,21,2,7,2,6
+lavagna,io.lavagna.service,NotificationService.new RowMapper() {...},32,0,0,0,4,0,2,0,2,0
+lavagna,io.lavagna.service,UserService,131,9,8,0,27,4,9,1,5,1
+lavagna,io.lavagna.service,PermissionService.RoleAndPermissions,39,0,0,0,12,0,6,0,6,0
+lavagna,io.lavagna.service,ImportService.TrelloBoardColumn,17,0,0,0,6,0,3,0,3,0
+lavagna,io.lavagna.service,EventsContext,305,0,30,0,42,0,20,0,5,0
+lavagna,io.lavagna.service,ImportService.TrelloChecklist,17,0,0,0,6,0,3,0,3,0
+lavagna,io.lavagna.service,Scheduler.new Runnable() {...},29,0,2,0,8,0,3,0,2,0
+lavagna,io.lavagna.service,SearchFilter.ValueType,59,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.service,PermissionService.ProjectRoleAndPermissionFullHolder,15,0,0,0,6,0,3,0,3,0
+lavagna,io.lavagna.service,ApiHooksService,1199,46,47,0,221,13,81,2,55,2
+lavagna,io.lavagna.service,SearchService,726,27,78,0,114,10,48,2,9,2
+lavagna,io.lavagna.service,LavagnaImporter,1055,36,82,0,170,13,59,1,18,1
+lavagna,io.lavagna.service,SearchFilter.FilterType.new SearchFilter.FilterType() {...},15,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,SearchFilter.FilterType.new SearchFilter.FilterType() {...},16,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,SearchFilter.FilterType.new SearchFilter.FilterType() {...},12,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,ImportService,1031,33,104,0,181,12,65,2,9,2
+lavagna,io.lavagna.service,ExcelExportService,595,24,38,0,102,9,28,1,6,1
+lavagna,io.lavagna.service,ImportService.TrelloBoardsResponse,8,0,0,0,2,0,1,0,1,0
+lavagna,io.lavagna.service,SearchFilter.FilterType.new SearchFilter.FilterType() {...},27,0,0,0,5,0,2,0,2,0
+lavagna,io.lavagna.service,SearchFilter.FilterType.new SearchFilter.FilterType() {...},15,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.service,EventEmitter.ImportEvent,21,0,0,0,8,0,4,0,4,0
+lavagna,io.lavagna.service,ImportService.TrelloOrganizationInfo,23,0,0,0,8,0,4,0,4,0
+lavagna,io.lavagna.service,CalendarService,464,24,20,0,87,9,19,1,9,1
+lavagna,io.lavagna.service,BulkOperationService.FilterByLabelIdAndLabelValue,41,0,6,0,10,0,5,0,2,0
+lavagna,io.lavagna.service,ExportImportService,30,15,2,0,8,5,4,1,3,1
+lavagna,io.lavagna.service,LavagnaImporter.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,LavagnaImporter.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,LavagnaImporter.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,LavagnaImporter.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,LavagnaImporter.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,LavagnaImporter.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,LavagnaImporter.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,LavagnaImporter.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,LavagnaImporter.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service,SearchFilter,357,0,23,0,77,0,28,0,11,0
+lavagna,io.lavagna.service,EventEmitter.LavagnaEvent,459,0,0,0,15,0,2,0,2,0
+lavagna,io.lavagna.service,ConfigurationRepository,153,18,13,1,28,5,15,2,8,2
+lavagna,io.lavagna.service,CardLabelRepository,618,229,39,15,104,37,49,16,28,10
+lavagna,io.lavagna.service,DatabaseMigrator,1,59,2,2,0,13,2,3,0,3
+lavagna,io.lavagna.service,EventEmitter.Event,15,0,0,0,6,0,3,0,3,0
+lavagna,io.lavagna.service,PermissionService.ProjectRoleFullHolder,15,0,0,0,6,0,3,0,3,0
+lavagna,io.lavagna.service.calendarutils,CalendarEvents,12,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.service.calendarutils,StandardCalendarEventHandler,111,0,8,0,19,0,8,0,4,0
+lavagna,io.lavagna.service.calendarutils,CalendarEvents.MilestoneEvent,51,0,0,0,8,0,7,0,7,0
+lavagna,io.lavagna.service.calendarutils,CalendarVEventHandler,505,0,16,0,69,0,15,0,7,0
+lavagna,io.lavagna.service.calendarutils,CalendarVEventHandler.UserDescription,18,0,0,0,6,0,3,0,3,0
+lavagna,io.lavagna.service.calendarutils,CalendarEvents.MilestoneDayEvents,21,0,0,0,2,0,3,0,3,0
+lavagna,io.lavagna.model,CardIdAndContent,18,0,0,0,1,0,3,0,3,0
+lavagna,io.lavagna.model,MilestoneCount,24,0,0,0,3,0,4,0,4,0
+lavagna,io.lavagna.model,FileDataLight,69,0,0,0,9,0,10,0,10,0
+lavagna,io.lavagna.model,CardLabel.LabelDomain,0,30,0,0,0,1,0,2,0,2
+lavagna,io.lavagna.model,RoleAndMetadata,30,0,0,0,2,0,5,0,5,0
+lavagna,io.lavagna.model,ApiHook,123,0,6,0,18,0,15,0,12,0
+lavagna,io.lavagna.model,Project,3,30,0,0,1,4,1,5,1,5
+lavagna,io.lavagna.model,CardDataMetadata,36,0,0,0,3,0,6,0,6,0
+lavagna,io.lavagna.model,CardLabelValue,66,157,2,0,8,16,6,10,5,10
+lavagna,io.lavagna.model,EventsCount,24,0,0,0,4,0,3,0,3,0
+lavagna,io.lavagna.model,LabelAndValue,55,144,1,1,17,10,19,4,18,4
+lavagna,io.lavagna.model,ProjectMailTicket,82,0,0,0,14,0,13,0,13,0
+lavagna,io.lavagna.model,ConfigurationKeyValue,8,0,0,0,2,0,1,0,1,0
+lavagna,io.lavagna.model,PermissionCategory,3,72,0,0,1,3,1,3,1,3
+lavagna,io.lavagna.model,ProjectAndBoard,30,0,0,0,6,0,3,0,3,0
+lavagna,io.lavagna.model,ProjectWithEventCounts,28,0,0,0,5,0,3,0,3,0
+lavagna,io.lavagna.model,ColumnDefinition.DEFERRED,0,8,0,0,0,2,0,2,0,2
+lavagna,io.lavagna.model,CalendarInfo,18,0,0,0,2,0,3,0,3,0
+lavagna,io.lavagna.model,BoardColumn.BoardColumnLocation.Companion,2,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.model,EventFull,118,0,4,0,26,0,14,0,12,0
+lavagna,io.lavagna.model,UserIdentifier,21,0,0,0,1,0,3,0,3,0
+lavagna,io.lavagna.model,ProjectMailTicketConfig,86,0,0,0,13,0,11,0,11,0
+lavagna,io.lavagna.model,BoardColumn,21,39,0,0,7,2,7,2,7,2
+lavagna,io.lavagna.model,Key,0,200,0,0,0,1,0,2,0,2
+lavagna,io.lavagna.model,BoardColumn.BoardColumnLocation,0,91,0,0,0,8,0,2,0,2
+lavagna,io.lavagna.model,UserWithPassword,21,0,0,0,2,0,3,0,3,0
+lavagna,io.lavagna.model,ApiHook.Type,0,30,0,0,0,1,0,2,0,2
+lavagna,io.lavagna.model,User,159,48,15,1,16,4,22,2,14,2
+lavagna,io.lavagna.model,RoleAndProject,21,0,0,0,1,0,3,0,3,0
+lavagna,io.lavagna.model,BoardColumnDefinition,9,21,0,0,3,1,3,2,3,2
+lavagna,io.lavagna.model,ColumnDefinition.OPEN,0,8,0,0,0,2,0,2,0,2
+lavagna,io.lavagna.model,LabelAndValueWithCount,63,0,4,0,11,0,9,0,7,0
+lavagna,io.lavagna.model,RoleAndPermission,67,0,6,0,10,0,12,0,9,0
+lavagna,io.lavagna.model,UserMetadata,15,0,0,0,2,0,3,0,3,0
+lavagna,io.lavagna.model,ApiHook.typeStringObj.new TypeToken() {...},3,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.model,ApiHookNameAndVersion,18,0,0,0,1,0,3,0,3,0
+lavagna,io.lavagna.model,BoardColumnInfo,81,0,0,0,10,0,11,0,11,0
+lavagna,io.lavagna.model,Role,0,64,0,4,0,8,0,7,0,5
+lavagna,io.lavagna.model,CardLabel,0,195,0,4,0,14,0,15,0,13
+lavagna,io.lavagna.model,Event,222,60,4,0,54,1,22,1,20,1
+lavagna,io.lavagna.model,Label,33,0,0,0,1,0,5,0,5,0
+lavagna,io.lavagna.model,CardFullWithCounts.getLabelsWithType.new Predicate() {...},23,0,4,0,1,0,4,0,2,0
+lavagna,io.lavagna.model,UserToCreate,70,0,0,0,11,0,16,0,16,0
+lavagna,io.lavagna.model,Pair,3,18,0,0,0,1,1,3,1,3
+lavagna,io.lavagna.model,ApiHook.typeListString.new TypeToken() {...},3,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.model,CardFull,60,0,0,0,5,0,7,0,7,0
+lavagna,io.lavagna.model,ColumnDefinition,0,50,0,0,0,1,0,2,0,2
+lavagna,io.lavagna.model,Role.Companion,4,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.model,Permission.Companion,21,0,0,0,3,0,1,0,1,0
+lavagna,io.lavagna.model,Board,15,24,0,0,5,1,5,2,5,2
+lavagna,io.lavagna.model,Card,12,30,0,0,4,2,4,3,4,3
+lavagna,io.lavagna.model,ApiHook.typeStringString.new TypeToken() {...},3,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.model,CardLabelValue.LabelValue,160,61,8,0,7,6,12,9,8,9
+lavagna,io.lavagna.model,CardType,90,0,0,0,1,0,2,0,2,0
+lavagna,io.lavagna.model,CardFullWithCounts,319,0,10,0,46,0,13,0,8,0
+lavagna,io.lavagna.model,CardDataFull,75,0,0,0,5,0,11,0,11,0
+lavagna,io.lavagna.model,ColumnDefinition.BACKLOG,0,8,0,0,0,2,0,2,0,2
+lavagna,io.lavagna.model,ColumnDefinition.CLOSED,0,8,0,0,0,2,0,2,0,2
+lavagna,io.lavagna.model,Permission,6,344,0,4,2,28,2,4,2,2
+lavagna,io.lavagna.model,CardDataIdAndOrder,7,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.model,CardDataCount,27,0,0,0,3,0,4,0,4,0
+lavagna,io.lavagna.model,BoardInfo,30,0,0,0,4,0,5,0,5,0
+lavagna,io.lavagna.model,LabelListValue,107,0,4,0,10,0,11,0,9,0
+lavagna,io.lavagna.model,Event.EventType,0,230,0,0,0,1,0,2,0,2
+lavagna,io.lavagna.model,CardData,17,0,0,0,3,0,2,0,2,0
+lavagna,io.lavagna.model,StatisticsResult,33,0,0,0,6,0,4,0,4,0
+lavagna,io.lavagna.model,ProjectRoleAndPermission,52,0,2,0,7,0,8,0,7,0
+lavagna,io.lavagna.model,ProjectMailTicketConfigData,247,0,8,0,25,0,22,0,18,0
+lavagna,io.lavagna.model,ListValueMetadata,81,0,4,0,9,0,9,0,7,0
+lavagna,io.lavagna.model,LabelListValueWithMetadata,28,0,2,0,4,0,3,0,2,0
+lavagna,io.lavagna.model,MailConfig,219,0,14,0,27,0,20,0,13,0
+lavagna,io.lavagna.model,CardDataUploadContentInfo,27,0,0,0,2,0,4,0,4,0
+lavagna,io.lavagna.model,CardLabel.LabelType,0,80,0,0,0,1,0,2,0,2
+lavagna,io.lavagna.model,CardDataHistory,71,0,0,0,3,0,14,0,14,0
+lavagna,io.lavagna.model,UserWithPermission,309,0,20,0,37,0,18,0,8,0
+lavagna,io.lavagna.model,Pair.Companion,0,6,0,0,0,1,0,1,0,1
+lavagna,io.lavagna.model,ProjectMetadata,283,0,8,0,38,0,15,0,11,0
+lavagna,io.lavagna.model,StatisticForExport,36,0,0,0,4,0,5,0,5,0
+lavagna,io.lavagna.model,MailConfig.send.new MimeMessagePreparator() {...},63,0,4,0,10,0,4,0,2,0
+lavagna,io.lavagna.model,ImportContext,66,0,0,0,8,0,8,0,8,0
+lavagna,io.lavagna.model,SearchResults,56,0,2,0,4,0,8,0,7,0
+lavagna,io.lavagna.service.importexport,LabelCreate,33,10,4,0,5,2,3,1,1,1
+lavagna,io.lavagna.service.importexport,ActionListDelete,14,6,0,0,2,2,1,1,1,1
+lavagna,io.lavagna.service.importexport,AbstractProcessEvent,18,12,0,0,2,5,2,1,2,1
+lavagna,io.lavagna.service.importexport,LabelDelete,21,10,2,0,5,2,2,1,1,1
+lavagna,io.lavagna.service.importexport,FileUpload.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+lavagna,io.lavagna.service.importexport,DescriptionCreateUpdate,13,6,0,0,2,2,1,1,1,1
+lavagna,io.lavagna.service.importexport,FileUpload,89,6,2,0,11,2,2,1,1,1
+lavagna,io.lavagna.service.importexport,ImportEventProcessor,34,234,2,0,6,30,2,1,1,1
+lavagna,io.lavagna.service.importexport,ActionItemDelete,14,6,0,0,2,2,1,1,1,1
+lavagna,io.lavagna.service.importexport,AbstractProcessLabelEvent,271,18,38,0,42,6,25,1,6,1
+lavagna,io.lavagna.service.importexport,CardMove,37,9,4,0,6,3,3,1,1,1
+lavagna,io.lavagna.service.importexport,CommentCreate,22,6,0,0,3,2,1,1,1,1
+lavagna,io.lavagna.service.importexport,ActionItemMove,27,6,0,0,4,2,1,1,1,1
+lavagna,io.lavagna.service.importexport,CardUpdate,12,9,0,0,2,3,1,1,1,1
+lavagna,io.lavagna.service.importexport,CardArchiveBacklogTrash,51,12,2,0,7,4,2,1,1,1
+lavagna,io.lavagna.service.importexport,FileDelete,18,6,2,0,3,2,2,1,1,1
+lavagna,io.lavagna.service.importexport,ActionItemCheckUncheck,24,6,2,0,3,2,2,1,1,1
+lavagna,io.lavagna.service.importexport,CommentUpdate,16,6,0,0,2,2,1,1,1,1
+lavagna,io.lavagna.service.importexport,CommentDelete,14,6,0,0,2,2,1,1,1,1
+lavagna,io.lavagna.service.importexport,CardCreate,21,9,2,0,4,3,2,1,1,1
+lavagna,io.lavagna.service.importexport,ActionListCreate,22,6,0,0,3,2,1,1,1,1
+lavagna,io.lavagna.service.importexport,ActionItemCreate,29,6,0,0,4,2,1,1,1,1
+lavagna,io.lavagna.config,WebConfig,42,0,0,0,14,0,8,0,8,0
+lavagna,io.lavagna.config,EnableWebSocketMessageBrocker,26,0,0,0,5,0,3,0,3,0
+lavagna,io.lavagna.config,WebSecurityConfig.AccountCreatorIfMissing,107,0,22,0,18,0,17,0,6,0
+lavagna,io.lavagna.config,DataSourceConfig,129,65,11,5,18,15,13,5,4,5
+lavagna,io.lavagna.config,SchedulingServiceConfig,15,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.config,WebSecurityConfig.WebSecurityUser,17,0,0,0,6,0,3,0,3,0
+lavagna,io.lavagna.config,WebSecurityConfig,279,0,4,0,54,0,21,0,19,0
+lavagna,io.lavagna.config,DispatcherServletInitializer,226,0,2,0,26,0,8,0,7,0
+lavagna,io.lavagna.config,WebSecurityConfig.LoginHandlerType,63,0,0,0,6,0,2,0,2,0
+lavagna,io.lavagna.config,WebSecurityConfig.new LdapLogin.LdapAuthenticator() {...},20,0,0,0,3,0,3,0,3,0
+lavagna,io.lavagna.config,WebSecurityConfig.new SecurityConfiguration.LoginHandlerFinder() {...},54,0,2,0,6,0,3,0,2,0
+lavagna,io.lavagna.config,WebSecurityConfig.new SecurityConfiguration.Users() {...},33,0,0,0,4,0,3,0,3,0
+lavagna,io.lavagna.config,WebSecurityConfig.new SecurityConfiguration.SessionHandler() {...},38,0,0,0,9,0,6,0,6,0
+lavagna,io.lavagna.config,Launcher,260,0,12,0,39,0,9,0,3,0
+lavagna,io.lavagna.config,PersistenceAndServiceConfig,21,54,1,1,5,15,3,6,2,6
+lavagna,io.lavagna.config,PersistenceAndServiceConfig.CustomSQLErrorCodesTranslator,13,0,2,0,3,0,2,0,1,0
+lavagna,io.lavagna.model.apihook,CardData,101,0,12,0,1,0,15,0,9,0
+lavagna,io.lavagna.model.apihook,Label,171,0,20,0,1,0,23,0,13,0
+lavagna,io.lavagna.model.apihook,User,165,0,20,0,1,0,23,0,13,0
+lavagna,io.lavagna.model.apihook,From,84,0,0,0,12,0,6,0,6,0
+lavagna,io.lavagna.model.apihook,Column,164,0,18,0,1,0,22,0,13,0
+lavagna,io.lavagna.model.apihook,Card,202,0,22,0,1,0,26,0,15,0
+lavagna,io.lavagna.web.security.login.oauth,Gitlab20Api.new OAuth20ServiceImpl() {...},58,0,0,0,9,0,2,0,2,0
+lavagna,io.lavagna.web.security.login.oauth,GithubHandler,24,0,0,0,4,0,2,0,2,0
+lavagna,io.lavagna.web.security.login.oauth,OAuthResultHandlerFactory.Adapter,7,0,0,0,3,0,3,0,3,0
+lavagna,io.lavagna.web.security.login.oauth,Gitlab20Api,54,0,0,0,8,0,6,0,6,0
+lavagna,io.lavagna.web.security.login.oauth,BitbucketHandler.UserInfo,9,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.web.security.login.oauth,Github20Api,22,0,0,0,4,0,3,0,3,0
+lavagna,io.lavagna.web.security.login.oauth,Bitbucket20Api,38,0,0,0,7,0,6,0,6,0
+lavagna,io.lavagna.web.security.login.oauth,BitbucketHandler,24,0,0,0,4,0,2,0,2,0
+lavagna,io.lavagna.web.security.login.oauth,GoogleHandler.UserInfo,33,0,4,0,9,0,9,0,7,0
+lavagna,io.lavagna.web.security.login.oauth,GitlabHandler,53,0,0,0,8,0,3,0,3,0
+lavagna,io.lavagna.web.security.login.oauth,GoogleHandler.new OAuthResultHandlerFactory.Adapter() {...},18,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.web.security.login.oauth,TwitterHandler.new OAuthResultHandlerFactory.Adapter() {...},18,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.web.security.login.oauth,GoogleHandler,25,0,0,0,4,0,2,0,2,0
+lavagna,io.lavagna.web.security.login.oauth,JsonTokenExtractor.AccessToken,10,0,0,0,4,0,3,0,3,0
+lavagna,io.lavagna.web.security.login.oauth,TwitterHandler,24,0,0,0,4,0,2,0,2,0
+lavagna,io.lavagna.web.security.login.oauth,Google20Api.new OAuth20ServiceImpl() {...},68,0,2,0,11,0,3,0,2,0
+lavagna,io.lavagna.web.security.login.oauth,Bitbucket20Api.new OAuth20ServiceImpl() {...},74,0,0,0,8,0,2,0,2,0
+lavagna,io.lavagna.web.security.login.oauth,AbstractOAuth1Handler,55,0,0,0,12,0,4,0,4,0
+lavagna,io.lavagna.web.security.login.oauth,OAuthResultHandler.OAuthRequestBuilder,9,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.web.security.login.oauth,Utils,10,0,0,0,3,0,1,0,1,0
+lavagna,io.lavagna.web.security.login.oauth,OAuthServiceBuilder,31,0,0,0,3,0,3,0,3,0
+lavagna,io.lavagna.web.security.login.oauth,GithubHandler.new OAuthResultHandlerFactory.Adapter() {...},20,0,0,0,3,0,3,0,3,0
+lavagna,io.lavagna.web.security.login.oauth,BitbucketHandler.new OAuthResultHandlerFactory.Adapter() {...},18,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.web.security.login.oauth,Google20Api,51,0,0,0,8,0,6,0,6,0
+lavagna,io.lavagna.web.security.login.oauth,JsonTokenExtractor,36,0,0,0,5,0,3,0,3,0
+lavagna,io.lavagna.web.security.login.oauth,GithubHandler.UserInfo,9,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.web.security.login.oauth,OAuthResultHandler.OAuthResultHandlerAdapter,310,0,10,0,50,0,13,0,8,0
+lavagna,io.lavagna.web.security.login.oauth,TwitterHandler.UserInfo,9,0,0,0,2,0,2,0,2,0
+lavagna,io.lavagna.web.security.login.oauth,GitlabHandler.new OAuthResultHandlerFactory.Adapter() {...},17,0,0,0,3,0,3,0,3,0
+lavagna,io.lavagna.web.security.login.oauth,OAuthProvider,116,0,10,0,24,0,19,0,14,0
+lavagna,io.lavagna.web.security.login.oauth,GitlabHandler.UserInfo,12,0,0,0,3,0,3,0,3,0

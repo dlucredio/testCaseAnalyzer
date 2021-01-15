@@ -1,0 +1,117 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Jimfs,com.google.common.jimfs,DirectoryEntry,38,119,4,14,7,30,6,16,2,11
+Jimfs,com.google.common.jimfs,AbstractWatchService,119,0,8,0,29,0,16,0,12,0
+Jimfs,com.google.common.jimfs,FileFactory.DirectorySupplier,0,10,0,0,0,2,0,2,0,2
+Jimfs,com.google.common.jimfs,JimfsFileSystemProvider,118,347,10,10,25,95,14,30,8,26
+Jimfs,com.google.common.jimfs,BasicAttributeProvider.Attributes,2,63,0,0,1,18,1,9,1,9
+Jimfs,com.google.common.jimfs,FileFactory.RegularFileSupplier,0,10,0,0,0,2,0,2,0,2
+Jimfs,com.google.common.jimfs,PathService,38,394,12,32,4,78,10,36,0,22
+Jimfs,com.google.common.jimfs,PathType,74,83,7,1,17,25,9,11,5,11
+Jimfs,com.google.common.jimfs,PollingWatchService.new Runnable() {...},68,0,4,0,17,0,4,0,2,0
+Jimfs,com.google.common.jimfs,Configuration.Builder,162,261,19,7,43,65,21,13,8,12
+Jimfs,com.google.common.jimfs,DosAttributeProvider.View,56,0,0,0,15,0,8,0,8,0
+Jimfs,com.google.common.jimfs,AbstractWatchService.Key,145,0,16,0,33,0,19,0,11,0
+Jimfs,com.google.common.jimfs,PathType.ParseResult,2,33,3,3,0,8,3,5,0,5
+Jimfs,com.google.common.jimfs,Name.new Function() {...},0,6,0,0,0,2,0,2,0,2
+Jimfs,com.google.common.jimfs,Name.new Function() {...},0,6,0,0,0,2,0,2,0,2
+Jimfs,com.google.common.jimfs,UserDefinedAttributeProvider,23,86,2,6,5,24,5,9,3,7
+Jimfs,com.google.common.jimfs,Options,42,138,8,28,7,38,7,20,1,8
+Jimfs,com.google.common.jimfs,PosixAttributeProvider.Attributes,34,0,0,0,9,0,4,0,4,0
+Jimfs,com.google.common.jimfs,Util,49,56,8,6,15,14,8,7,3,5
+Jimfs,com.google.common.jimfs,Configuration.WindowsHolder,41,0,0,0,11,0,2,0,2,0
+Jimfs,com.google.common.jimfs,UserLookupService.JimfsUserPrincipal,2,17,2,2,0,4,2,2,0,2
+Jimfs,com.google.common.jimfs,RegularFile,288,823,30,58,57,195,27,60,3,40
+Jimfs,com.google.common.jimfs,Handler,22,41,2,2,4,12,5,2,3,2
+Jimfs,com.google.common.jimfs,Directory,112,362,12,32,25,90,9,38,1,24
+Jimfs,com.google.common.jimfs,JimfsFileSystem.new Closeable() {...},11,0,0,0,3,0,2,0,2,0
+Jimfs,com.google.common.jimfs,FileSystemView.new FileLookup() {...},0,24,0,0,0,2,0,2,0,2
+Jimfs,com.google.common.jimfs,DosAttributeProvider.Attributes,48,0,0,0,10,0,5,0,5,0
+Jimfs,com.google.common.jimfs,Configuration,144,83,22,2,35,26,16,4,4,4
+Jimfs,com.google.common.jimfs,DowngradedSeekableByteChannel,36,12,0,0,9,5,7,2,7,2
+Jimfs,com.google.common.jimfs,JimfsFileStore,28,207,1,1,7,54,5,24,4,24
+Jimfs,com.google.common.jimfs,AttributeProvider,18,111,1,5,3,16,3,11,2,9
+Jimfs,com.google.common.jimfs,OwnerAttributeProvider.View,9,12,0,0,2,4,2,2,2,2
+Jimfs,com.google.common.jimfs,PathNormalization.new PathNormalization() {...},2,7,0,0,1,1,1,1,1,1
+Jimfs,com.google.common.jimfs,PathNormalization.new PathNormalization() {...},4,7,0,0,1,1,1,1,1,1
+Jimfs,com.google.common.jimfs,FileTree,8,265,5,47,1,65,5,33,0,12
+Jimfs,com.google.common.jimfs,PathNormalization.new PathNormalization() {...},4,7,0,0,1,1,1,1,1,1
+Jimfs,com.google.common.jimfs,UserLookupService.JimfsGroupPrincipal,14,5,4,0,1,2,3,1,1,1
+Jimfs,com.google.common.jimfs,AclAttributeProvider.View,38,0,0,0,11,0,6,0,6,0
+Jimfs,com.google.common.jimfs,PollingWatchService.Snapshot,139,0,16,0,28,0,10,0,2,0
+Jimfs,com.google.common.jimfs,AbstractWatchService.Event,96,0,10,0,21,0,12,0,7,0
+Jimfs,com.google.common.jimfs,PathNormalization.new PathNormalization() {...},3,7,0,0,1,1,1,1,1,1
+Jimfs,com.google.common.jimfs,PathNormalization.new PathNormalization() {...},16,7,0,0,5,1,1,1,1,1
+Jimfs,com.google.common.jimfs,PathURLConnection,219,0,16,0,46,0,14,0,6,0
+Jimfs,com.google.common.jimfs,JimfsFileSystem,48,157,2,2,12,37,4,19,3,18
+Jimfs,com.google.common.jimfs,WatchServiceConfiguration.PollingConfig,30,20,1,1,2,5,3,1,2,1
+Jimfs,com.google.common.jimfs,PathMatchers.RegexPathMatcher,7,15,0,0,1,4,1,2,1,2
+Jimfs,com.google.common.jimfs,PathService.new Predicate() {...},0,11,0,2,0,2,0,3,0,2
+Jimfs,com.google.common.jimfs,JimfsInputStream,112,119,13,7,23,30,11,9,2,8
+Jimfs,com.google.common.jimfs,JimfsOutputStream,25,130,4,6,2,36,4,9,0,8
+Jimfs,com.google.common.jimfs,JimfsFileSystems,39,188,5,7,6,36,5,7,1,5
+Jimfs,com.google.common.jimfs,AttributeService.new Object() {...},2,17,0,0,0,1,0,1,0,1
+Jimfs,com.google.common.jimfs,StandardAttributeProviders,3,53,1,3,1,12,2,3,1,2
+Jimfs,com.google.common.jimfs,JimfsSecureDirectoryStream.DirectoryIterator,7,47,1,5,3,10,1,4,0,2
+Jimfs,com.google.common.jimfs,WatchServiceConfiguration,0,15,0,0,0,3,0,3,0,3
+Jimfs,com.google.common.jimfs,JimfsAsynchronousFileChannel,6,190,1,11,2,48,2,19,1,14
+Jimfs,com.google.common.jimfs,PathNormalization,31,89,2,2,5,15,5,4,3,4
+Jimfs,com.google.common.jimfs,SystemJimfsFileSystemProvider,104,137,6,6,24,29,21,10,15,10
+Jimfs,com.google.common.jimfs,JimfsPath.new AbstractList() {...},0,15,0,0,0,3,0,3,0,3
+Jimfs,com.google.common.jimfs,FileFactory.SymbolicLinkSupplier,0,17,0,0,0,4,0,2,0,2
+Jimfs,com.google.common.jimfs,AttributeService,306,485,42,45,58,106,36,33,5,20
+Jimfs,com.google.common.jimfs,PosixAttributeProvider.View,54,0,0,0,15,0,8,0,8,0
+Jimfs,com.google.common.jimfs,GlobToRegex.new GlobToRegex.State() {...},18,22,3,3,5,8,5,2,2,2
+Jimfs,com.google.common.jimfs,GlobToRegex.new GlobToRegex.State() {...},6,16,0,2,2,6,2,3,2,2
+Jimfs,com.google.common.jimfs,GlobToRegex.new GlobToRegex.State() {...},27,18,5,3,12,9,7,4,2,2
+Jimfs,com.google.common.jimfs,PathMatchers,3,74,2,10,1,9,3,7,1,2
+Jimfs,com.google.common.jimfs,AttributeService.SimpleFileAttribute,0,18,0,0,0,6,0,3,0,3
+Jimfs,com.google.common.jimfs,GlobToRegex.new GlobToRegex.State() {...},9,26,2,4,5,12,3,5,1,2
+Jimfs,com.google.common.jimfs,GlobToRegex.new GlobToRegex.State() {...},12,4,0,0,5,1,3,1,3,1
+Jimfs,com.google.common.jimfs,Configuration.new Object() {...},40,0,0,0,1,0,1,0,1,0
+Jimfs,com.google.common.jimfs,GlobToRegex.new GlobToRegex.State() {...},2,25,0,2,1,10,1,4,1,3
+Jimfs,com.google.common.jimfs,AbstractAttributeView,0,12,0,0,0,4,0,2,0,2
+Jimfs,com.google.common.jimfs,DosAttributeProvider,87,14,6,0,23,4,14,2,11,2
+Jimfs,com.google.common.jimfs,UnixAttributeProvider,204,62,47,3,47,12,41,6,5,6
+Jimfs,com.google.common.jimfs,GlobToRegex,39,246,4,10,9,63,5,24,2,20
+Jimfs,com.google.common.jimfs,AttributeCopyOption,5,43,0,0,0,4,1,3,1,3
+Jimfs,com.google.common.jimfs,JimfsAsynchronousFileChannel.new Callable() {...},0,25,0,0,0,2,0,2,0,2
+Jimfs,com.google.common.jimfs,JimfsAsynchronousFileChannel.new Callable() {...},0,22,0,0,0,2,0,2,0,2
+Jimfs,com.google.common.jimfs,JimfsAsynchronousFileChannel.new Callable() {...},0,22,0,0,0,2,0,2,0,2
+Jimfs,com.google.common.jimfs,PollingWatchService,227,0,16,0,50,0,19,0,11,0
+Jimfs,com.google.common.jimfs,OwnerAttributeProvider,29,66,6,4,5,19,5,9,0,9
+Jimfs,com.google.common.jimfs,SystemJimfsFileSystemProvider.new Runnable() {...},0,12,0,0,0,3,0,2,0,2
+Jimfs,com.google.common.jimfs,FileSystemView,157,982,19,91,24,225,16,75,1,35
+Jimfs,com.google.common.jimfs,GlobToRegex.State,0,4,0,0,0,2,0,2,0,2
+Jimfs,com.google.common.jimfs,Configuration.OsxHolder,37,0,0,0,8,0,2,0,2,0
+Jimfs,com.google.common.jimfs,File,13,227,5,17,3,71,6,40,1,34
+Jimfs,com.google.common.jimfs,Jimfs,55,70,5,3,19,17,6,7,3,6
+Jimfs,com.google.common.jimfs,UnixPathType,7,107,2,12,1,25,2,12,0,7
+Jimfs,com.google.common.jimfs,UserLookupService,11,21,2,0,3,6,2,4,1,4
+Jimfs,com.google.common.jimfs,JimfsSecureDirectoryStream.new DirectoryStream.Filter() {...},0,5,0,0,0,2,0,2,0,2
+Jimfs,com.google.common.jimfs,AbstractWatchService.Key.State,38,0,0,0,4,0,4,0,4,0
+Jimfs,com.google.common.jimfs,Name,0,108,2,10,0,25,2,14,0,9
+Jimfs,com.google.common.jimfs,JimfsSecureDirectoryStream,25,190,2,6,4,53,2,16,0,14
+Jimfs,com.google.common.jimfs,JimfsSecureDirectoryStream.new FileLookup() {...},0,28,0,0,0,3,0,2,0,2
+Jimfs,com.google.common.jimfs,SymbolicLink,0,23,0,0,0,6,0,4,0,4
+Jimfs,com.google.common.jimfs,JimfsPath,126,608,38,80,28,120,37,62,4,36
+Jimfs,com.google.common.jimfs,BasicAttributeProvider.View,0,34,0,6,0,12,0,7,0,4
+Jimfs,com.google.common.jimfs,Feature,5,53,0,0,0,5,1,3,1,3
+Jimfs,com.google.common.jimfs,UserDefinedAttributeProvider.View,0,83,0,2,0,18,0,9,0,8
+Jimfs,com.google.common.jimfs,WindowsPathType,340,0,48,0,68,0,33,0,9,0
+Jimfs,com.google.common.jimfs,FileSystemState,47,88,7,5,9,24,6,6,0,6
+Jimfs,com.google.common.jimfs,DowngradedDirectoryStream,4,12,0,0,1,5,1,2,1,2
+Jimfs,com.google.common.jimfs,UnixAttributeProvider.new Object() {...},68,0,0,0,1,0,1,0,1,0
+Jimfs,com.google.common.jimfs,FileFactory,0,68,0,0,0,15,0,10,0,10
+Jimfs,com.google.common.jimfs,PosixAttributeProvider,145,118,25,11,26,30,21,12,2,11
+Jimfs,com.google.common.jimfs,FileSystemView.DeleteMode,9,39,0,0,0,4,2,2,2,2
+Jimfs,com.google.common.jimfs,JimfsAsynchronousFileChannel.CompletionHandlerCallback,5,45,0,0,3,16,0,4,0,4
+Jimfs,com.google.common.jimfs,Configuration.UnixHolder,3,36,0,0,1,8,1,1,1,1
+Jimfs,com.google.common.jimfs,Directory.new AbstractIterator() {...},0,48,0,8,0,6,0,6,0,2
+Jimfs,com.google.common.jimfs,HeapDisk,3,197,3,13,0,39,3,15,0,10
+Jimfs,com.google.common.jimfs,BasicAttributeProvider,15,267,28,49,2,30,26,36,0,10
+Jimfs,com.google.common.jimfs,UserLookupService.NamedPrincipal,7,11,0,0,2,4,2,2,2,2
+Jimfs,com.google.common.jimfs,JimfsFileChannel.FakeFileLock,0,35,0,0,0,8,0,4,0,4
+Jimfs,com.google.common.jimfs,JimfsFileChannel,393,961,2,52,22,314,3,49,1,24
+Jimfs,com.google.common.jimfs,InternalCharMatcher,0,24,0,2,0,6,0,4,0,3
+Jimfs,com.google.common.jimfs,JimfsFileSystems.new Runnable() {...},1,3,0,0,1,1,1,1,1,1
+Jimfs,com.google.common.jimfs,AclAttributeProvider,99,12,10,0,24,4,14,2,9,2

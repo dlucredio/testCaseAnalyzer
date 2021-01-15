@@ -1,0 +1,6 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+NanoHttpd-Webserver,org.nanohttpd.webserver,SimpleWebServer,830,771,109,77,138,154,81,35,9,14
+NanoHttpd-Webserver,org.nanohttpd.webserver,InternalRewrite,23,0,0,0,6,0,3,0,3,0
+NanoHttpd-Webserver,org.nanohttpd.webserver,SimpleWebServer.new FilenameFilter() {...},13,0,0,0,2,0,2,0,2,0
+NanoHttpd-Webserver,org.nanohttpd.webserver,SimpleWebServer.new ArrayList() {...},0,11,0,0,0,4,0,1,0,1
+NanoHttpd-Webserver,org.nanohttpd.webserver,SimpleWebServer.new FilenameFilter() {...},13,0,0,0,2,0,2,0,2,0

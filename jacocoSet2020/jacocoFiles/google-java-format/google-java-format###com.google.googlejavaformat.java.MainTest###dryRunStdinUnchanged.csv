@@ -1,0 +1,117 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Google Java Format,com.google.googlejavaformat.java,JavaInputAstVisitor.FirstDeclarationsOrNot,10,35,1,1,0,4,3,3,2,3
+Google Java Format,com.google.googlejavaformat.java,Formatter,22,313,2,10,7,67,3,14,1,10
+Google Java Format,com.google.googlejavaformat.java,JavacTokens,5,182,2,18,2,30,3,10,1,2
+Google Java Format,com.google.googlejavaformat.java,JavaInput.Token,16,23,0,0,5,8,1,4,1,4
+Google Java Format,com.google.googlejavaformat.java,JavaInputAstVisitor.BracesOrNot,10,35,1,1,0,4,3,3,2,3
+Google Java Format,com.google.googlejavaformat.java,ModifierOrderer,5,270,2,39,2,69,3,30,1,6
+Google Java Format,com.google.googlejavaformat.java,JavaFormatterOptions.Builder,0,28,0,0,0,8,0,4,0,4
+Google Java Format,com.google.googlejavaformat.java,Main,141,444,8,70,34,97,8,38,1,6
+Google Java Format,com.google.googlejavaformat.java,TypeNameClassifier.JavaCaseFormat,6,114,1,13,0,22,2,10,1,4
+Google Java Format,com.google.googlejavaformat.java,JavaInputAstVisitor.BreakOrNot,16,29,2,0,1,3,4,2,3,2
+Google Java Format,com.google.googlejavaformat.java,TypeNameClassifier.new Object() {...},4,29,0,0,0,1,0,1,0,1
+Google Java Format,com.google.googlejavaformat.java,SnippetFormatter.SnippetKind,5,53,0,0,0,5,1,3,1,3
+Google Java Format,com.google.googlejavaformat.java,RemoveUnusedImports.UnusedImportScanner.DocTreeScanner,21,36,4,2,3,9,3,3,0,3
+Google Java Format,com.google.googlejavaformat.java,Replacement,21,68,6,6,3,14,7,5,1,5
+Google Java Format,com.google.googlejavaformat.java,ImportOrderer.StringAndIndex,0,9,0,0,0,4,0,1,0,1
+Google Java Format,com.google.googlejavaformat.java,JavacTokens.AccessibleScanner,0,5,0,0,0,2,0,1,0,1
+Google Java Format,com.google.googlejavaformat.java,FormatterException,0,46,0,0,0,11,0,7,0,7
+Google Java Format,com.google.googlejavaformat.java,StringWrapper.new SimpleJavaFileObject() {...},3,8,0,0,1,1,1,1,1,1
+Google Java Format,com.google.googlejavaformat.java,JavaInput.new SimpleJavaFileObject() {...},3,8,0,0,1,1,1,1,1,1
+Google Java Format,com.google.googlejavaformat.java,RemoveUnusedImports.new SimpleJavaFileObject() {...},0,11,0,0,0,2,0,2,0,2
+Google Java Format,com.google.googlejavaformat.java,CommandLineOptions.Builder,0,182,0,0,0,55,0,19,0,19
+Google Java Format,com.google.googlejavaformat.java,StringWrapper.new TreePathScanner() {...},8,66,3,7,2,13,2,5,0,2
+Google Java Format,com.google.googlejavaformat.java,DimensionHelpers.new Object() {...},2,17,0,0,0,1,0,1,0,1
+Google Java Format,com.google.googlejavaformat.java,JavaFormatterOptions.Style,9,37,0,0,0,7,2,3,2,3
+Google Java Format,com.google.googlejavaformat.java,JavaInputAstVisitor.Direction,9,36,0,2,0,4,2,4,2,3
+Google Java Format,com.google.googlejavaformat.java,TypeNameClassifier.TyParseState.new TypeNameClassifier.TyParseState() {...},4,16,1,2,1,4,1,3,0,2
+Google Java Format,com.google.googlejavaformat.java,TypeNameClassifier.TyParseState.new TypeNameClassifier.TyParseState() {...},4,20,1,4,1,6,1,5,0,2
+Google Java Format,com.google.googlejavaformat.java,JavaOutput,77,807,11,103,18,164,13,62,3,14
+Google Java Format,com.google.googlejavaformat.java,JavacTokens.CommentSavingTokenizer,0,27,0,0,0,4,0,2,0,2
+Google Java Format,com.google.googlejavaformat.java,JavaInputAstVisitor.DeclarationKind,9,39,0,0,0,4,2,2,2,2
+Google Java Format,com.google.googlejavaformat.java,TypeNameClassifier.TyParseState.new TypeNameClassifier.TyParseState() {...},6,16,2,2,2,4,2,3,0,2
+Google Java Format,com.google.googlejavaformat.java,TypeNameClassifier.TyParseState.new TypeNameClassifier.TyParseState() {...},2,7,0,0,1,1,1,1,1,1
+Google Java Format,com.google.googlejavaformat.java,UsageException,0,251,0,2,0,21,0,7,0,6
+Google Java Format,com.google.googlejavaformat.java,TypeNameClassifier.TyParseState.new TypeNameClassifier.TyParseState() {...},0,9,0,0,0,2,0,2,0,2
+Google Java Format,com.google.googlejavaformat.java,SnippetFormatter.new Object() {...},4,29,0,0,0,1,0,1,0,1
+Google Java Format,com.google.googlejavaformat.java,Trees,54,84,8,6,10,20,8,10,3,8
+Google Java Format,com.google.googlejavaformat.java,JavaFormatterOptions,0,27,0,0,0,9,0,6,0,6
+Google Java Format,com.google.googlejavaformat.java,JavaInputAstVisitor.AllowTrailingBlankLine,9,35,0,2,0,4,2,4,2,3
+Google Java Format,com.google.googlejavaformat.java,JavacTokens.RawTok,0,27,0,0,0,10,0,5,0,5
+Google Java Format,com.google.googlejavaformat.java,DimensionHelpers.TypeWithDims,0,9,0,0,0,4,0,1,0,1
+Google Java Format,com.google.googlejavaformat.java,FormatFileCallable,3,142,2,14,1,29,2,10,0,4
+Google Java Format,com.google.googlejavaformat.java,JavaInputAstVisitor.AllowLeadingBlankLine,15,29,2,0,1,3,4,2,3,2
+Google Java Format,com.google.googlejavaformat.java,JavaInputAstVisitor.new Object() {...},23,151,0,0,0,3,0,1,0,1
+Google Java Format,com.google.googlejavaformat.java,GoogleJavaFormatVersion,5,0,0,0,2,0,2,0,2,0
+Google Java Format,com.google.googlejavaformat.java,JavaInputAstVisitor.new TreeScanner() {...},24,30,8,3,7,6,6,2,0,2
+Google Java Format,com.google.googlejavaformat.java,SnippetFormatter.SnippetWrapper,0,49,0,2,0,10,0,5,0,4
+Google Java Format,com.google.googlejavaformat.java,JavaInputAstVisitor.DimensionsOrNot,45,0,2,0,4,0,6,0,5,0
+Google Java Format,com.google.googlejavaformat.java,JavaInputAstVisitor,4505,3560,555,366,1141,908,407,215,50,95
+Google Java Format,com.google.googlejavaformat.java,ModifierOrderer.new Object() {...},12,77,0,0,0,1,0,1,0,1
+Google Java Format,com.google.googlejavaformat.java,RemoveUnusedImports.UnusedImportScanner.DocTreeScanner.ReferenceScanner,1,43,1,1,1,8,1,2,0,2
+Google Java Format,com.google.googlejavaformat.java,DimensionHelpers,62,50,9,4,18,13,7,4,1,3
+Google Java Format,com.google.googlejavaformat.java,Trees.new Object() {...},33,0,0,0,1,0,1,0,1,0
+Google Java Format,com.google.googlejavaformat.java,ImportOrderer.Import,81,61,14,3,8,16,12,6,4,5
+Google Java Format,com.google.googlejavaformat.java,StringWrapper,162,646,33,55,27,145,30,35,2,19
+Google Java Format,com.google.googlejavaformat.java,DimensionHelpers.SortedDims,9,29,0,0,0,3,2,2,2,2
+Google Java Format,com.google.googlejavaformat.java,JavaInput,154,836,37,95,27,183,31,56,2,18
+Google Java Format,com.google.googlejavaformat.java,JavaInputAstVisitor.ReceiverParameter,45,0,2,0,4,0,6,0,5,0
+Google Java Format,com.google.googlejavaformat.java,TypeNameClassifier.TyParseState,9,70,0,0,0,10,2,3,2,3
+Google Java Format,com.google.googlejavaformat.java,CommandLineOptions,0,125,1,5,0,38,1,22,0,20
+Google Java Format,com.google.googlejavaformat.java,ImportOrderer.ImportsAndIndex,0,9,0,0,0,4,0,1,0,1
+Google Java Format,com.google.googlejavaformat.java,Formatter.new SimpleJavaFileObject() {...},0,12,0,0,0,2,0,2,0,2
+Google Java Format,com.google.googlejavaformat.java,RemoveUnusedImports.UnusedImportScanner,2,70,1,7,1,21,1,8,0,5
+Google Java Format,com.google.googlejavaformat.java,TypeNameClassifier,3,33,0,6,1,9,1,4,1,1
+Google Java Format,com.google.googlejavaformat.java,JavaInputAstVisitor.CollapseEmptyOrNot,11,40,1,3,0,5,3,5,2,4
+Google Java Format,com.google.googlejavaformat.java,JavaInput.Tok,24,94,0,10,7,22,1,19,1,14
+Google Java Format,com.google.googlejavaformat.java,JavacTokens.CommentWithTextAndPosition,16,60,2,4,3,13,5,4,3,3
+Google Java Format,com.google.googlejavaformat.java,RemoveUnusedImports,30,304,9,23,9,69,10,13,1,6
+Google Java Format,com.google.googlejavaformat.java,JavaCommentsHelper,98,299,19,35,18,66,14,21,1,7
+Google Java Format,com.google.googlejavaformat.java,JavacTokens.AccessibleReader,0,6,0,0,0,2,0,1,0,1
+Google Java Format,com.google.googlejavaformat.java,CommandLineOptionsParser,110,491,49,88,10,82,44,56,1,7
+Google Java Format,com.google.googlejavaformat.java,JavaInputAstVisitor.VarArgsOrNot,65,0,6,0,6,0,10,0,7,0
+Google Java Format,com.google.googlejavaformat.java,SnippetFormatter,47,405,9,34,5,77,9,23,0,9
+Google Java Format,com.google.googlejavaformat.java,ImportOrderer,142,560,33,65,23,124,28,40,2,17
+Google Java Format,com.google.googlejavaformat,Output.BreakTag,0,20,0,0,0,5,0,3,0,3
+Google Java Format,com.google.googlejavaformat,FormattingError,26,0,0,0,6,0,3,0,3,0
+Google Java Format,com.google.googlejavaformat,Indent,0,3,0,0,0,1,0,1,0,1
+Google Java Format,com.google.googlejavaformat,OpsBuilder,237,842,40,110,47,203,37,74,4,32
+Google Java Format,com.google.googlejavaformat,Newlines,3,124,1,18,1,27,2,19,1,10
+Google Java Format,com.google.googlejavaformat,Doc.Tok,28,111,3,11,2,22,3,13,1,8
+Google Java Format,com.google.googlejavaformat,Input,17,3,0,0,3,1,2,1,2,1
+Google Java Format,com.google.googlejavaformat,Doc.Level,12,440,0,46,4,86,1,38,1,15
+Google Java Format,com.google.googlejavaformat,OpenOp,8,16,0,0,1,6,1,3,1,3
+Google Java Format,com.google.googlejavaformat,OpsBuilder.BlankLineWanted.SimpleBlankLine,0,11,0,0,0,5,0,3,0,3
+Google Java Format,com.google.googlejavaformat,Doc.FillMode,9,39,0,0,0,4,2,2,2,2
+Google Java Format,com.google.googlejavaformat,DocBuilder,16,76,0,2,5,22,1,8,1,7
+Google Java Format,com.google.googlejavaformat,Doc.Token,19,80,0,0,6,20,2,11,2,11
+Google Java Format,com.google.googlejavaformat,Doc.Break,46,109,2,8,11,26,4,15,2,12
+Google Java Format,com.google.googlejavaformat,Doc.Token.RealOrImaginary,9,36,0,2,0,4,2,4,2,3
+Google Java Format,com.google.googlejavaformat,Newlines.LineIterator,5,69,0,6,1,16,1,7,1,4
+Google Java Format,com.google.googlejavaformat,OpsBuilder.BlankLineWanted,0,29,0,0,0,6,0,3,0,3
+Google Java Format,com.google.googlejavaformat,Doc.Space,4,33,0,0,1,11,1,9,1,9
+Google Java Format,com.google.googlejavaformat,CloseOp,13,24,0,0,1,5,3,4,3,4
+Google Java Format,com.google.googlejavaformat,Indent.Const,8,22,0,0,1,6,1,4,1,4
+Google Java Format,com.google.googlejavaformat,Output,8,3,0,0,1,1,1,1,1,1
+Google Java Format,com.google.googlejavaformat,InputOutput,18,194,2,18,1,35,3,17,1,9
+Google Java Format,com.google.googlejavaformat,Doc,0,69,0,6,0,21,0,8,0,5
+Google Java Format,com.google.googlejavaformat,Newlines.LineOffsetIterator,5,95,0,13,1,21,1,11,1,4
+Google Java Format,com.google.googlejavaformat,FormatterDiagnostic,11,85,3,9,3,19,6,7,3,4
+Google Java Format,com.google.googlejavaformat,Doc.State,20,44,0,0,6,10,1,4,1,4
+Google Java Format,com.google.googlejavaformat,OpsBuilder.BlankLineWanted.ConditionalBlankLine,4,39,1,5,1,11,1,5,0,3
+Google Java Format,com.google.googlejavaformat,Indent.If,19,27,1,1,5,7,2,3,1,3
+Google Java Format,com.google.googlejavaformat.java.filer,FormattingJavaFileObject.1.new CharSink() {...},13,0,0,0,2,0,2,0,2,0
+Google Java Format,com.google.googlejavaformat.java.filer,FormattingJavaFileObject.new Writer() {...},110,0,10,0,16,0,10,0,5,0
+Google Java Format,com.google.googlejavaformat.java.filer,FormattingJavaFileObject,25,0,0,0,6,0,2,0,2,0
+Google Java Format,com.google.googlejavaformat.java.filer,FormattingFiler,55,0,0,0,12,0,6,0,6,0
+Google Java Format,com.google.googlejavaformat.java.javadoc,JavadocWriter.AutoIndent,9,29,0,0,0,3,2,2,2,2
+Google Java Format,com.google.googlejavaformat.java.javadoc,NestingCounter,0,44,0,6,0,13,0,10,0,7
+Google Java Format,com.google.googlejavaformat.java.javadoc,JavadocLexer.LexException,3,0,0,0,1,0,1,0,1,0
+Google Java Format,com.google.googlejavaformat.java.javadoc,JavadocFormatter.new Object() {...},27,167,0,0,0,1,0,1,0,1
+Google Java Format,com.google.googlejavaformat.java.javadoc,JavadocLexer,54,1066,37,147,9,239,34,77,0,19
+Google Java Format,com.google.googlejavaformat.java.javadoc,JavadocWriter.RequestedWhitespace,9,49,0,0,0,5,2,2,2,2
+Google Java Format,com.google.googlejavaformat.java.javadoc,Token.Type,5,283,0,0,0,28,1,3,1,3
+Google Java Format,com.google.googlejavaformat.java.javadoc,JavadocFormatter,24,202,4,33,9,65,5,33,1,7
+Google Java Format,com.google.googlejavaformat.java.javadoc,JavadocWriter,8,499,0,40,4,160,2,53,2,33
+Google Java Format,com.google.googlejavaformat.java.javadoc,Token,15,19,0,0,1,7,1,4,1,4
+Google Java Format,com.google.googlejavaformat.java.javadoc,CharStream,1,66,1,5,0,18,1,7,0,5

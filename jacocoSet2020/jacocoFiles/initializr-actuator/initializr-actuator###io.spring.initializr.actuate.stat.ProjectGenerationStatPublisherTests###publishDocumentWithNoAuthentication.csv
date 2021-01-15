@@ -1,0 +1,15 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Spring Initializr :: Actuator,io.spring.initializr.actuate.info,DependencyRangesInfoContributor,0,184,3,25,0,42,3,19,0,8
+Spring Initializr :: Actuator,io.spring.initializr.actuate.info,BomRangesInfoContributor,0,66,1,5,0,16,1,6,0,4
+Spring Initializr :: Actuator,io.spring.initializr.actuate.stat,ProjectRequestDocument.ClientInformation,90,0,4,0,12,0,8,0,6,0
+Spring Initializr :: Actuator,io.spring.initializr.actuate.stat,ProjectRequestDocument,160,90,2,0,11,38,3,26,2,26
+Spring Initializr :: Actuator,io.spring.initializr.actuate.stat,StatsProperties.Elastic,12,60,1,3,6,19,4,12,3,11
+Spring Initializr :: Actuator,io.spring.initializr.actuate.stat,ProjectRequestDocument.InvalidDependencyInformation,28,0,0,0,7,0,4,0,4,0
+Spring Initializr :: Actuator,io.spring.initializr.actuate.stat,ProjectRequestDocument.ErrorStateInformation,127,0,0,0,25,0,15,0,15,0
+Spring Initializr :: Actuator,io.spring.initializr.actuate.stat,StatsProperties,0,11,0,0,0,3,0,2,0,2
+Spring Initializr :: Actuator,io.spring.initializr.actuate.stat,ProjectGenerationStatPublisher,45,150,1,5,9,35,2,11,1,9
+Spring Initializr :: Actuator,io.spring.initializr.actuate.stat,ProjectRequestDocumentFactory,76,234,28,20,13,52,26,8,2,8
+Spring Initializr :: Actuator,io.spring.initializr.actuate.stat,ProjectRequestDocument.VersionInformation,42,47,1,1,3,8,2,4,1,4
+Spring Initializr :: Actuator,io.spring.initializr.actuate.stat,ProjectRequestDocument.DependencyInformation,43,31,1,1,4,10,2,5,1,5
+Spring Initializr :: Actuator,io.spring.initializr.actuate.autoconfigure,InitializrActuatorEndpointsAutoConfiguration,0,13,0,0,0,3,0,3,0,3
+Spring Initializr :: Actuator,io.spring.initializr.actuate.autoconfigure,InitializrStatsAutoConfiguration,0,52,0,0,0,14,0,3,0,3

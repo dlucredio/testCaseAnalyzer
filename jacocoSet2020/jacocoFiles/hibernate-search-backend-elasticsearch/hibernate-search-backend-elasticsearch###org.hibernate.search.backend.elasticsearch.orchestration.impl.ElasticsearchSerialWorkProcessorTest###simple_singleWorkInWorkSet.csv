@@ -1,0 +1,447 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch,ElasticsearchExtension,100,0,14,0,26,0,17,0,10,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch,ElasticsearchVersion,25,157,4,26,4,33,5,19,2,7
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchIndexFieldTypeFactoryImpl,297,0,42,0,75,0,49,0,28,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchNativeIndexFieldTypeMappingStepImpl,35,0,0,0,8,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchIntegerIndexFieldTypeOptionsStep,10,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchDoubleIndexFieldTypeOptionsStep,10,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,AbstractElasticsearchTemporalIndexFieldTypeOptionsStep,25,0,0,0,7,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchOffsetDateTimeIndexFieldTypeOptionsStep,12,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,AbstractElasticsearchScalarFieldTypeOptionsStep,71,0,0,0,10,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchShortIndexFieldTypeOptionsStep,10,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,AbstractElasticsearchIndexFieldTypeOptionsStep,77,0,4,0,16,0,11,0,9,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchOffsetTimeIndexFieldTypeOptionsStep,12,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchZonedDateTimeIndexFieldTypeOptionsStep,12,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchLongIndexFieldTypeOptionsStep,10,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,AbstractElasticsearchSimpleStandardFieldTypeOptionsStep,118,0,6,0,30,0,10,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchGeoPointIndexFieldTypeOptionsStep,63,0,4,0,9,0,5,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,AbstractElasticsearchStandardIndexFieldTypeOptionsStep.new Object() {...},101,0,0,0,4,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchBigDecimalIndexFieldTypeOptionsStep,69,0,4,0,16,0,8,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchBooleanIndexFieldTypeOptionsStep,20,0,0,0,5,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchFloatIndexFieldTypeOptionsStep,10,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchStringIndexFieldTypeOptionsStep,317,0,28,0,72,0,31,0,16,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchLocalDateIndexFieldTypeOptionsStep,12,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchMonthDayIndexFieldTypeOptionsStep,12,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchStringIndexFieldTypeOptionsStep.new Object() {...},44,0,0,0,2,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchYearMonthIndexFieldTypeOptionsStep,12,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchYearIndexFieldTypeOptionsStep,12,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchLocalTimeIndexFieldTypeOptionsStep,12,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,AbstractElasticsearchStandardIndexFieldTypeOptionsStep,89,0,12,0,18,0,13,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchBigIntegerIndexFieldTypeOptionsStep,81,0,6,0,19,0,9,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchInstantIndexFieldTypeOptionsStep,12,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchByteIndexFieldTypeOptionsStep,10,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchLocalDateTimeIndexFieldTypeOptionsStep,12,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.impl,ElasticsearchNativeIndexFieldTypeOptionsStepImpl,68,0,0,0,11,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.dsl.impl,ElasticsearchSearchProjectionFactoryImpl,28,0,0,0,6,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.predicate.impl,ElasticsearchGeoPointFieldPredicateBuilderFactory,86,0,6,0,23,0,13,0,10,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.predicate.impl,ElasticsearchGeoPointSpatialWithinBoundingBoxPredicateBuilder,55,0,0,0,14,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.predicate.impl,ElasticsearchSimpleQueryStringPredicateBuilderFieldState,33,0,2,0,9,0,4,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.predicate.impl,ElasticsearchGeoPointSpatialWithinCirclePredicateBuilder,50,0,0,0,13,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.predicate.impl,ElasticsearchTextPhrasePredicateBuilder,91,0,6,0,27,0,10,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.predicate.impl,AbstractElasticsearchFieldPredicateBuilderFactory,41,0,0,0,15,0,9,0,9,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.predicate.impl,ElasticsearchStandardMatchPredicateBuilder.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.predicate.impl,ElasticsearchTextFieldPredicateBuilderFactory,96,0,8,0,18,0,10,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.predicate.impl,ElasticsearchTextWildcardPredicateBuilder,43,0,0,0,12,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.predicate.impl,ElasticsearchTextMatchPredicateBuilder,102,0,10,0,26,0,11,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.predicate.impl,ElasticsearchStandardMatchPredicateBuilder,117,0,2,0,31,0,9,0,8,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.predicate.impl,ElasticsearchGeoPointSpatialWithinPolygonPredicateBuilder,68,0,2,0,17,0,5,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.predicate.impl,ElasticsearchStandardFieldPredicateBuilderFactory,106,0,10,0,22,0,12,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.sort.impl,ElasticsearchStandardFieldSortBuilderFactory,102,0,14,0,27,0,14,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.sort.impl,ElasticsearchGeoPointFieldSortBuilderFactory,59,0,6,0,17,0,10,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.cfg.spi,ElasticsearchBackendSpiSettings.Defaults,6,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.cfg.spi,ElasticsearchBackendSpiSettings,3,0,0,0,2,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ElasticsearchSchemaMigratorImpl,105,0,4,0,24,0,12,0,10,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ElasticsearchSchemaValidatorImpl.PropertyMappingValidator,104,0,4,0,17,0,5,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ValidationContextElement,81,0,8,0,22,0,10,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ElasticsearchSchemaValidatorImpl.AnalysisDefinitionValidator,112,0,14,0,29,0,10,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ElasticsearchIndexAdministrationClient,111,0,2,0,20,0,10,0,9,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,IndexMetadata,32,0,0,0,11,0,8,0,8,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ElasticsearchSchemaValidatorImpl.NormalizerDefinitionValidator,44,0,4,0,12,0,5,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ElasticsearchIndexLifecycleExecutionOptions,15,0,0,0,6,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ElasticsearchValidationMessages_.bundle,262,0,0,0,37,0,36,0,36,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ValidationErrorCollector,179,0,22,0,45,0,21,0,8,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ValidationContextType,88,0,0,0,8,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ElasticsearchSchemaDropperImpl,26,0,2,0,8,0,4,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ElasticsearchSchemaAccessor,219,0,0,0,53,0,20,0,20,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ElasticsearchSchemaValidatorImpl.AbstractTypeMappingValidator,34,0,2,0,8,0,3,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ElasticsearchSchemaCreatorImpl,103,0,4,0,24,0,12,0,10,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ValidationErrorCollector.new Object() {...},40,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ElasticsearchSchemaValidatorImpl,878,0,133,0,196,0,92,0,20,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ElasticsearchSchemaValidatorImpl.AnalyzerDefinitionValidator,58,0,6,0,15,0,6,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.impl,ElasticsearchSchemaValidatorImpl.RootTypeMappingValidator,14,0,0,0,5,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.aggregation.dsl.impl,ElasticsearchJsonAggregationFinalStep,10,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.aggregation.dsl.impl,ElasticsearchSearchAggregationFactoryImpl,27,0,0,0,7,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.scope.impl,ElasticsearchIndexScope,82,0,0,0,20,0,7,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.builder.factory.impl,Elasticsearch7WorkBuilderFactory,117,0,0,0,24,0,22,0,22,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.builder.factory.impl,Elasticsearch67WorkBuilderFactory,49,0,0,0,10,0,9,0,9,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.builder.factory.impl,Elasticsearch60WorkBuilderFactory,24,0,0,0,6,0,5,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.esnative.impl,NormalizerDefinitionJsonAdapterFactory,22,0,0,0,6,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.esnative.impl,AnalyzerDefinitionJsonAdapterFactory,27,0,0,0,7,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.esnative.impl,TokenizerDefinition,11,0,0,0,2,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.esnative.impl,AnalyzerDefinitionJsonAdapterFactory.new TypeToken() {...},3,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.esnative.impl,TokenFilterDefinition,11,0,0,0,2,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.esnative.impl,AnalysisDefinition,17,0,0,0,7,0,5,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.esnative.impl,CharFilterDefinition,11,0,0,0,2,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.esnative.impl,AbstractCompositeAnalysisDefinition,59,0,4,0,18,0,12,0,10,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.esnative.impl,AnalyzerDefinition,10,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.esnative.impl,NormalizerDefinition,3,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.esnative.impl,AnalysisDefinitionJsonAdapterFactory,9,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.esnative.impl,NormalizerDefinitionJsonAdapterFactory.new TypeToken() {...},3,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.impl,ElasticsearchIndexFieldType,61,0,0,0,15,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.sort.impl,AbstractElasticsearchSearchNestedSortBuilder,81,0,6,0,21,0,6,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.sort.impl,ElasticsearchDistanceSortBuilder,42,0,0,0,10,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.sort.impl,ElasticsearchFieldSortBuilder,127,0,6,0,36,0,10,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.sort.impl,ElasticsearchIndexOrderSortBuilder,17,0,0,0,6,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.sort.impl,ElasticsearchFieldSortBuilder.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.sort.impl,AbstractElasticsearchSearchSortBuilder,55,0,5,0,17,0,9,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.sort.impl,ElasticsearchSearchSort,28,0,2,0,9,0,4,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.sort.impl,AbstractElasticsearchSearchSortBuilder.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.sort.impl,ElasticsearchUserProvidedJsonSortBuilder,11,0,0,0,5,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.sort.impl,ElasticsearchSearchSortBuilderFactoryImpl.SortBuilderFactoryRetrievalStrategy,23,0,0,0,6,0,6,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.sort.impl,ElasticsearchSearchSortBuilderFactoryImpl,118,0,4,0,26,0,13,0,11,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.sort.impl,ElasticsearchScoreSortBuilder,28,0,2,0,8,0,4,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.settings.impl,ElasticsearchIndexSettingsBuilder,86,0,12,0,20,0,9,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,GetIndexMetadataWork.new TypeToken() {...},3,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,OptimizeWork.Builder,40,0,2,0,11,0,5,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,AbstractSimpleBulkableElasticsearchWork.AbstractBuilder,5,0,0,0,2,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,OpenIndexWork,6,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,SearchWork,39,0,0,0,11,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,FlushWork.Builder,53,0,2,0,14,0,6,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,GetIndexMetadataWork.Builder,60,0,2,0,14,0,7,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,DropIndexWork,6,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,ScrollWork,16,0,0,0,5,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,PutIndexTypeMappingWork,6,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,WaitForIndexStatusWork.Builder,40,0,0,0,13,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,OpenIndexWork.Builder,23,0,0,0,8,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,BulkWork.BulkResultImpl,44,0,3,0,11,0,4,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,CloseIndexWork.Builder,23,0,0,0,8,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,BulkWork.Builder,64,0,6,0,19,0,7,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,IndexWork,25,0,0,0,7,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,IndexExistsWork.Builder,53,0,2,0,13,0,7,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,RefreshWork.Builder,40,0,2,0,11,0,5,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,PutIndexTypeMappingWork.Builder,89,0,4,0,20,0,8,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,DropIndexWork.Builder,34,0,0,0,11,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,ClearScrollWork,6,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,DeleteByQueryWork.Builder,58,0,2,0,16,0,5,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,BulkWork.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,DeleteWork,36,0,0,0,9,0,5,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,ClearScrollWork.Builder,33,0,0,0,11,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,ExplainWork.Builder,88,0,4,0,23,0,8,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,FlushWork,15,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,AbstractSimpleBulkableElasticsearchWork,125,0,6,0,32,0,15,0,12,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,ExplainWork.ExplainResultImpl,9,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,AbstractSimpleElasticsearchWork.AbstractBuilder,36,0,2,0,13,0,5,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,DefaultElasticsearchRequestSuccessAssessor,165,0,14,0,32,0,16,0,9,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,CloseIndexWork,6,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,PutIndexSettingsWork,6,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,DeleteByQueryWork,15,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,RefreshWork,6,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,BulkWork,103,0,0,0,25,0,9,0,9,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,ScrollWork.Builder,44,0,0,0,14,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,CountWork,19,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,AbstractSimpleElasticsearchWork.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,CountWork.Builder,60,0,4,0,17,0,7,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,AbstractSimpleBulkableElasticsearchWork.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,GetIndexMetadataWork,148,0,14,0,32,0,12,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,OptimizeWork,6,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,BulkWork.NoIndexDirtyBulkExecutionContext,5,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,CreateIndexWork.Builder,146,0,8,0,35,0,13,0,9,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,WaitForIndexStatusWork,6,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,ElasticsearchForwardingWorkExecutionContext,19,0,0,0,7,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,IndexExistsWork,20,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,ExplainWork,48,0,2,0,11,0,4,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,BulkWork.BulkResultItemExtractorImpl,21,0,0,0,6,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,SearchWork.Builder,140,0,12,0,35,0,15,0,9,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,PutIndexSettingsWork.Builder,35,0,0,0,11,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,IndexWork.Builder,123,0,8,0,29,0,10,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,DeleteWork.Builder,115,0,8,0,27,0,10,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,CreateIndexWork,14,0,2,0,6,0,3,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,AbstractSimpleElasticsearchWork,166,0,2,0,41,0,16,0,15,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.impl,DefaultElasticsearchRequestSuccessAssessor.Builder,50,0,2,0,9,0,5,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.gson.impl,AnalysisParameterEquivalenceRegistry,37,0,4,0,8,0,5,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.gson.impl,AnalysisJsonElementEquivalence,188,0,40,0,42,0,28,0,8,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.gson.impl,AnalysisParameterEquivalenceRegistry.ParameterBuilder,18,0,0,0,6,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.gson.impl,AnalysisParameterEquivalenceRegistry.TypeBuilder,26,0,0,0,8,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.gson.impl,AnalysisJsonElementUnorderedArrayEquivalence,56,0,12,0,14,0,9,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.admin.gson.impl,AnalysisParameterEquivalenceRegistry.Builder,40,0,2,0,8,0,4,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.sort.dsl.impl,ElasticsearchSearchSortFactoryImpl,32,0,0,0,6,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.execution.impl,ElasticsearchIndexingPlanWorkSet,104,0,8,0,25,0,9,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.execution.impl,ElasticsearchIndexIndexer,67,0,0,0,19,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.execution.impl,ElasticsearchIndexWorkspace,76,0,0,0,15,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.execution.impl,ElasticsearchIndexIndexingPlan,156,0,0,0,47,0,9,0,9,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.impl,ElasticsearchIndexManagerBuilder,45,0,0,0,13,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.impl,ElasticsearchIndexScopeBuilder,89,0,2,0,22,0,6,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.impl,ElasticsearchIndexManagerImpl,324,0,12,0,76,0,25,0,19,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.impl,IndexManagerBackendContext,207,0,0,0,35,0,13,0,13,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.settings.esnative.impl,IndexSettings,29,0,4,0,6,0,7,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.settings.esnative.impl,Analysis,105,0,8,0,22,0,18,0,14,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.client.spi,ElasticsearchRequest.Builder,131,0,8,0,31,0,15,0,11,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.client.spi,ElasticsearchResponse,21,0,0,0,8,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.client.spi,ElasticsearchRequest,107,0,4,0,23,0,14,0,12,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index,IndexLifecycleStrategyName,106,0,0,0,14,0,6,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index,IndexStatus,73,0,0,0,11,0,6,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.logging.impl,ElasticsearchJsonObjectFormatter,11,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.logging.impl,ElasticsearchRequestFormatter,33,0,0,0,11,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.logging.impl,ElasticsearchLogCategories,9,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.logging.impl,ElasticsearchEventContexts,17,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.logging.impl,Log_.logger,2485,78,0,0,421,19,214,10,214,10
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.logging.impl,ElasticsearchResponseFormatter,41,0,2,0,14,0,4,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.logging.impl,ElasticsearchEventContextMessages_.bundle,24,0,0,0,7,0,6,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.logging.impl,ElasticsearchEventContexts.new EventContextElement() {...},18,0,0,0,3,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,ElasticsearchMatchIdPredicateBuilder.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,ElasticsearchMatchAllPredicateBuilder,15,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,ElasticsearchSearchPredicateBuilderFactoryImpl.PredicateBuilderFactoryRetrievalStrategy,25,0,0,0,6,0,6,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,ElasticsearchSearchPredicateContext,10,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,ElasticsearchMatchIdPredicateBuilder,104,0,4,0,28,0,8,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,ElasticsearchRangePredicateBuilder,173,0,12,0,46,0,12,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,ElasticsearchBooleanPredicateBuilder,286,0,32,0,71,0,29,0,13,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,ElasticsearchNestedPredicateBuilder,39,0,0,0,11,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,ElasticsearchUserProvidedJsonPredicateBuilder,9,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,AbstractElasticsearchSearchPredicateBuilder,83,0,8,0,21,0,11,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,ElasticsearchSimpleQueryStringPredicateBuilder,169,0,11,0,44,0,14,0,8,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,ElasticsearchRangePredicateBuilder.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,ElasticsearchSimpleQueryStringPredicateBuilder.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,ElasticsearchBooleanPredicateBuilder.MinimumShouldMatchConstraint,34,0,4,0,10,0,4,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,ElasticsearchSearchPredicate,17,0,0,0,6,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,ElasticsearchSearchPredicateBuilderFactoryImpl,220,0,6,0,48,0,23,0,20,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.impl,ElasticsearchExistsPredicateBuilder,28,0,0,0,8,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.cfg,ElasticsearchIndexSettings.Defaults,8,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.cfg,ElasticsearchBackendSettings,3,0,0,0,2,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.cfg,ElasticsearchBackendSettings.Defaults,9,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.cfg,ElasticsearchIndexSettings,3,0,0,0,2,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.esnative.impl,DynamicType,48,0,0,0,4,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.esnative.impl,AbstractTypeMapping,58,0,4,0,16,0,12,0,10,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.esnative.impl,ElasticsearchRoutingTypeJsonAdapter,107,0,16,0,27,0,11,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.esnative.impl,RoutingType,38,0,0,0,4,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.esnative.impl,ElasticsearchRoutingTypeJsonAdapter.new Object() {...},12,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.esnative.impl,RootTypeMapping,10,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.esnative.impl,AbstractTypeMappingJsonAdapterFactory,19,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.esnative.impl,DataTypes,3,0,0,0,2,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.esnative.impl,AbstractTypeMappingJsonAdapterFactory.new TypeToken() {...},3,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.esnative.impl,ElasticsearchFormatJsonAdapter,34,0,4,0,12,0,5,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.esnative.impl,PropertyMapping,87,0,0,0,37,0,25,0,25,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.esnative.impl,RootTypeMappingJsonAdapterFactory,12,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.esnative.impl,PropertyMappingJsonAdapterFactory,69,0,0,0,15,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.query.impl,ElasticsearchSearchQueryBuilderFactory,104,0,2,0,17,0,8,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.query.impl,ElasticsearchSearchResultImpl,32,0,2,0,8,0,5,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.query.impl,ElasticsearchSearchRequestTransformerContextImpl,125,0,14,0,31,0,15,0,8,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.query.impl,Elasticsearch6SearchResultExtractorFactory,10,0,0,0,2,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.query.impl,Elasticsearch7SearchResultExtractorFactory,10,0,0,0,2,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.query.impl,ElasticsearchSearchQueryBuilder,241,0,18,0,58,0,20,0,11,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.query.impl,ElasticsearchSearchQueryExtractContext,39,0,0,0,11,0,6,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.query.impl,ElasticsearchLoadableSearchResult,99,0,6,0,27,0,5,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.query.impl,ElasticsearchSearchQueryRequestContext,43,0,4,0,10,0,5,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.query.impl,Elasticsearch7SearchResultExtractor,202,0,8,0,43,0,10,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.query.impl,ElasticsearchSearchQueryImpl,246,0,10,0,64,0,16,0,11,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.query.impl,Elasticsearch6SearchResultExtractor,21,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.multitenancy,MultiTenancyStrategyName,62,0,0,0,10,0,6,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.multitenancy.impl,DiscriminatorMultiTenancyStrategy,160,0,4,0,40,0,12,0,10,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.multitenancy.impl,NoMultiTenancyStrategy,42,0,2,0,13,0,11,0,10,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,SearchProjectionBackendContext,9,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchJsonHitProjectionBuilder,12,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchFieldProjection,99,0,4,0,26,0,9,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchDocumentReferenceProjectionBuilder,13,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchEntityProjection,38,0,2,0,13,0,7,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchCompositeBiFunctionProjection,27,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchSearchProjection,6,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchFieldProjectionBuilder,27,0,0,0,7,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchSearchProjectionBuilderFactory.ProjectionBuilderFactoryRetrievalStrategy,23,0,0,0,6,0,6,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchJsonHitProjection,18,0,0,0,8,0,6,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchSearchProjectionBuilderFactory.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchScoreProjection,33,0,0,0,11,0,7,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchDocumentReferenceProjection,28,0,0,0,10,0,6,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchDistanceToFieldProjection,323,0,22,0,70,0,21,0,10,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchSourceProjection,58,0,4,0,17,0,9,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchCompositeFunctionProjection,20,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,SearchProjectionTransformContext,23,0,0,0,10,0,5,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchEntityReferenceProjectionBuilder,13,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchDistanceToFieldProjectionBuilder,37,0,0,0,10,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchSourceProjectionBuilder,12,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,DocumentReferenceExtractorHelper,50,0,0,0,13,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchExplanationProjectionBuilder,12,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchEntityProjectionBuilder,13,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,DistanceSortKey,52,0,8,0,12,0,7,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,SearchProjectionExtractContext,12,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchCompositeProjectionBuilder,9,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchCompositeTriFunctionProjection,34,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,AbstractElasticsearchCompositeProjection,108,0,6,0,20,0,9,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchSearchProjectionBuilderFactory,246,0,8,0,50,0,20,0,16,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchExplanationProjection,38,0,0,0,11,0,7,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchCompositeListProjection,18,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchEntityReferenceProjection,30,0,0,0,10,0,6,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.impl,ElasticsearchScoreProjectionBuilder,12,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.dialect.protocol.impl,Elasticsearch60ProtocolDialect,5,3,0,0,1,1,1,1,1,1
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.dialect.protocol.impl,Elasticsearch70ProtocolDialect,17,3,0,0,4,1,4,1,4,1
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.dialect.protocol.impl,Elasticsearch67ProtocolDialect,9,3,0,0,2,1,2,1,2,1
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.dialect.protocol.impl,Elasticsearch56ProtocolDialect,4,3,0,0,1,1,1,1,1,1
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.impl,ElasticsearchIndexSchemaObjectNode,84,0,4,0,17,0,12,0,10,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.impl,ElasticsearchIndexSchemaFieldNode,110,0,2,0,29,0,13,0,12,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.impl,ElasticsearchIndexModel,78,0,0,0,23,0,10,0,10,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.projection.util.impl,SloppyMath,548,0,30,0,103,0,24,0,9,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.work.result.impl,CreateIndexResult,38,0,0,0,3,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.impl,ElasticsearchIndexObjectFieldReference,31,0,2,0,10,0,7,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.impl,ElasticsearchIndexFieldReference,56,0,2,0,11,0,8,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.impl,ElasticsearchDocumentObjectBuilder,154,0,20,0,40,0,18,0,8,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.aggregation.impl,AbstractElasticsearchAggregation,11,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.aggregation.impl,ElasticsearchUserProvidedJsonAggregation.Builder,13,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.aggregation.impl,AbstractElasticsearchBucketAggregation,29,0,0,0,8,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.aggregation.impl,ElasticsearchUserProvidedJsonAggregation,13,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.aggregation.impl,ElasticsearchSearchAggregationBuilderFactory.AggregationBuilderFactoryRetrievalStrategy,23,0,0,0,6,0,6,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.aggregation.impl,ElasticsearchSearchAggregationBuilderFactory,118,0,6,0,28,0,11,0,8,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.aggregation.impl,ElasticsearchRangeAggregation,84,0,2,0,19,0,5,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.aggregation.impl,ElasticsearchSearchAggregationBuilderFactory.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.aggregation.impl,AbstractElasticsearchBucketAggregation.AbstractBuilder,4,0,0,0,2,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.aggregation.impl,ElasticsearchRangeAggregation.Builder,119,0,8,0,28,0,8,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.aggregation.impl,ElasticsearchTermsAggregation,113,0,4,0,28,0,5,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.aggregation.impl,AbstractElasticsearchAggregation.AbstractBuilder,6,0,0,0,3,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.aggregation.impl,ElasticsearchTermsAggregation.Builder,71,0,0,0,24,0,9,0,9,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.projection.impl,ElasticsearchGeoPointFieldProjectionBuilderFactory,124,0,14,0,30,0,15,0,8,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.projection.impl,ElasticsearchStandardFieldProjectionBuilderFactory.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.projection.impl,ElasticsearchStandardFieldProjectionBuilderFactory,117,0,14,0,30,0,15,0,8,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.projection.impl,ElasticsearchGeoPointFieldProjectionBuilderFactory.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.util.spi,URLEncodedString,66,0,6,0,21,0,9,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.format.impl,Elasticsearch7DefaultFieldFormatProvider,150,0,6,0,31,0,7,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.format.impl,Elasticsearch6DefaultFieldFormatProvider,270,0,8,0,37,0,9,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.management.impl,ElasticsearchIndexLifecycleStrategy,81,0,9,0,17,0,10,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.index.management.impl,ElasticsearchIndexLifecycleStrategy.new Object() {...},47,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.dsl.impl,ElasticsearchAnalyzerParametersStep,36,0,2,0,8,0,4,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.dsl.impl,ElasticsearchTokenFilterParametersStep,32,0,2,0,7,0,4,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.dsl.impl,ElasticsearchAnalysisConfigurationContextImpl.new ElasticsearchAnalyzerTypeStep() {...},38,0,0,0,7,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.dsl.impl,ElasticsearchCharFilterParametersStep,32,0,2,0,7,0,4,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.dsl.impl,AbstractElasticsearchAnalysisComponentParametersStep,161,0,10,0,30,0,15,0,10,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.dsl.impl,ElasticsearchAnalysisConfigurationContextImpl,82,0,2,0,20,0,9,0,8,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.dsl.impl,ElasticsearchNormalizerComponentsStep,74,0,4,0,15,0,6,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.dsl.impl,ElasticsearchTokenizerParametersStep,32,0,2,0,7,0,4,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.dsl.impl,ElasticsearchAnalyzerComponentsStep,96,0,6,0,20,0,9,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.spi,JsonLogHelper,144,0,12,0,44,0,17,0,11,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.spi,GsonProvider,75,0,2,0,22,0,8,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.scope.model.impl,ElasticsearchScopedIndexRootComponent,22,0,0,0,8,0,5,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.scope.model.impl,ElasticsearchScopedIndexFieldComponent,34,0,0,0,12,0,7,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.scope.model.impl,ElasticsearchFailingFieldCompatibilityChecker,32,0,0,0,9,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.scope.model.impl,ElasticsearchScopeModel,409,0,40,0,109,0,37,0,17,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.scope.model.impl,ElasticsearchFailingIdCompatibilityChecker,29,0,0,0,8,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.scope.model.impl,ElasticsearchSucceedingCompatibilityChecker,6,0,0,0,3,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.aggregation.impl,ElasticsearchGeoPointFieldAggregationBuilderFactory,84,0,12,0,20,0,12,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.aggregation.impl,ElasticsearchTextFieldAggregationBuilderFactory,38,0,2,0,10,0,5,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.aggregation.impl,ElasticsearchStandardFieldAggregationBuilderFactory,177,0,22,0,44,0,20,0,9,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.aggregation.impl,ElasticsearchStandardFieldAggregationBuilderFactory.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.aggregation.impl,ElasticsearchBooleanFieldAggregationBuilderFactory,20,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.dialect.impl,ElasticsearchDialectFactory,13,118,3,25,3,35,3,15,0,4
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,ElasticsearchWorkOrchestrator,13,0,0,0,3,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,ElasticsearchDefaultWorkSequenceBuilder.SequenceContext,46,0,4,0,16,0,7,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,ElasticsearchDefaultWorkExecutionContext,127,0,8,0,33,0,13,0,9,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,ElasticsearchDefaultWorkSequenceBuilder.BulkResultExtractionStepImpl,90,0,4,0,20,0,8,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,ElasticsearchSerialWorkProcessor.BulkAndSequenceAggregator,12,35,1,1,4,12,3,5,2,5
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,ElasticsearchBatchingWorkOrchestrator.ElasticsearchChildBatchingWorkOrchestrator,18,0,0,0,8,0,5,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,ElasticsearchParallelWorkProcessor,62,0,0,0,18,0,7,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,ElasticsearchDefaultWorkSequenceBuilder,191,0,2,0,45,0,20,0,19,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,ElasticsearchDefaultWorkBulker,248,0,22,0,66,0,18,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,ElasticsearchSerialWorkProcessor,6,42,0,0,2,12,2,5,2,5
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,ElasticsearchSingleWorkSet,30,0,0,0,10,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,ElasticsearchDefaultWorkSequenceBuilder.PreviousWorkException,4,0,0,0,2,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,ElasticsearchParallelWorkProcessor.BulkAndSequenceAggregator,78,0,4,0,25,0,9,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,ElasticsearchWorkOrchestratorProvider,133,0,0,0,28,0,14,0,14,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,ElasticsearchBatchingWorkOrchestrator,42,0,0,0,12,0,6,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,ElasticsearchImmutableWorkExecutionContext,30,0,0,0,8,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.orchestration.impl,AbstractElasticsearchWorkOrchestrator,17,0,0,0,5,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.dsl.impl,AbstractElasticsearchIndexSchemaObjectNodeBuilder,115,0,4,0,27,0,11,0,9,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.dsl.impl,ElasticsearchIndexSchemaFieldNodeBuilder,87,0,4,0,22,0,8,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.dsl.impl,ElasticsearchIndexSchemaObjectFieldNodeBuilder,157,0,12,0,42,0,15,0,8,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.dsl.impl,ElasticsearchIndexSchemaRootNodeBuilder,101,0,4,0,27,0,11,0,9,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.dsl.impl,ElasticsearchIndexSchemaRootNodeBuilder.new ElasticsearchIndexSchemaNodeCollector() {...},26,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.document.model.dsl.impl,ElasticsearchIndexSchemaObjectFieldNodeBuilder.new Object() {...},26,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchBigIntegerFieldCodec,99,0,22,0,25,0,18,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchIntegerFieldCodec,36,0,8,0,10,0,9,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchStringFieldCodec,36,0,8,0,10,0,9,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchZonedDateTimeFieldCodec,14,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchMonthDayFieldCodec,32,0,0,0,8,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchJsonElementFieldCodec,45,0,12,0,15,0,10,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchInstantFieldCodec,23,0,0,0,5,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchOffsetTimeFieldCodec,22,0,0,0,5,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchShortFieldCodec,36,0,8,0,10,0,9,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchOffsetDateTimeFieldCodec,14,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchLongFieldCodec,36,0,8,0,10,0,9,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchLocalDateFieldCodec,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchDoubleFieldCodec,36,0,8,0,10,0,9,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchFloatFieldCodec,36,0,8,0,10,0,9,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchLocalDateTimeFieldCodec,15,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchYearFieldCodec,18,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchGeoPointFieldCodec,92,0,8,0,20,0,9,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchBooleanFieldCodec,56,0,14,0,14,0,13,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchByteFieldCodec,36,0,8,0,10,0,9,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchFieldCodec,8,0,0,0,2,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchYearMonthFieldCodec,18,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,AbstractElasticsearchJavaTimeFieldCodec,72,0,12,0,20,0,13,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchLocalTimeFieldCodec,23,0,0,0,5,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.codec.impl,ElasticsearchBigDecimalFieldCodec,83,0,18,0,22,0,15,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.client.impl,Paths,58,0,0,0,20,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.client.impl,GsonHttpEntity,217,0,16,0,65,0,24,0,16,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.client.impl,CountingOutputStream,45,0,2,0,15,0,7,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.client.impl,ServerUris,102,0,6,0,25,0,9,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.client.impl,ProgressiveCharBufferWriter,293,0,50,0,80,0,38,0,13,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.client.impl,ElasticsearchClientImpl.new ResponseListener() {...},36,0,2,0,8,0,4,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.client.impl,ElasticsearchClientImpl,441,0,38,0,77,0,35,0,16,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.client.impl,ElasticsearchClientFactoryImpl,331,0,14,0,106,0,17,0,10,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.client.impl,ElasticsearchClientUtils,89,0,8,0,22,0,10,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.query.dsl.impl,ElasticsearchSearchQueryOptionsStepImpl,36,0,0,0,10,0,7,0,7,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.query.dsl.impl,ElasticsearchSearchQueryHitTypeStepImpl,110,0,0,0,27,0,12,0,12,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.provider.impl,Elasticsearch7IndexFieldTypeFactoryProvider,21,0,0,0,5,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.types.dsl.provider.impl,Elasticsearch6IndexFieldTypeFactoryProvider,21,0,0,0,5,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.impl,ElasticsearchLinkImpl,194,0,16,0,42,0,19,0,11,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.impl,ElasticsearchBackendImpl,290,0,18,0,53,0,20,0,11,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.impl,ElasticsearchBackendFactory,274,0,13,0,70,0,13,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.impl,ElasticsearchBeanConfigurer,14,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.impl,ElasticsearchIndexNameNormalizer,24,0,2,0,7,0,4,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.impl,ElasticsearchBackendFactory.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.impl,ElasticsearchAnalysisDefinitionRegistry.new ElasticsearchAnalysisDefinitionCollector() {...},96,0,20,0,21,0,16,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.analysis.model.impl,ElasticsearchAnalysisDefinitionRegistry,78,0,0,0,21,0,8,0,8,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.dsl.impl,ElasticsearchJsonPredicateFinalStep,21,0,0,0,7,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.predicate.dsl.impl,ElasticsearchSearchPredicateFactoryImpl,21,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.impl,ElasticsearchDocumentReference,79,0,8,0,17,0,10,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.impl,ElasticsearchSearchContext,53,0,0,0,15,0,8,0,8,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.impl,Elasticsearch7JsonSyntaxHelper,7,0,0,0,3,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.search.impl,Elasticsearch56JsonSyntaxHelper,7,0,0,0,3,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.util.impl,ElasticsearchFields,60,0,2,0,17,0,7,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.util.impl,AnalyzerConstants,3,0,0,0,2,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.dialect.model.impl,Elasticsearch56ModelDialect,0,3,0,0,0,1,0,1,0,1
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.dialect.model.impl,Elasticsearch6ModelDialect,5,3,0,0,1,1,1,1,1,1
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.dialect.model.impl,Elasticsearch7ModelDialect,5,3,0,0,1,1,1,1,1,1
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,ObjectPropertyJsonAccessor,38,0,2,0,12,0,6,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,AbstractCrawlingJsonAccessor,153,0,8,0,36,0,21,0,17,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementTypes.new JsonElementTypes.JsonNumberType() {...},18,0,0,0,3,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementTypes.new JsonElementType() {...},14,0,0,0,5,0,5,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementTypes.new JsonElementTypes.JsonNumberType() {...},20,0,0,0,4,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementTypes.new JsonElementTypes.JsonNumberType() {...},17,0,0,0,3,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementTypes.new JsonElementTypes.JsonNumberType() {...},18,0,0,0,3,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,AbstractExtraPropertiesJsonAdapter,108,0,12,0,33,0,9,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,RootJsonAccessor,53,0,2,0,15,0,12,0,11,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementTypes,60,0,0,0,16,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonLongAccessor,6,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonObjectAccessorImpl,62,0,2,0,14,0,7,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementType,47,0,10,0,11,0,9,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,AbstractConfiguredExtraPropertiesJsonAdapterFactory.Builder,80,0,2,0,17,0,6,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonStringAccessor,6,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,AbstractTypingJsonAccessor,90,0,6,0,19,0,14,0,11,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,AbstractNonRootJsonAccessor,55,0,4,0,16,0,6,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,ArrayElementJsonAccessor,55,0,6,0,15,0,9,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonDoubleAccessor,6,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,AbstractConfiguredExtraPropertiesJsonAdapterFactory.ReflectiveFieldAdapter,77,0,2,0,18,0,5,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonBooleanAccessor,6,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementTypes.JsonNumberType,29,0,6,0,4,0,7,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonFloatAccessor,6,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementTypes.new JsonElementTypes.JsonNumberType() {...},18,0,0,0,3,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementTypes.new JsonElementTypes.JsonNumberType() {...},18,0,0,0,3,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementTypes.new JsonElementType() {...},19,0,2,0,5,0,6,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementTypes.new JsonElementType() {...},19,0,2,0,5,0,6,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementTypes.new JsonElementType() {...},19,0,2,0,5,0,6,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementTypes.new JsonElementTypes.JsonNumberType() {...},18,0,0,0,3,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementTypes.new JsonElementTypes.JsonNumberType() {...},18,0,0,0,3,0,3,0,3,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementTypes.new JsonElementType() {...},39,0,6,0,5,0,8,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonElementTypes.new JsonElementType() {...},38,0,6,0,5,0,8,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonArrayAccessorImpl,18,0,0,0,5,0,4,0,4,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,UnexpectedJsonElementTypeException,33,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonAccessor,2,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,JsonIntegerAccessor,6,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,AbstractConfiguredExtraPropertiesJsonAdapterFactory.ReflectiveExtraPropertyAdapter,151,0,6,0,32,0,8,0,5,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,AbstractConfiguredExtraPropertiesJsonAdapterFactory,157,0,10,0,31,0,11,0,6,0
+Hibernate Search Backend - Elasticsearch,org.hibernate.search.backend.elasticsearch.gson.impl,AbstractConfiguredExtraPropertiesJsonAdapterFactory.Adapter,31,0,0,0,6,0,2,0,2,0

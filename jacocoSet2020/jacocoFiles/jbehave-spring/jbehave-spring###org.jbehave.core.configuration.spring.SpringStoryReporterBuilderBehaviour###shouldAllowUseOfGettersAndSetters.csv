@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JBehave Spring,org.jbehave.core.junit.spring,SpringAnnotatedEmbedderRunner,14,0,0,0,4,0,2,0,2,0
+JBehave Spring,org.jbehave.core.junit.spring,SpringAnnotatedPathRunner,10,0,0,0,3,0,2,0,2,0
+JBehave Spring,org.jbehave.core.configuration.spring,SpringStoryControls,83,0,0,0,31,0,21,0,21,0
+JBehave Spring,org.jbehave.core.configuration.spring,SpringAnnotationBuilder,200,0,22,0,41,0,20,0,9,0
+JBehave Spring,org.jbehave.core.configuration.spring,SpringStoryReporterBuilder,16,68,0,0,6,23,4,16,4,16
+JBehave Spring,org.jbehave.core.configuration.spring,SpringParameterControls,17,0,0,0,5,0,5,0,5,0
+JBehave Spring,org.jbehave.core.configuration.spring,SpringEmbedderControls,83,0,0,0,31,0,21,0,21,0
+JBehave Spring,org.jbehave.core.steps.spring,SpringApplicationContextFactory,115,0,4,0,26,0,6,0,4,0
+JBehave Spring,org.jbehave.core.steps.spring,SpringStepsFactory,113,0,16,0,19,0,13,0,5,0

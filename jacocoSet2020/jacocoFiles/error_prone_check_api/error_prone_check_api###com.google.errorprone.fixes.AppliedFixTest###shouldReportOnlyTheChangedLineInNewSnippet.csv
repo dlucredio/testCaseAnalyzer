@@ -1,0 +1,336 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+error-prone check api,com.google.errorprone.apply,DiffNotApplicableException,13,0,0,0,6,0,3,0,3,0
+error-prone check api,com.google.errorprone.apply,ImportOrganizer,0,21,0,0,0,6,0,1,0,1
+error-prone check api,com.google.errorprone.apply,SourceFile,76,170,3,15,13,34,6,16,3,10
+error-prone check api,com.google.errorprone.apply,AndroidImportOrganizer,2,115,1,7,1,38,1,9,0,6
+error-prone check api,com.google.errorprone.apply,StaticOrder,21,41,0,0,1,9,2,3,2,3
+error-prone check api,com.google.errorprone.apply,ImportOrganizer.Import,0,44,0,4,0,8,0,5,0,3
+error-prone check api,com.google.errorprone.apply,DiffApplier,155,0,6,0,45,0,9,0,6,0
+error-prone check api,com.google.errorprone.apply,ImportStatements,29,194,4,14,8,51,6,14,3,8
+error-prone check api,com.google.errorprone.apply,FsFileSource,20,0,0,0,5,0,2,0,2,0
+error-prone check api,com.google.errorprone.apply,ImportOrganizer.OrganizedImports,0,70,1,7,0,16,1,9,0,6
+error-prone check api,com.google.errorprone.apply,PatchFileDestination,92,0,2,0,21,0,7,0,6,0
+error-prone check api,com.google.errorprone.apply,AutoValue_ImportOrganizer_Import,60,17,11,1,14,7,8,3,2,3
+error-prone check api,com.google.errorprone.apply,BasicImportOrganizer,0,25,0,0,0,10,0,2,0,2
+error-prone check api,com.google.errorprone.apply,DiscardingFileDestination,21,0,0,0,5,0,4,0,4,0
+error-prone check api,com.google.errorprone.apply,FsFileDestination,23,0,0,0,7,0,3,0,3,0
+error-prone check api,com.google.errorprone.apply,DescriptionBasedDiff,200,0,24,0,44,0,20,0,8,0
+error-prone check api,com.google.errorprone.apply,ImportStatements.new Function() {...},0,16,0,0,0,5,0,2,0,2
+error-prone check api,com.google.errorprone.apply,DiffApplier.Task,90,0,2,0,16,0,3,0,2,0
+error-prone check api,com.google.errorprone.predicates,TypePredicates,105,0,10,0,20,0,20,0,15,0
+error-prone check api,com.google.errorprone,ErrorProneOptions.PatchingOptions,0,26,0,4,0,7,0,5,0,3
+error-prone check api,com.google.errorprone,MaskedClassLoader,27,0,4,0,10,0,5,0,3,0
+error-prone check api,com.google.errorprone,MaskedClassLoader.MaskedFileManager,22,0,0,0,6,0,3,0,3,0
+error-prone check api,com.google.errorprone,ImportOrderParser,20,29,5,8,2,5,6,4,1,1
+error-prone check api,com.google.errorprone,BaseErrorProneJavaCompiler,327,0,32,0,83,0,32,0,15,0
+error-prone check api,com.google.errorprone,BugCheckerInfo,266,0,16,0,84,0,32,0,23,0
+error-prone check api,com.google.errorprone,RefactoringCollection.DelegatingDescriptionListener,21,0,0,0,7,0,2,0,2,0
+error-prone check api,com.google.errorprone,ErrorProneOptions.PatchingOptions.Builder,0,28,0,6,0,8,0,5,0,2
+error-prone check api,com.google.errorprone,ErrorProneOptions,190,277,54,30,30,74,37,28,6,14
+error-prone check api,com.google.errorprone,VisitorState,800,0,108,0,204,0,107,0,49,0
+error-prone check api,com.google.errorprone,AutoValue_CompositeCodeTransformer,60,0,6,0,19,0,8,0,5,0
+error-prone check api,com.google.errorprone,BaseErrorProneCompiler,135,0,10,0,39,0,10,0,5,0
+error-prone check api,com.google.errorprone,ErrorProneFlags.Builder,0,55,0,2,0,12,0,5,0,4
+error-prone check api,com.google.errorprone,RefactoringCollection.RefactoringResultType,50,0,0,0,4,0,4,0,4,0
+error-prone check api,com.google.errorprone,ErrorProneError,237,0,2,0,59,0,6,0,5,0
+error-prone check api,com.google.errorprone,SuppressionInfo.SuppressedState,50,0,0,0,4,0,4,0,4,0
+error-prone check api,com.google.errorprone,SuppressionInfo.new SimpleTreeVisitor() {...},32,0,4,0,4,0,4,0,2,0
+error-prone check api,com.google.errorprone,SuppressionInfo,300,0,40,0,65,0,29,0,9,0
+error-prone check api,com.google.errorprone,RefactoringCollection.new Function() {...},45,0,0,0,11,0,2,0,2,0
+error-prone check api,com.google.errorprone,StatisticsCollector,13,0,0,0,4,0,3,0,3,0
+error-prone check api,com.google.errorprone,VisitorState.SharedState,48,0,0,0,14,0,1,0,1,0
+error-prone check api,com.google.errorprone,ErrorProneOptions.Severity,0,70,0,0,0,6,0,4,0,4
+error-prone check api,com.google.errorprone,BaseErrorProneCompiler.Builder,46,0,0,0,12,0,5,0,5,0
+error-prone check api,com.google.errorprone,JavacErrorDescriptionListener,248,0,28,0,61,0,25,0,10,0
+error-prone check api,com.google.errorprone,ErrorProneFlags,12,164,0,4,1,35,2,21,2,19
+error-prone check api,com.google.errorprone,RefactoringCollection,233,0,12,0,63,0,15,0,9,0
+error-prone check api,com.google.errorprone,JavacInvocationInstance,20,0,2,0,6,0,3,0,2,0
+error-prone check api,com.google.errorprone,SubContext,34,0,4,0,7,0,5,0,3,0
+error-prone check api,com.google.errorprone,RefactoringCollection.RefactoringResult,9,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone,ErrorProneAnalyzer,313,0,25,0,76,0,22,0,9,0
+error-prone check api,com.google.errorprone,ErrorProneOptions.Builder,36,192,4,6,6,61,9,14,7,11
+error-prone check api,com.google.errorprone,AutoValue_RefactoringCollection_RefactoringResult,100,0,12,0,27,0,12,0,6,0
+error-prone check api,com.google.errorprone,ErrorProneTimings,69,0,2,0,14,0,10,0,9,0
+error-prone check api,com.google.errorprone,VisitorState.Cache,61,0,6,0,17,0,5,0,2,0
+error-prone check api,com.google.errorprone,ErrorPronePlugins,36,0,4,0,12,0,4,0,2,0
+error-prone check api,com.google.errorprone,InvalidCommandLineOptionException,0,4,0,0,0,2,0,1,0,1
+error-prone check api,com.google.errorprone,ErrorProneVersion,59,0,12,0,9,0,8,0,2,0
+error-prone check api,com.google.errorprone,MaskedClassLoader.new Context.Factory() {...},8,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone,StatisticsCollector.new StatisticsCollector() {...},17,0,0,0,5,0,3,0,3,0
+error-prone check api,com.google.errorprone,StatisticsCollector.new StatisticsCollector() {...},6,0,0,0,3,0,3,0,3,0
+error-prone check api,com.google.errorprone,CompositeCodeTransformer,33,0,2,0,7,0,6,0,5,0
+error-prone check api,com.google.errorprone,BaseErrorProneJavaCompiler.RefactoringTask,54,0,4,0,18,0,5,0,3,0
+error-prone check api,com.google.errorprone,BaseErrorProneJavaCompiler.CFCacheClearingListener,9,0,2,0,4,0,3,0,2,0
+error-prone check api,com.google.errorprone,AutoValue_ErrorProneOptions_PatchingOptions.Builder,67,74,9,9,9,29,9,7,0,7
+error-prone check api,com.google.errorprone,AutoValue_ErrorProneOptions_PatchingOptions,142,33,16,0,29,12,11,6,3,6
+error-prone check api,com.google.errorprone.names,NeedlemanWunschEditDistance,364,0,22,0,58,0,16,0,5,0
+error-prone check api,com.google.errorprone.names,TermEditDistance,202,0,4,0,45,0,17,0,15,0
+error-prone check api,com.google.errorprone.names,LevenshteinEditDistance,194,0,28,0,34,0,20,0,6,0
+error-prone check api,com.google.errorprone.names,NamingConventions,51,0,2,0,10,0,5,0,4,0
+error-prone check api,com.google.errorprone.scanner,InstanceReturningScannerSupplierImpl,27,0,0,0,9,0,7,0,7,0
+error-prone check api,com.google.errorprone.scanner,ErrorProneScanner,1656,0,128,0,437,0,126,0,62,0
+error-prone check api,com.google.errorprone.scanner,ScannerSupplier,488,0,49,0,120,0,45,0,19,0
+error-prone check api,com.google.errorprone.scanner,Scanner,123,0,14,0,36,0,16,0,9,0
+error-prone check api,com.google.errorprone.scanner,ScannerSupplierImpl,159,0,4,0,44,0,13,0,11,0
+error-prone check api,com.google.errorprone.scanner,ErrorProneScannerTransformer,37,0,0,0,8,0,5,0,5,0
+error-prone check api,com.google.errorprone.scanner,AutoValue_ErrorProneScannerTransformer,60,0,6,0,19,0,8,0,5,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation,NullnessPropagationTransfer.ClassAndField,55,0,4,0,11,0,9,0,7,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation,NullnessPropagationTransfer,998,90,154,0,272,26,127,3,50,3
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation,TrustingNullnessAnalysis,174,0,12,0,44,0,12,0,6,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation,AbstractNullnessPropagationTransfer.ResultingStore,9,0,0,0,4,0,1,0,1,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation,TrustingNullnessPropagation.TrustReturnAnnotation,51,0,2,0,5,0,6,0,5,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation,Nullness,21,117,1,15,2,28,3,14,2,6
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation,NullnessPropagationTransfer.ClassAndMethod,142,0,16,0,48,0,19,0,11,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation,NullnessPropagationTransfer.MemberName,2,45,2,4,1,8,2,4,0,3
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation,NullnessAnalysis,64,0,2,0,14,0,5,0,4,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation,AbstractNullnessPropagationTransfer,1144,0,26,0,260,0,160,0,147,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation,AbstractNullnessPropagationTransfer.ReadableUpdates,53,0,2,0,12,0,6,0,5,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation,TrustingNullnessPropagation,16,0,2,0,5,0,3,0,2,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation,NullnessPropagationTransfer.ReturnValueIsNonNull,153,0,16,0,48,0,11,0,3,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation,NullnessAnnotations,157,0,24,0,52,0,25,0,13,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatchState,13,0,0,0,3,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.Token.Kind,13,0,0,0,4,0,4,0,4,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.TokenType,90,0,0,0,8,0,4,0,4,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.MethodKind,60,0,0,0,5,0,4,0,4,0
+error-prone check api,com.google.errorprone.matchers.method,AutoValue_MethodInvocationMatcher_Rule,60,0,6,0,19,0,8,0,5,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.RulePart,16,0,0,0,5,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.Rule,8,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers.method,AutoValue_MethodMatchState,100,0,12,0,27,0,12,0,6,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl,322,0,14,0,91,0,37,0,30,0
+error-prone check api,com.google.errorprone.matchers.method,AutoValue_MethodInvocationMatcher_Token_Kind,60,0,6,0,19,0,8,0,5,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatchers,11,0,0,0,5,0,5,0,5,0
+error-prone check api,com.google.errorprone.matchers.method,ConstructorMatchState,13,0,0,0,3,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher,375,0,48,0,82,0,31,0,7,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.new MethodMatcherImpl.Constraint() {...},24,0,0,0,3,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.new MethodMatcherImpl.OpaqueConstraint() {...},17,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.new MethodMatcherImpl.Constraint() {...},62,0,6,0,12,0,7,0,4,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.Token.ReceiverSupertype,13,0,0,0,4,0,4,0,4,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.new MethodMatcherImpl.OpaqueConstraint() {...},28,0,4,0,3,0,4,0,2,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.new MethodMatcherImpl.Constraint() {...},11,0,0,0,4,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.new MethodMatcherImpl.Constraint() {...},13,0,0,0,4,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.new MethodMatcherImpl.Constraint() {...},17,0,2,0,4,0,4,0,3,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.new MethodMatcherImpl.OpaqueConstraint() {...},17,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.new MethodMatcherImpl.Constraint() {...},13,0,0,0,6,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.new MethodMatcherImpl.OpaqueConstraint() {...},19,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.new MethodMatcherImpl.Constraint() {...},31,0,0,0,7,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.new MethodMatcherImpl.Constraint() {...},23,0,0,0,3,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.new MethodMatcherImpl.Constraint() {...},26,0,0,0,4,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.new MethodMatcherImpl.Constraint() {...},30,0,0,0,7,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.new MethodMatcherImpl.Constraint() {...},26,0,0,0,4,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.new MethodMatcherImpl.Constraint() {...},30,0,0,0,7,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.Context,25,0,2,0,8,0,3,0,2,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.Node,3,0,0,0,1,0,1,0,1,0
+error-prone check api,com.google.errorprone.matchers.method,MatchState,5,0,0,0,1,0,1,0,1,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.Token.MethodName,13,0,0,0,4,0,4,0,4,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.Token.ParameterTypes,13,0,0,0,4,0,4,0,4,0
+error-prone check api,com.google.errorprone.matchers.method,BaseMethodMatcher,58,0,12,0,23,0,9,0,3,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.Token.DefinedIn,13,0,0,0,4,0,4,0,4,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.TokenType.new MethodInvocationMatcher.TokenType() {...},12,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.TokenType.new MethodInvocationMatcher.TokenType() {...},22,0,0,0,4,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.TokenType.new MethodInvocationMatcher.TokenType() {...},12,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.TokenType.new MethodInvocationMatcher.TokenType() {...},13,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.NodeWithDefault,12,0,0,0,5,0,1,0,1,0
+error-prone check api,com.google.errorprone.matchers.method,AutoValue_MethodInvocationMatcher_Token_ParameterTypes,60,0,6,0,19,0,8,0,5,0
+error-prone check api,com.google.errorprone.matchers.method,AutoValue_MethodInvocationMatcher_Token_ReceiverSupertype,60,0,6,0,19,0,8,0,5,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.TokenType.new MethodInvocationMatcher.TokenType() {...},11,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.TokenType.new MethodInvocationMatcher.TokenType() {...},21,0,4,0,4,0,4,0,2,0
+error-prone check api,com.google.errorprone.matchers.method,AutoValue_ConstructorMatchState,60,0,6,0,19,0,8,0,5,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.Token.ReceiverType,13,0,0,0,4,0,4,0,4,0
+error-prone check api,com.google.errorprone.matchers.method,AutoValue_MethodInvocationMatcher_Token_MethodName,60,0,6,0,19,0,8,0,5,0
+error-prone check api,com.google.errorprone.matchers.method,MethodInvocationMatcher.GraphMatcher,206,0,24,0,41,0,20,0,8,0
+error-prone check api,com.google.errorprone.matchers.method,AutoValue_MethodInvocationMatcher_Token_ReceiverType,60,0,6,0,19,0,8,0,5,0
+error-prone check api,com.google.errorprone.matchers.method,AutoValue_MethodInvocationMatcher_Token_DefinedIn,60,0,6,0,19,0,8,0,5,0
+error-prone check api,com.google.errorprone.matchers.method,MethodMatcherImpl.OpaqueConstraint,5,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation.inference,NullnessQualifierInference.TypeAndSymbol,13,0,0,0,3,0,3,0,3,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation.inference,NullnessQualifierInference,963,0,104,0,258,0,84,0,32,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation.inference,NullnessQualifierInference.new CacheLoader() {...},20,0,0,0,5,0,2,0,2,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation.inference,ProperInferenceVar.new ProperInferenceVar() {...},8,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation.inference,ProperInferenceVar.new ProperInferenceVar() {...},8,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation.inference,ProperInferenceVar.new ProperInferenceVar() {...},8,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation.inference,ProperInferenceVar.new ProperInferenceVar() {...},8,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation.inference,TypeVariableInferenceVar,22,0,0,0,4,0,4,0,4,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation.inference,TypeArgInferenceVar,9,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation.inference,InferredNullability,141,0,14,0,33,0,12,0,5,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation.inference,AutoValue_NullnessQualifierInference_TypeAndSymbol,105,0,16,0,25,0,14,0,6,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation.inference,AutoValue_TypeArgInferenceVar,100,0,12,0,27,0,12,0,6,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation.inference,AutoValue_TypeVariableInferenceVar,136,0,16,0,35,0,15,0,7,0
+error-prone check api,com.google.errorprone.dataflow.nullnesspropagation.inference,ProperInferenceVar,94,0,5,0,12,0,9,0,5,0
+error-prone check api,com.google.errorprone.bugpatterns,BugChecker,286,0,19,0,70,0,43,0,33,0
+error-prone check api,com.google.errorprone.matchers,AnnotationHasArgumentWithValue,55,0,8,0,15,0,6,0,2,0
+error-prone check api,com.google.errorprone.matchers,CompoundAssignment,133,0,14,0,30,0,11,0,4,0
+error-prone check api,com.google.errorprone.matchers,ChildMultiMatcher.Matchable,9,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers,AbstractTypeMatcher,11,0,0,0,5,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers,MethodInvocationArgument,28,0,2,0,7,0,3,0,2,0
+error-prone check api,com.google.errorprone.matchers,AutoValue_MultiMatcher_MultiMatchResult,95,0,12,0,25,0,12,0,6,0
+error-prone check api,com.google.errorprone.matchers,ChildMultiMatcher.MatchType,60,0,0,0,8,0,4,0,4,0
+error-prone check api,com.google.errorprone.matchers,MethodVisibility,39,0,8,0,9,0,6,0,2,0
+error-prone check api,com.google.errorprone.matchers,WaitMatchers,98,0,0,0,17,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers,CompileTimeConstantExpressionMatcher,56,0,4,0,12,0,7,0,5,0
+error-prone check api,com.google.errorprone.matchers,Enclosing.EnclosingMatcher,38,0,2,0,9,0,3,0,2,0
+error-prone check api,com.google.errorprone.matchers,HasIdentifier.HasIdentifierScanner,50,0,4,0,7,0,6,0,4,0
+error-prone check api,com.google.errorprone.matchers,ChildMultiMatcher.ListMatcher,34,0,4,0,6,0,5,0,2,0
+error-prone check api,com.google.errorprone.matchers,Enclosing,3,0,0,0,1,0,1,0,1,0
+error-prone check api,com.google.errorprone.matchers,JUnitMatchers.new TreeScanner() {...},65,0,16,0,9,0,11,0,3,0
+error-prone check api,com.google.errorprone.matchers,JUnitMatchers.new Matcher() {...},59,0,10,0,15,0,7,0,2,0
+error-prone check api,com.google.errorprone.matchers,ConstructorOfClass,34,0,6,0,7,0,5,0,2,0
+error-prone check api,com.google.errorprone.matchers,Enclosing.BlockOrCase,58,0,6,0,14,0,5,0,2,0
+error-prone check api,com.google.errorprone.matchers,ChildMultiMatcher.MatchResult,23,0,0,0,6,0,5,0,5,0
+error-prone check api,com.google.errorprone.matchers,Matchers,1930,0,184,0,369,0,294,0,201,0
+error-prone check api,com.google.errorprone.matchers,ChildMultiMatcher.AtLeastOneMatcher,40,0,6,0,7,0,5,0,2,0
+error-prone check api,com.google.errorprone.matchers,JUnitMatchers,348,0,4,0,76,0,9,0,7,0
+error-prone check api,com.google.errorprone.matchers,FieldMatchers,20,0,0,0,4,0,4,0,4,0
+error-prone check api,com.google.errorprone.matchers,AnnotationType,45,0,8,0,11,0,6,0,2,0
+error-prone check api,com.google.errorprone.matchers,MethodHasParameters,8,0,0,0,3,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers,Throws,19,0,2,0,6,0,3,0,2,0
+error-prone check api,com.google.errorprone.matchers,Asserts,19,0,2,0,6,0,3,0,2,0
+error-prone check api,com.google.errorprone.matchers,MethodInvocation.MethodArgumentMatcher,8,0,0,0,3,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers,MethodVisibility.Visibility,80,0,0,0,10,0,5,0,5,0
+error-prone check api,com.google.errorprone.matchers,ChildMultiMatcher.LastMatcher,26,0,4,0,7,0,4,0,2,0
+error-prone check api,com.google.errorprone.matchers,InjectMatchers,165,0,0,0,39,0,4,0,4,0
+error-prone check api,com.google.errorprone.matchers,CompileTimeConstantExpressionMatcher.FinalCompileTimeConstantIdentifierMatcher,54,0,14,0,16,0,9,0,2,0
+error-prone check api,com.google.errorprone.matchers,FieldMatchers.new FieldMatchers.FieldReferenceMatcher() {...},15,0,0,0,3,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers,FieldMatchers.new FieldMatchers.FieldReferenceMatcher() {...},29,0,4,0,3,0,5,0,3,0
+error-prone check api,com.google.errorprone.matchers,FieldMatchers.new FieldMatchers.FieldReferenceMatcher() {...},29,0,4,0,3,0,5,0,3,0
+error-prone check api,com.google.errorprone.matchers,AnnotationMatcher,62,0,12,0,16,0,8,0,2,0
+error-prone check api,com.google.errorprone.matchers,NullnessMatcher,26,0,2,0,6,0,3,0,2,0
+error-prone check api,com.google.errorprone.matchers,CompileTimeConstantExpressionMatcher.ExpressionWithConstValueMatcher,17,0,0,0,6,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers,Description,155,0,4,0,31,0,14,0,12,0
+error-prone check api,com.google.errorprone.matchers,StringLiteral,39,0,6,0,11,0,6,0,3,0
+error-prone check api,com.google.errorprone.matchers,CompileTimeConstantExpressionMatcher.ExpressionWithConstValueMatcher.new SimpleTreeVisitor() {...},52,0,6,0,7,0,7,0,4,0
+error-prone check api,com.google.errorprone.matchers,IsSubtypeOf,18,0,0,0,5,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers,Contains.FirstMatchingScanner,49,0,12,0,9,0,9,0,3,0
+error-prone check api,com.google.errorprone.matchers,IsSymbol,15,0,0,0,5,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers,AutoValue_ChildMultiMatcher_Matchable,100,0,12,0,27,0,12,0,6,0
+error-prone check api,com.google.errorprone.matchers,Enclosing.Block,5,0,0,0,2,0,1,0,1,0
+error-prone check api,com.google.errorprone.matchers,HasArguments,8,0,0,0,3,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers,HasIdentifier,25,0,0,0,5,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers,Enclosing.Class,5,0,0,0,2,0,1,0,1,0
+error-prone check api,com.google.errorprone.matchers,Returns,19,0,2,0,6,0,3,0,2,0
+error-prone check api,com.google.errorprone.matchers,MethodInvocation,38,0,6,0,9,0,5,0,2,0
+error-prone check api,com.google.errorprone.matchers,MethodInvocationMethodSelect,13,0,0,0,4,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers,IsSameType,20,0,0,0,6,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers,AnnotationDoesNotHaveArgument,15,0,2,0,4,0,3,0,2,0
+error-prone check api,com.google.errorprone.matchers,Contains,28,0,4,0,6,0,4,0,2,0
+error-prone check api,com.google.errorprone.matchers,FieldMatchers.FieldReferenceMatcher,39,0,12,0,8,0,9,0,3,0
+error-prone check api,com.google.errorprone.matchers,MultiMatcher.MultiMatchResult,15,0,0,0,4,0,3,0,3,0
+error-prone check api,com.google.errorprone.matchers,ChildMultiMatcher,61,0,2,0,11,0,4,0,3,0
+error-prone check api,com.google.errorprone.matchers,Matchers.IsDirectImplementationOf,8,0,0,0,3,0,2,0,2,0
+error-prone check api,com.google.errorprone.matchers,Enclosing.Method,5,0,0,0,2,0,1,0,1,0
+error-prone check api,com.google.errorprone.matchers,AutoValue_ChildMultiMatcher_MatchResult,95,0,12,0,25,0,12,0,6,0
+error-prone check api,com.google.errorprone.matchers,AnnotationMatcherUtils,37,0,6,0,10,0,5,0,2,0
+error-prone check api,com.google.errorprone.matchers,ChildMultiMatcher.AllMatcher,35,0,4,0,7,0,4,0,2,0
+error-prone check api,com.google.errorprone.matchers,Description.Builder,104,0,6,0,24,0,9,0,6,0
+error-prone check api,com.google.errorprone.dataflow,DataFlow,141,0,24,0,46,0,17,0,5,0
+error-prone check api,com.google.errorprone.dataflow,DataFlow.CfgParams,16,0,0,0,5,0,3,0,3,0
+error-prone check api,com.google.errorprone.dataflow,AutoValue_AccessPath,105,0,16,0,25,0,14,0,6,0
+error-prone check api,com.google.errorprone.dataflow,AutoValue_AccessPathStore,34,26,3,3,10,9,5,3,2,3
+error-prone check api,com.google.errorprone.dataflow,AutoValue_DataFlow_CfgParams,60,0,6,0,19,0,8,0,5,0
+error-prone check api,com.google.errorprone.dataflow,AccessPathStore.Builder,0,27,0,0,0,6,0,3,0,3
+error-prone check api,com.google.errorprone.dataflow,AccessPath,185,0,34,0,44,0,24,0,7,0
+error-prone check api,com.google.errorprone.dataflow,LocalStore,89,51,14,2,22,12,17,6,9,6
+error-prone check api,com.google.errorprone.dataflow,DataFlow.new CacheLoader() {...},75,0,8,0,18,0,6,0,2,0
+error-prone check api,com.google.errorprone.dataflow,DataFlow.new DataFlow.Result() {...},15,0,0,0,3,0,3,0,3,0
+error-prone check api,com.google.errorprone.dataflow,DataFlow.new CacheLoader() {...},23,0,0,0,7,0,2,0,2,0
+error-prone check api,com.google.errorprone.dataflow,DataFlow.AnalysisParams,17,0,0,0,5,0,3,0,3,0
+error-prone check api,com.google.errorprone.dataflow,AccessPathStore,39,54,2,2,6,12,7,8,5,8
+error-prone check api,com.google.errorprone.dataflow,LocalStore.Builder,14,17,0,0,3,4,1,2,1,2
+error-prone check api,com.google.errorprone.dataflow,ConstantPropagationAnalysis,24,0,4,0,7,0,5,0,3,0
+error-prone check api,com.google.errorprone.dataflow,AutoValue_DataFlow_AnalysisParams,100,0,12,0,27,0,12,0,6,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},7,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},7,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},7,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},7,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},7,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},7,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},7,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},7,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},7,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},7,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},34,0,2,0,5,0,3,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},32,0,2,0,5,0,3,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},12,0,0,0,3,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},13,0,0,0,3,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},7,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},7,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},7,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},14,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},9,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Supplier() {...},19,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers.new Function() {...},6,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.suppliers,Suppliers,115,0,0,0,44,0,12,0,12,0
+error-prone check api,com.google.errorprone.predicates.type,ExactAny,39,0,8,0,12,0,6,0,2,0
+error-prone check api,com.google.errorprone.predicates.type,Exact,23,0,4,0,7,0,4,0,2,0
+error-prone check api,com.google.errorprone.predicates.type,DescendantOfAny,39,0,8,0,12,0,6,0,2,0
+error-prone check api,com.google.errorprone.predicates.type,Any,40,0,0,0,3,0,4,0,4,0
+error-prone check api,com.google.errorprone.predicates.type,Array,40,0,0,0,3,0,4,0,4,0
+error-prone check api,com.google.errorprone.predicates.type,Array.new Array() {...},17,0,4,0,2,0,4,0,2,0
+error-prone check api,com.google.errorprone.predicates.type,DescendantOf,23,0,4,0,7,0,4,0,2,0
+error-prone check api,com.google.errorprone.predicates.type,Any.new Any() {...},8,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.util,MoreAnnotations.new SimpleAnnotationValueVisitor8() {...},5,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.util,Comments.ArgumentTracker,158,0,8,0,37,0,12,0,8,0
+error-prone check api,com.google.errorprone.util,Reachability,26,0,2,0,6,0,4,0,3,0
+error-prone check api,com.google.errorprone.util,Signatures.SigGen,36,0,0,0,11,0,5,0,5,0
+error-prone check api,com.google.errorprone.util,Signatures,109,0,6,0,26,0,10,0,7,0
+error-prone check api,com.google.errorprone.util,Commented.Position,60,0,0,0,5,0,4,0,4,0
+error-prone check api,com.google.errorprone.util,Comments,416,0,68,0,104,0,46,0,11,0
+error-prone check api,com.google.errorprone.util,AutoValue_ASTHelpers_TargetType,100,0,12,0,27,0,12,0,6,0
+error-prone check api,com.google.errorprone.util,Commented,7,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.util,SourceCodeEscapers.JavaCharEscaper,9,0,0,0,3,0,2,0,2,0
+error-prone check api,com.google.errorprone.util,Reachability.CanCompleteNormallyVisitor,415,0,66,0,83,0,59,0,26,0
+error-prone check api,com.google.errorprone.util,OffsetComment,27,0,0,0,8,0,5,0,5,0
+error-prone check api,com.google.errorprone.util,ASTHelpers.new SimpleAnnotationValueVisitor8() {...},33,0,0,0,5,0,4,0,4,0
+error-prone check api,com.google.errorprone.util,ASTHelpers.new SimpleTreeVisitor() {...},8,0,0,0,3,0,3,0,3,0
+error-prone check api,com.google.errorprone.util,FindIdentifiers.new TreeScanner() {...},71,0,12,0,14,0,10,0,4,0
+error-prone check api,com.google.errorprone.util,MoreAnnotations.new SimpleAnnotationValueVisitor8() {...},26,0,2,0,3,0,6,0,5,0
+error-prone check api,com.google.errorprone.util,ErrorProneTokens.AccessibleReader,6,0,0,0,2,0,1,0,1,0
+error-prone check api,com.google.errorprone.util,ErrorProneTokens.AccessibleScanner,5,0,0,0,2,0,1,0,1,0
+error-prone check api,com.google.errorprone.util,Regexes,127,0,18,0,37,0,12,0,3,0
+error-prone check api,com.google.errorprone.util,ErrorProneTokens.CommentSavingTokenizer,27,0,0,0,5,0,2,0,2,0
+error-prone check api,com.google.errorprone.util,Comments.TokenTracker,74,0,8,0,18,0,9,0,5,0
+error-prone check api,com.google.errorprone.util,ErrorProneToken,76,0,4,0,17,0,12,0,10,0
+error-prone check api,com.google.errorprone.util,Signatures.new Types.DefaultTypeVisitor() {...},96,0,4,0,19,0,9,0,7,0
+error-prone check api,com.google.errorprone.util,MoreAnnotations.new SimpleAnnotationValueVisitor8() {...},6,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.util,SideEffectAnalysis,61,0,4,0,20,0,9,0,7,0
+error-prone check api,com.google.errorprone.util,ASTHelpers.TargetType,9,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.util,AutoValue_Commented.Builder,102,0,18,0,29,0,14,0,5,0
+error-prone check api,com.google.errorprone.util,AutoValue_Commented,115,0,10,0,29,0,12,0,7,0
+error-prone check api,com.google.errorprone.util,ErrorProneTokens.CommentWithTextAndPosition,81,0,6,0,22,0,11,0,8,0
+error-prone check api,com.google.errorprone.util,FindIdentifiers,941,0,164,0,209,0,113,0,24,0
+error-prone check api,com.google.errorprone.util,Commented.Builder,63,0,12,0,12,0,9,0,3,0
+error-prone check api,com.google.errorprone.util,ErrorProneTokens,81,0,4,0,17,0,8,0,6,0
+error-prone check api,com.google.errorprone.util,OperatorPrecedence,238,0,16,0,35,0,20,0,6,0
+error-prone check api,com.google.errorprone.util,ASTHelpers,2106,0,393,0,483,0,291,0,93,0
+error-prone check api,com.google.errorprone.util,MoreAnnotations.new SimpleAnnotationValueVisitor8() {...},13,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.util,ASTHelpers.TargetTypeVisitor,640,0,91,0,122,0,83,0,35,0
+error-prone check api,com.google.errorprone.util,SourceCodeEscapers,126,0,0,0,25,0,4,0,4,0
+error-prone check api,com.google.errorprone.util,MoreAnnotations,187,0,20,0,39,0,24,0,12,0
+error-prone check api,com.google.errorprone.fixes,AppliedFix,3,18,0,0,1,6,1,3,1,3
+error-prone check api,com.google.errorprone.fixes,Replacement,7,39,2,2,1,10,3,4,1,4
+error-prone check api,com.google.errorprone.fixes,Fix,2,0,0,0,1,0,1,0,1,0
+error-prone check api,com.google.errorprone.fixes,IndexedPosition,41,0,4,0,10,0,7,0,5,0
+error-prone check api,com.google.errorprone.fixes,AdjustedPosition,34,0,0,0,9,0,5,0,5,0
+error-prone check api,com.google.errorprone.fixes,SuggestedFixes.AdditionPosition.new SuggestedFixes.AdditionPosition() {...},85,0,8,0,18,0,7,0,3,0
+error-prone check api,com.google.errorprone.fixes,SuggestedFixes.AdditionPosition.new SuggestedFixes.AdditionPosition() {...},12,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.fixes,BranchedSuggestedFixes,0,13,0,0,0,5,0,3,0,3
+error-prone check api,com.google.errorprone.fixes,SuggestedFixes.AdditionPosition,77,0,8,0,10,0,9,0,5,0
+error-prone check api,com.google.errorprone.fixes,SuggestedFix.InsertionFix,1,26,1,1,0,7,1,2,0,2
+error-prone check api,com.google.errorprone.fixes,SuggestedFix.PostfixInsertion,0,10,0,0,0,3,0,2,0,2
+error-prone check api,com.google.errorprone.fixes,SuggestedFix,109,65,9,3,17,16,14,7,9,6
+error-prone check api,com.google.errorprone.fixes,Replacements.CoalescePolicy.new Replacements.CoalescePolicy() {...},16,6,0,0,2,1,1,1,1,1
+error-prone check api,com.google.errorprone.fixes,Replacements.CoalescePolicy.new Replacements.CoalescePolicy() {...},9,6,0,0,1,1,1,1,1,1
+error-prone check api,com.google.errorprone.fixes,Replacements.CoalescePolicy.new Replacements.CoalescePolicy() {...},9,6,0,0,1,1,1,1,1,1
+error-prone check api,com.google.errorprone.fixes,AppliedFix.Applier,21,145,5,9,7,35,5,5,0,3
+error-prone check api,com.google.errorprone.fixes,Replacements.CoalescePolicy,21,39,0,0,1,7,2,2,2,2
+error-prone check api,com.google.errorprone.fixes,Replacements,48,108,5,3,12,36,4,7,1,6
+error-prone check api,com.google.errorprone.fixes,SuggestedFix.Builder,161,121,15,3,31,27,18,10,9,10
+error-prone check api,com.google.errorprone.fixes,BranchedSuggestedFixes.Builder,0,65,0,4,0,14,0,7,0,5
+error-prone check api,com.google.errorprone.fixes,SuggestedFix.ReplacementFix,1,27,1,1,0,7,1,2,0,2
+error-prone check api,com.google.errorprone.fixes,AutoValue_Replacement,57,43,10,2,13,14,8,4,2,4
+error-prone check api,com.google.errorprone.fixes,SuggestedFixes.new Types.DefaultTypeVisitor() {...},119,0,8,0,22,0,11,0,7,0
+error-prone check api,com.google.errorprone.fixes,SuggestedFixes.new SimpleTypeVisitor8() {...},83,0,6,0,16,0,7,0,4,0
+error-prone check api,com.google.errorprone.fixes,SuggestedFixes.new TreeScanner() {...},60,0,4,0,11,0,5,0,3,0
+error-prone check api,com.google.errorprone.fixes,SuggestedFixes,2075,0,255,0,496,0,188,0,54,0
+error-prone check api,com.google.errorprone.fixes,SuggestedFixes.new Function() {...},11,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.fixes,SuggestedFixes.new SimpleJavaFileObject() {...},12,0,0,0,2,0,2,0,2,0
+error-prone check api,com.google.errorprone.fixes,SuggestedFix.PrefixInsertion,0,9,0,0,0,3,0,2,0,2
+error-prone check api,com.google.errorprone.fixes,Replacements.new Comparator() {...},0,24,0,0,0,5,0,2,0,2

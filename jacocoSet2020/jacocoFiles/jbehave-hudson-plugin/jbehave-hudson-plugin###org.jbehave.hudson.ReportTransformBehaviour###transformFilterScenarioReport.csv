@@ -1,0 +1,6 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JBehave Hudson Plugin,org.jbehave.hudson,JBehaveInputMetric,10,5,0,0,4,2,4,2,4,2
+JBehave Hudson Plugin,org.jbehave.hudson,MavenSurefireModel,11,0,0,0,5,0,5,0,5,0
+JBehave Hudson Plugin,org.jbehave.hudson,JBehaveType,18,0,0,0,4,0,3,0,3,0
+JBehave Hudson Plugin,org.jbehave.hudson,JBehavePluginType,10,0,0,0,3,0,2,0,2,0
+JBehave Hudson Plugin,org.jbehave.hudson,JBehavePluginType.DescriptorImpl,8,0,0,0,3,0,2,0,2,0

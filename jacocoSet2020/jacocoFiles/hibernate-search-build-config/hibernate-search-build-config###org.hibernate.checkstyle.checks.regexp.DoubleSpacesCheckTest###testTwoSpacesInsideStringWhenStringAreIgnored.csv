@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Hibernate Search Build Config,org.hibernate.checkstyle.filters,ExcludeTestPackages,49,0,8,0,9,0,8,0,4,0
+Hibernate Search Build Config,org.hibernate.checkstyle.checks.regexp,StringSuppressor,22,92,12,12,2,18,10,10,1,7
+Hibernate Search Build Config,org.hibernate.checkstyle.checks.regexp,NeverSuppress,0,10,0,0,0,4,0,3,0,3
+Hibernate Search Build Config,org.hibernate.checkstyle.checks.regexp,CommentSuppressor,15,7,4,0,5,3,3,2,1,2
+Hibernate Search Build Config,org.hibernate.checkstyle.checks.regexp,IllegalImport,96,0,6,0,22,0,12,0,9,0
+Hibernate Search Build Config,org.hibernate.checkstyle.checks.regexp,DoubleSpacesCheck,46,131,3,13,13,32,8,13,6,7

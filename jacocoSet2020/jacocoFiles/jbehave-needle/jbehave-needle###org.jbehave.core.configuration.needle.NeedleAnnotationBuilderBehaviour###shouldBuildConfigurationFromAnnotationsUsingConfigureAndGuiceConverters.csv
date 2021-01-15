@@ -1,0 +1,12 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JBehave Needle,org.jbehave.core.steps.needle.configuration,LoadResourceBundle.new ResourceBundle() {...},10,0,0,0,3,0,3,0,3,0
+JBehave Needle,org.jbehave.core.steps.needle.configuration,ReadInjectionProviderClassNames,87,0,10,0,14,0,10,0,5,0
+JBehave Needle,org.jbehave.core.steps.needle.configuration,LoadResourceBundle.1.new Enumeration() {...},10,0,0,0,3,0,3,0,3,0
+JBehave Needle,org.jbehave.core.steps.needle.configuration,LoadResourceBundle,62,0,4,0,10,0,7,0,5,0
+JBehave Needle,org.jbehave.core.steps.needle.configuration,CollectInjectionProvidersFromStepsInstance,111,0,8,0,19,0,9,0,5,0
+JBehave Needle,org.jbehave.core.steps.needle.configuration,JBehaveNeedleConfiguration,102,0,8,0,25,0,9,0,5,0
+JBehave Needle,org.jbehave.core.steps.needle.configuration,CreateInstanceByDefaultConstructor,36,27,0,0,3,4,2,3,2,3
+JBehave Needle,org.jbehave.core.steps.needle,NeedleStepsFactory,260,0,28,0,53,0,24,0,10,0
+JBehave Needle,org.jbehave.core.configuration.needle,NeedleAnnotationBuilder,49,92,4,6,8,19,7,5,3,4
+JBehave Needle,org.jbehave.core.junit.needle,NeedleAnnotatedPathRunner,10,0,0,0,3,0,2,0,2,0
+JBehave Needle,org.jbehave.core.junit.needle,NeedleAnnotatedEmbedderRunner,14,0,0,0,4,0,2,0,2,0

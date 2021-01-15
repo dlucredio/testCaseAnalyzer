@@ -1,0 +1,179 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+== GreenMail Core ==,com.icegreen.greenmail.server,AbstractServer,102,416,9,19,21,107,9,30,0,25
+== GreenMail Core ==,com.icegreen.greenmail.server,BuildInfo,9,21,0,0,0,2,2,3,2,3
+== GreenMail Core ==,com.icegreen.greenmail.server,AbstractServer.new Runnable() {...},8,19,0,0,0,5,0,2,0,2
+== GreenMail Core ==,com.icegreen.greenmail.user,UserException,16,0,0,0,8,0,4,0,4,0
+== GreenMail Core ==,com.icegreen.greenmail.user,UserManager,67,128,16,6,12,28,14,11,3,11
+== GreenMail Core ==,com.icegreen.greenmail.user,UserImpl,126,66,7,1,21,24,9,9,5,9
+== GreenMail Core ==,com.icegreen.greenmail.user,NoSuchUserException,16,0,0,0,8,0,4,0,4,0
+== GreenMail Core ==,com.icegreen.greenmail.smtp.commands,SmtpCommandRegistry,0,83,0,0,0,14,0,3,0,3
+== GreenMail Core ==,com.icegreen.greenmail.smtp.commands,VrfyCommand,4,3,0,0,2,1,1,1,1,1
+== GreenMail Core ==,com.icegreen.greenmail.smtp.commands,AuthCommand.AuthMechanism,5,23,0,0,0,2,1,3,1,3
+== GreenMail Core ==,com.icegreen.greenmail.smtp.commands,SmtpCommand,0,8,0,0,0,2,0,1,0,1
+== GreenMail Core ==,com.icegreen.greenmail.smtp.commands,NoopCommand,4,3,0,0,2,1,1,1,1,1
+== GreenMail Core ==,com.icegreen.greenmail.smtp.commands,DataCommand,21,72,3,3,9,17,3,2,0,2
+== GreenMail Core ==,com.icegreen.greenmail.smtp.commands,QuitCommand,0,21,0,0,0,5,0,2,0,2
+== GreenMail Core ==,com.icegreen.greenmail.smtp.commands,RcptCommand,15,45,3,3,6,14,3,3,0,3
+== GreenMail Core ==,com.icegreen.greenmail.smtp.commands,MailCommand,19,47,3,3,8,16,3,3,0,3
+== GreenMail Core ==,com.icegreen.greenmail.smtp.commands,RsetCommand,6,3,0,0,3,1,1,1,1,1
+== GreenMail Core ==,com.icegreen.greenmail.smtp.commands,HeloCommand,2,44,1,1,1,10,1,3,0,3
+== GreenMail Core ==,com.icegreen.greenmail.smtp.commands,AuthCommand,153,33,16,2,37,6,11,4,3,3
+== GreenMail Core ==,com.icegreen.greenmail.store,SimpleMessageAttributes,465,877,57,61,100,200,49,32,5,17
+== GreenMail Core ==,com.icegreen.greenmail.store,ListBasedStoredMessageCollection,176,142,17,7,32,29,15,12,5,10
+== GreenMail Core ==,com.icegreen.greenmail.store,SimpleMessageAttributes.Header,73,131,9,9,13,25,7,7,0,5
+== GreenMail Core ==,com.icegreen.greenmail.store,HierarchicalFolder,601,384,46,16,110,98,47,31,20,27
+== GreenMail Core ==,com.icegreen.greenmail.store,FolderException,102,0,4,0,23,0,12,0,10,0
+== GreenMail Core ==,com.icegreen.greenmail.store,StoredMessage.UidAwareMimeMessage,10,10,0,0,4,4,3,1,3,1
+== GreenMail Core ==,com.icegreen.greenmail.store,RootFolder,0,8,0,0,0,3,0,2,0,2
+== GreenMail Core ==,com.icegreen.greenmail.store,StoredMessage,83,57,0,0,13,18,2,8,2,8
+== GreenMail Core ==,com.icegreen.greenmail.store,MapBasedStoredMessageCollection,346,0,30,0,77,0,28,0,13,0
+== GreenMail Core ==,com.icegreen.greenmail.store,InMemoryStore,484,201,52,26,87,50,43,14,12,6
+== GreenMail Core ==,com.icegreen.greenmail.store,MessageFlags,19,108,5,13,4,28,6,6,1,2
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.UidSearchTerm,24,0,2,0,8,0,3,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,DeleteCommand,45,0,4,0,12,0,4,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,ExpungeCommand,65,0,10,0,19,0,8,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,CommandParser.NoopCharValidator,5,0,0,0,2,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,IdRange,252,54,32,6,47,12,27,6,9,5
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,AuthenticatedStateCommand,1,14,1,3,0,3,1,3,0,2
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,FetchCommand.FetchCommandParser,155,269,24,36,29,66,19,17,0,6
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,StatusCommand.StatusCommandParser,109,0,14,0,24,0,10,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,ListCommand.ListCommandParser,5,25,1,2,2,7,1,3,0,2
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,UnsubscribeCommand,27,0,0,0,8,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,NoopCommand,16,0,0,0,6,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,CommandParser.MessageSetCharValidator,10,9,7,1,0,2,4,2,0,2
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,QuotaRootCommand,102,0,6,0,19,0,5,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,ImapCommandFactory,21,198,2,2,4,37,2,3,0,3
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.MessageNumberSearchTerm,10,0,0,0,3,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchCommandParser,369,0,82,0,87,0,43,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,ListCommand,94,169,18,12,25,38,15,5,1,4
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,StoredMessageSorter,199,0,33,0,49,0,26,0,6,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SetQuotaCommand,91,0,4,0,20,0,4,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,StoreCommand.StoreCommandParser,71,0,8,0,18,0,6,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,QuotaCommand,152,0,12,0,34,0,11,0,5,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,CloseCommand,5,22,1,1,2,8,1,2,0,2
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,LsubCommand,11,0,0,0,3,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,FetchCommand.FetchRequest,0,28,1,1,0,9,1,4,0,4
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,StoreCommand.StoreDirective,15,0,0,0,6,0,3,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,CommandParser.DigitCharValidator,16,0,6,0,2,0,5,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,StoreCommand,127,0,18,0,27,0,12,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,StatusCommand.StatusDataItems,3,0,0,0,1,0,1,0,1,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,StoredMessageSorter.new Object() {...},61,0,0,0,1,0,1,0,1,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,CommandParser.TagCharValidator,1,17,2,2,0,2,2,2,0,2
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,ExamineCommand,0,4,0,0,0,2,0,1,0,1
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SortKey,98,0,0,0,9,0,4,0,4,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,UidCommand,44,0,2,0,10,0,4,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.new SearchTermBuilder() {...},15,0,0,0,2,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,NonAuthenticatedStateCommand,1,11,1,1,0,3,1,2,0,2
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.new SearchTermBuilder() {...},17,0,0,0,2,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SortCommandParser,94,0,16,0,21,0,10,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.new SearchTermBuilder() {...},23,0,0,0,2,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,FetchCommand.Partial,2,31,1,1,1,8,1,4,0,4
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.new SearchTermBuilder() {...},15,0,0,0,2,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.new SearchTermBuilder() {...},15,0,0,0,2,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,AppendCommand,86,0,4,0,21,0,4,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SubscribeCommand,27,0,0,0,8,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,CreateCommand,28,0,0,0,8,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.new SearchTermBuilder() {...},22,0,0,0,4,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.new SearchTermBuilder() {...},62,0,0,0,4,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.new SearchTermBuilder() {...},27,0,0,0,4,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,MsnRange,36,0,4,0,11,0,7,0,5,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.new SearchTermBuilder() {...},9,0,0,0,2,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,ListCommand.ListCommandParser.ListCharValidator,1,19,2,2,0,2,2,2,0,2
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.new Object() {...},243,0,0,0,1,0,1,0,1,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.new SearchTermBuilder() {...},13,0,0,0,3,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.new SearchTermBuilder() {...},13,0,0,0,3,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,FetchCommand.BodyFetchElement,6,21,0,0,2,8,1,4,1,4
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,CommandParser,392,222,54,28,90,52,44,23,9,16
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,FetchCommand,386,486,40,50,78,111,39,19,4,9
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.new SearchTermBuilder() {...},18,0,2,0,2,0,3,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder,468,0,56,0,136,0,73,0,29,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.new SearchTermBuilder() {...},15,0,0,0,2,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,CheckCommand,19,0,0,0,7,0,3,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.new SearchTermBuilder() {...},12,0,0,0,2,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,CommandTemplate,87,39,4,0,21,12,5,5,3,5
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SortCommand,135,0,10,0,30,0,8,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,CapabilityCommand,3,28,1,1,1,9,1,3,0,3
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,AppendCommand.AppendCommandParser,47,0,4,0,14,0,6,0,4,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,CopyCommand,139,0,6,0,33,0,7,0,4,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,StatusCommand,190,0,12,0,47,0,8,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SelectCommand,18,139,1,7,4,30,1,7,0,4
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.AbstractIdSearchTerm,26,0,4,0,8,0,4,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SelectedStateCommand,1,35,1,5,0,7,1,5,0,3
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,LogoutCommand,0,18,0,0,0,7,0,2,0,2
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,AuthenticateCommand,28,0,0,0,6,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,RenameCommand,33,0,0,0,9,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SortTerm,25,0,0,0,9,0,6,0,6,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchTermBuilder.AllSearchTerm,5,0,0,0,2,0,2,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,LoginCommand,11,38,1,1,1,11,1,2,0,2
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,CommandParser.AtomCharValidator,3,45,9,9,0,4,9,3,0,3
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchCommand,119,0,10,0,34,0,8,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.imap.commands,SearchKey,457,0,0,0,53,0,10,0,10,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3,Pop3State,69,0,6,0,18,0,10,0,7,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3,Pop3Handler,156,0,12,0,44,0,11,0,5,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3,Pop3Server,15,5,0,0,2,2,2,1,2,1
+== GreenMail Core ==,com.icegreen.greenmail.pop3,Pop3Connection,105,0,0,0,33,0,10,0,10,0
+== GreenMail Core ==,com.icegreen.greenmail.configuration,ConfiguredGreenMail,1,44,1,5,0,9,1,5,0,3
+== GreenMail Core ==,com.icegreen.greenmail.configuration,PropertiesBasedGreenMailConfigurationBuilder,17,92,1,8,2,18,1,7,0,3
+== GreenMail Core ==,com.icegreen.greenmail.configuration,GreenMailConfiguration,0,44,0,0,0,11,0,7,0,7
+== GreenMail Core ==,com.icegreen.greenmail.configuration,UserBean,86,60,20,8,5,14,16,5,2,5
+== GreenMail Core ==,com.icegreen.greenmail.util,EncodingUtil,42,12,2,0,9,3,3,2,2,2
+== GreenMail Core ==,com.icegreen.greenmail.util,PropertiesBasedServerSetupBuilder,310,0,42,0,54,0,26,0,5,0
+== GreenMail Core ==,com.icegreen.greenmail.util,ServerSetup,385,369,43,9,50,52,37,14,12,13
+== GreenMail Core ==,com.icegreen.greenmail.util,GreenMailUtil.new DataSource() {...},34,0,0,0,7,0,5,0,5,0
+== GreenMail Core ==,com.icegreen.greenmail.util,UserUtil,27,0,2,0,5,0,3,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.util,InternetPrintWriter,184,49,1,1,49,15,12,4,11,4
+== GreenMail Core ==,com.icegreen.greenmail.util,DummySSLSocketFactory,170,0,0,0,35,0,13,0,13,0
+== GreenMail Core ==,com.icegreen.greenmail.util,GreenMail,165,382,13,33,37,86,20,30,10,17
+== GreenMail Core ==,com.icegreen.greenmail.util,GreenMailProxy,40,56,0,0,12,16,9,12,9,12
+== GreenMail Core ==,com.icegreen.greenmail.util,DummyTrustManager,8,0,0,0,4,0,4,0,4,0
+== GreenMail Core ==,com.icegreen.greenmail.util,ServerSetupTest,3,158,0,0,1,14,1,1,1,1
+== GreenMail Core ==,com.icegreen.greenmail.util,MaxSizeLinkedHashMap,30,0,4,0,6,0,4,0,2,0
+== GreenMail Core ==,com.icegreen.greenmail.util,DummySSLServerSocketFactory,266,0,8,0,40,0,17,0,13,0
+== GreenMail Core ==,com.icegreen.greenmail.util,Retriever,55,105,8,6,12,26,9,4,2,4
+== GreenMail Core ==,com.icegreen.greenmail.util,GreenMailUtil,309,254,17,13,71,63,22,22,11,18
+== GreenMail Core ==,com.icegreen.greenmail.foedus.util,MsgRangeFilter,97,0,14,0,22,0,10,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.foedus.util,StreamUtils.SpliceReader,51,36,8,4,17,11,7,4,3,2
+== GreenMail Core ==,com.icegreen.greenmail.foedus.util,StreamUtils.LimitedReader,69,0,4,0,16,0,7,0,5,0
+== GreenMail Core ==,com.icegreen.greenmail.foedus.util,StreamUtils,52,6,4,0,13,1,6,1,4,1
+== GreenMail Core ==,com.icegreen.greenmail,Managers,0,36,0,0,0,7,0,4,0,4
+== GreenMail Core ==,com.icegreen.greenmail.imap,ImapSessionFolder,267,154,11,7,60,38,39,17,30,17
+== GreenMail Core ==,com.icegreen.greenmail.imap,ImapHandler,105,136,12,8,7,30,9,5,1,3
+== GreenMail Core ==,com.icegreen.greenmail.imap,ImapSessionState,3,27,0,0,1,7,1,2,1,2
+== GreenMail Core ==,com.icegreen.greenmail.imap,ImapHostManagerImpl.MailboxSubscriptions,45,8,2,0,10,2,5,1,4,1
+== GreenMail Core ==,com.icegreen.greenmail.imap,ImapServer,0,20,0,0,0,4,0,3,0,3
+== GreenMail Core ==,com.icegreen.greenmail.imap,ImapRequestLineReader,118,151,12,12,32,45,12,10,2,8
+== GreenMail Core ==,com.icegreen.greenmail.imap,ImapConstants,0,7,0,0,0,2,0,1,0,1
+== GreenMail Core ==,com.icegreen.greenmail.imap,AuthorizationException,4,0,0,0,2,0,1,0,1,0
+== GreenMail Core ==,com.icegreen.greenmail.imap,ImapSessionImpl,67,117,5,9,16,39,6,15,2,12
+== GreenMail Core ==,com.icegreen.greenmail.imap,ImapRequestHandler,31,84,2,2,12,24,2,3,0,3
+== GreenMail Core ==,com.icegreen.greenmail.imap,ImapHostManagerImpl,263,183,28,12,58,40,25,14,8,11
+== GreenMail Core ==,com.icegreen.greenmail.imap,ImapSessionFolder.FlagUpdate,21,0,0,0,8,0,4,0,4,0
+== GreenMail Core ==,com.icegreen.greenmail.imap,ProtocolException,4,5,0,0,2,2,1,1,1,1
+== GreenMail Core ==,com.icegreen.greenmail.imap,ImapResponse,67,226,1,5,29,81,7,22,6,20
+== GreenMail Core ==,com.icegreen.greenmail.junit,GreenMailRule,4,38,0,0,2,11,1,6,1,6
+== GreenMail Core ==,com.icegreen.greenmail.junit,GreenMailRule.new Statement() {...},6,30,0,0,0,7,0,2,0,2
+== GreenMail Core ==,com.icegreen.greenmail.pop3.commands,TopCommand,159,0,20,0,34,0,15,0,5,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3.commands,ApopCommand,14,0,2,0,4,0,4,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3.commands,Pop3CommandRegistry,104,0,0,0,17,0,3,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3.commands,DeleCommand,66,0,4,0,19,0,5,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3.commands,UidlCommand,107,0,6,0,23,0,6,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3.commands,RetrCommand,73,0,2,0,20,0,4,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3.commands,CapaCommand,15,0,0,0,6,0,3,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3.commands,StatCommand,73,0,2,0,18,0,5,0,4,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3.commands,QuitCommand,25,0,2,0,12,0,4,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3.commands,ListCommand,109,0,6,0,23,0,6,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3.commands,UserCommand,47,0,4,0,13,0,5,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3.commands,PassCommand,54,0,6,0,17,0,6,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3.commands,NoopCommand,9,0,0,0,4,0,3,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3.commands,RsetCommand,61,0,4,0,16,0,5,0,3,0
+== GreenMail Core ==,com.icegreen.greenmail.pop3.commands,Pop3Command,3,0,0,0,1,0,1,0,1,0
+== GreenMail Core ==,com.icegreen.greenmail.mail,MalformedAddressException,16,0,0,0,8,0,4,0,4,0
+== GreenMail Core ==,com.icegreen.greenmail.mail,MailException,16,0,0,0,8,0,4,0,4,0
+== GreenMail Core ==,com.icegreen.greenmail.mail,MailAddress,9,57,1,1,4,16,2,6,1,6
+== GreenMail Core ==,com.icegreen.greenmail.mail,MovingMessage,30,72,2,4,7,25,4,10,2,9
+== GreenMail Core ==,com.icegreen.greenmail.smtp,SmtpHandler,72,174,19,15,19,42,15,9,0,7
+== GreenMail Core ==,com.icegreen.greenmail.smtp,SmtpConnection,10,91,1,1,4,28,3,11,2,11
+== GreenMail Core ==,com.icegreen.greenmail.smtp,SmtpState,0,20,0,2,0,8,0,4,0,3
+== GreenMail Core ==,com.icegreen.greenmail.smtp,SmtpManager,24,58,2,2,6,16,3,7,1,7
+== GreenMail Core ==,com.icegreen.greenmail.smtp,SmtpServer,0,16,0,0,0,3,0,2,0,2
+== GreenMail Core ==,com.icegreen.greenmail.smtp,SmtpManager.Incoming,18,74,0,4,2,16,0,5,0,3

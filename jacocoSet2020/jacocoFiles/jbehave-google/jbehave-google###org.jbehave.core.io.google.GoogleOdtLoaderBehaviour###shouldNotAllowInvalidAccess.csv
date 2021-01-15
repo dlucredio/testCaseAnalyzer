@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JBehave Google,org.jbehave.core.io.google,LoadOdtFromGoogle,40,93,1,1,12,21,4,6,3,6
+JBehave Google,org.jbehave.core.io.google,LoadOdtFromGoogle.GoogleDocumentNotFound,10,0,0,0,2,0,1,0,1,0
+JBehave Google,org.jbehave.core.io.google,LoadOdtFromGoogle.GoogleAccessFailed,0,11,0,0,0,2,0,1,0,1
+JBehave Google,org.jbehave.core.io.google,LoadOdtFromGoogle.GoogleMediaExportFailed,11,0,0,0,2,0,1,0,1,0

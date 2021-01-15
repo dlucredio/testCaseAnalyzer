@@ -1,0 +1,13 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JBehave Maven Plugin,org.jbehave.mojo,GenerateStoriesView,27,0,0,0,7,0,2,0,2,0
+JBehave Maven Plugin,org.jbehave.mojo,RunWithAnnotatedEmbedderRunner,3,0,0,0,1,0,1,0,1,0
+JBehave Maven Plugin,org.jbehave.mojo,ReportStepdocsAsEmbeddables,29,0,0,0,7,0,2,0,2,0
+JBehave Maven Plugin,org.jbehave.mojo,RunStoriesAsEmbeddables,29,0,0,0,7,0,2,0,2,0
+JBehave Maven Plugin,org.jbehave.mojo,MapStoriesAsPaths,29,0,0,0,7,0,2,0,2,0
+JBehave Maven Plugin,org.jbehave.mojo,AbstractEmbedderMojo,77,301,6,24,10,68,7,21,1,12
+JBehave Maven Plugin,org.jbehave.mojo,UnpackViewResources,265,0,24,0,46,0,20,0,8,0
+JBehave Maven Plugin,org.jbehave.mojo,RunStoriesAsPaths,29,0,0,0,7,0,2,0,2,0
+JBehave Maven Plugin,org.jbehave.mojo,AbstractEmbedderMojo.MavenEmbedderMonitor,387,221,7,1,61,37,25,14,21,14
+JBehave Maven Plugin,org.jbehave.mojo,MapStoriesAsEmbeddables,7,22,0,0,1,6,0,2,0,2
+JBehave Maven Plugin,org.jbehave.mojo,ReportStepdocs,27,0,0,0,7,0,2,0,2,0
+JBehave Maven Plugin,org.jbehave.mojo,RunStoriesWithAnnotatedEmbedderRunner,23,0,0,0,7,0,2,0,2,0

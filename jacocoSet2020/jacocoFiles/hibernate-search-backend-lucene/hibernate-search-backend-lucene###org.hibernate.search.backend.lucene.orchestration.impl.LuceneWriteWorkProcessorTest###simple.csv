@@ -1,0 +1,367 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.scope.model.impl,LuceneSucceedingCompatibilityChecker,6,0,0,0,3,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.scope.model.impl,LuceneScopeModel,447,0,48,0,121,0,37,0,13,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.scope.model.impl,LuceneFailingFieldCompatibilityChecker,32,0,0,0,9,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.scope.model.impl,LuceneScopedIndexFieldComponent,34,0,0,0,12,0,7,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.scope.model.impl,LuceneScopedIndexRootComponent,22,0,0,0,8,0,5,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.scope.model.impl,LuceneFailingIdCompatibilityChecker,29,0,0,0,8,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.multitenancy,MultiTenancyStrategyName,62,0,0,0,10,0,6,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,LuceneGeoPointSpatialWithinBoundingBoxPredicateBuilder,24,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,LuceneTextMatchPredicateBuilder,146,0,12,0,32,0,12,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,LuceneObjectPredicateBuilderFactoryImpl,134,0,18,0,31,0,13,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,LuceneTextRangePredicateBuilder,67,0,8,0,9,0,6,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,LuceneNumericRangePredicateBuilder,75,0,8,0,14,0,8,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,AbstractLuceneFieldPredicateBuilderFactory,95,0,6,0,29,0,16,0,13,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,LuceneExistsCompositePredicateBuilder,41,0,2,0,9,0,4,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,LuceneGeoPointSpatialWithinPolygonPredicateBuilder,58,0,2,0,10,0,3,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,LuceneExistsPredicateBuilder,17,0,0,0,6,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,LuceneTextPhrasePredicateBuilder,110,0,8,0,29,0,11,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,LuceneNumericFieldPredicateBuilderFactory,41,0,0,0,6,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,LuceneSimpleQueryStringPredicateBuilderFieldState,27,0,2,0,9,0,5,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,AbstractLuceneStandardFieldPredicateBuilderFactory,28,0,0,0,10,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,LuceneGeoPointSpatialWithinCirclePredicateBuilder,16,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,LuceneTextFieldPredicateBuilderFactory,95,0,2,0,17,0,8,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,LuceneGeoPointFieldPredicateBuilderFactory,56,0,0,0,17,0,9,0,9,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,LuceneNumericMatchPredicateBuilder,20,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.impl,LuceneTextWildcardPredicateBuilder,31,0,0,0,8,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneCompositeBiFunctionProjection,27,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneDocumentProjection,24,0,0,0,11,0,7,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneEntityReferenceProjectionBuilder,12,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneFieldProjection,75,0,0,0,21,0,7,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneDistanceToFieldProjectionBuilder,37,0,0,0,10,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneScoreProjectionBuilder,12,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneDocumentReferenceProjection,24,0,0,0,11,0,7,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneEntityProjectionBuilder,12,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,AbstractLuceneCompositeProjection,128,0,8,0,23,0,11,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneSearchProjectionBuilderFactory.ProjectionBuilderFactoryRetrievalStrategy,23,0,0,0,6,0,6,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneDistanceToFieldProjection,133,0,10,0,32,0,16,0,11,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneFieldProjectionBuilder,32,0,0,0,8,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneScoreProjection,23,0,0,0,10,0,7,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneDocumentReferenceProjectionBuilder,12,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneEntityProjection,34,0,2,0,14,0,8,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneCompositeFunctionProjection,20,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneReferenceProjection,26,0,0,0,11,0,7,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,SearchProjectionTransformContext,23,0,0,0,10,0,5,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneCompositeTriFunctionProjection,34,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneCompositeListProjection,18,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneExplanationProjection,26,0,0,0,11,0,7,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,SearchProjectionExtractContext,46,0,0,0,12,0,5,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneSearchProjectionBuilderFactory,226,0,8,0,40,0,19,0,15,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneDocumentProjectionBuilder,12,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneSearchProjectionBuilderFactory.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneCompositeProjectionBuilder,9,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneExplanationProjectionBuilder,12,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.impl,LuceneSearchProjection,6,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,LuceneBooleanPredicateBuilder.MinimumShouldMatchConstraint,64,0,10,0,14,0,7,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,AbstractLuceneSearchPredicateBuilder,39,0,4,0,12,0,7,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,LuceneSimpleQueryStringPredicateBuilder,187,0,19,0,46,0,19,0,9,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,LuceneSearchPredicate,17,0,0,0,6,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,LuceneSearchPredicateContext,17,0,0,0,6,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,AbstractLuceneSpatialWithinPolygonPredicateBuilder,10,0,0,0,5,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,LuceneMatchIdPredicateBuilder,87,0,4,0,23,0,8,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,AbstractLuceneStandardRangePredicateBuilder,93,0,4,0,29,0,7,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,AbstractLuceneStandardMatchPredicateBuilder,88,0,2,0,24,0,8,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,LuceneBooleanPredicateBuilder,239,0,40,0,55,0,32,0,12,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,LuceneNestedPredicateBuilder,61,0,2,0,14,0,4,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,AbstractLuceneSpatialWithinBoundingBoxPredicateBuilder,10,0,0,0,5,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,LuceneMatchAllPredicateBuilder,7,0,0,0,2,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,LuceneMatchIdPredicateBuilder.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,LuceneSearchPredicateBuilderFactoryImpl.PredicateBuilderFactoryRetrievalStrategy,25,0,0,0,6,0,6,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,LuceneSimpleQueryStringPredicateBuilder.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,AbstractLuceneStandardRangePredicateBuilder.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,LuceneSearchPredicateBuilderFactoryImpl,217,0,6,0,50,0,22,0,19,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,AbstractLuceneStandardMatchPredicateBuilder.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,LuceneUserProvidedLuceneQueryPredicateBuilder,9,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.impl,AbstractLuceneSpatialWithinCirclePredicateBuilder,15,0,0,0,6,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.sort.dsl.impl,LuceneSearchSortFactoryImpl,32,0,0,0,6,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.impl,TokenizerChain,201,0,18,0,33,0,15,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.impl,ScopedAnalyzer.Builder,22,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.impl,HibernateSearchNormalizerWrapper,47,0,0,0,9,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.impl,HibernateSearchResourceLoader,53,0,2,0,14,0,7,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.impl,LuceneAnalysisComponentFactory,104,0,2,0,24,0,12,0,11,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.impl,HibernateSearchNormalizerCheckingFilter,103,0,16,0,21,0,13,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.impl,ScopedAnalyzer,20,0,2,0,7,0,3,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.model.dsl.impl,LuceneIndexSchemaRootNodeBuilder.new LuceneIndexSchemaNodeCollector() {...},44,0,0,0,9,0,5,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.model.dsl.impl,LuceneIndexSchemaObjectFieldNodeBuilder,108,0,6,0,26,0,11,0,8,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.model.dsl.impl,LuceneIndexSchemaRootNodeBuilder,91,0,4,0,22,0,11,0,9,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.model.dsl.impl,AbstractLuceneIndexSchemaObjectNodeBuilder,117,0,4,0,27,0,12,0,10,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.model.dsl.impl,LuceneIndexSchemaFieldNodeBuilder,80,0,4,0,21,0,8,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.comparatorsource.impl,LuceneTextFieldComparatorSource.new FieldComparator.TermOrdValComparator() {...},62,0,12,0,10,0,8,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.comparatorsource.impl,LuceneFieldComparatorSource,18,0,0,0,6,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.comparatorsource.impl,LuceneNumericFieldComparatorSource,20,0,0,0,5,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.comparatorsource.impl,LuceneReplaceMissingSortedDocValues,117,0,16,0,31,0,17,0,9,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.comparatorsource.impl,LuceneGeoPointDistanceComparatorSource.new FieldComparator.DoubleComparator() {...},61,0,6,0,11,0,5,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.comparatorsource.impl,LuceneTextFieldComparatorSource,30,0,0,0,7,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.comparatorsource.impl,LuceneGeoPointDistanceComparatorSource,19,0,0,0,5,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene,LuceneExtension,100,0,14,0,26,0,17,0,10,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.multitenancy.impl,DiscriminatorMultiTenancyStrategy,49,0,2,0,12,0,10,0,9,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.multitenancy.impl,NoMultiTenancyStrategy,40,0,2,0,11,0,10,0,9,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.model.dsl.impl,LuceneAnalysisConfigurationContextImpl.new LuceneNormalizerTypeStep() {...},39,0,0,0,7,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.model.dsl.impl,LuceneAnalysisConfigurationContextImpl.new LuceneAnalyzerTypeStep() {...},37,0,0,0,7,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.model.dsl.impl,LuceneAnalysisComponentBuilder,28,0,2,0,7,0,2,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.model.dsl.impl,AbstractLuceneAnalysisComponentParametersStep,44,0,2,0,11,0,6,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.model.dsl.impl,LuceneTokenizerParametersStep,15,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.model.dsl.impl,LuceneTokenFilterParametersStep,14,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.model.dsl.impl,LuceneAnalyzerComponentsStep,100,0,0,0,23,0,9,0,9,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.model.dsl.impl,LuceneAnalyzerInstanceBuilder,12,0,0,0,5,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.model.dsl.impl,LuceneAnalysisConfigurationContextImpl,111,0,8,0,23,0,11,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.model.dsl.impl,LuceneCharFilterParametersStep,14,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.model.dsl.impl,LuceneNormalizerComponentsStep,78,0,0,0,17,0,7,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.model.dsl.impl,LuceneNormalizerInstanceBuilder,19,0,0,0,6,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,DistanceCollector,74,0,8,0,20,0,9,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,ReusableDocumentStoredFieldVisitor.DenyingFieldAcceptor,5,0,0,0,2,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,DistanceCollector.DistanceLeafCollector,58,0,2,0,15,0,4,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,DistanceCollector.CompleteHitEntry,22,0,0,0,5,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,LuceneResult,26,0,0,0,9,0,5,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,ReusableDocumentStoredFieldVisitor,210,0,12,0,54,0,19,0,13,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,LuceneDocumentStoredFieldVisitorBuilder,55,0,6,0,16,0,8,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,ReusableDocumentStoredFieldVisitor.ChainedFieldAcceptor,21,0,2,0,7,0,3,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,LuceneCollectors,122,0,10,0,31,0,13,0,8,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,DistanceCollector.SpatialResultsCollector,105,0,12,0,22,0,10,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,LuceneCollectorKey.new LuceneCollectorKey() {...},3,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,DistanceCollector.HitEntry,6,0,0,0,3,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,DistanceCollector.IncompleteHitEntry,7,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,LuceneCollectorsBuilder,153,0,16,0,39,0,13,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,DocumentReferenceExtractorHelper,23,0,0,0,10,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,LuceneCollectorFactory,9,0,0,0,2,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.extraction.impl,LuceneCollectorKey,9,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.model.impl,LuceneIndexSchemaObjectNode,89,0,0,0,21,0,12,0,12,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.model.impl,LuceneIndexSchemaFieldNode,149,0,8,0,40,0,17,0,13,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.model.impl,LuceneIndexModel,72,0,0,0,22,0,10,0,10,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.index.impl,IndexAccessor,114,0,10,0,22,0,14,0,9,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.logging.impl,Log_.logger,2504,10,0,0,445,4,228,2,228,2
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneStringIndexFieldTypeOptionsStep,440,0,46,0,84,0,41,0,14,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,AbstractLuceneIndexFieldTypeOptionsStep,68,0,4,0,13,0,9,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneMonthDayIndexFieldTypeOptionsStep,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneBigDecimalIndexFieldTypeOptionsStep,60,0,4,0,15,0,8,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneIntegerIndexFieldTypeOptionsStep,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneIndexFieldTypeFactoryImpl,293,0,42,0,73,0,48,0,27,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneDoubleIndexFieldTypeOptionsStep,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneByteIndexFieldTypeOptionsStep,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneNativeIndexFieldTypeOptionsStep,47,0,2,0,9,0,4,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,AbstractLuceneStandardIndexFieldTypeOptionsStep,134,0,12,0,32,0,18,0,10,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneGeoPointIndexFieldTypeOptionsStep,80,0,0,0,15,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneBooleanIndexFieldTypeOptionsStep,26,0,0,0,5,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneOffsetDateTimeIndexFieldTypeOptionsStep,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,AbstractLuceneNumericIndexFieldTypeOptionsStep,97,0,0,0,17,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneLocalTimeIndexFieldTypeOptionsStep,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneStringIndexFieldTypeOptionsStep.ResolvedTermVector,32,0,0,0,11,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneStringIndexFieldTypeOptionsStep.new Object() {...},86,0,0,0,2,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneOffsetTimeIndexFieldTypeOptionsStep,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneLongIndexFieldTypeOptionsStep,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneBigIntegerIndexFieldTypeOptionsStep,70,0,6,0,17,0,9,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneYearMonthIndexFieldTypeOptionsStep,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneLocalDateTimeIndexFieldTypeOptionsStep,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneLocalDateIndexFieldTypeOptionsStep,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneZonedDateTimeIndexFieldTypeOptionsStep,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneShortIndexFieldTypeOptionsStep,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneInstantIndexFieldTypeOptionsStep,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,AbstractLuceneStandardIndexFieldTypeOptionsStep.new Object() {...},101,0,0,0,4,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneYearIndexFieldTypeOptionsStep,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl.impl,LuceneFloatIndexFieldTypeOptionsStep,16,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.scope.impl,LuceneIndexScope,80,0,0,0,19,0,7,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.impl,LuceneQueries,85,0,0,0,13,0,8,0,8,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.impl,LuceneSearchContext,47,0,0,0,13,0,7,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.impl,LuceneNestedQueries,57,0,2,0,15,0,4,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.impl,LuceneDocumentReference,79,0,8,0,17,0,10,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,LuceneTextTermsAggregation.Builder,12,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,LuceneBooleanFieldAggregationBuilderFactory,20,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,LuceneNumericRangeAggregation,88,0,2,0,17,0,5,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,LuceneTextTermsAggregation,117,0,6,0,25,0,11,0,8,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,Bucket,9,0,0,0,4,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,AbstractLuceneBucketAggregation.AbstractBuilder,6,0,0,0,3,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,AbstractLuceneStandardFieldAggregationBuilderFactory,137,0,22,0,37,0,18,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,AbstractLuceneFacetsBasedTermsAggregation.AbstractBuilder,47,0,0,0,21,0,8,0,8,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,BucketOrder,72,0,2,0,8,0,8,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,BucketOrder.new BucketOrder() {...},28,0,2,0,7,0,4,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,BucketOrder.new BucketOrder() {...},28,0,2,0,7,0,4,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,BucketOrder.new BucketOrder() {...},16,0,0,0,2,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,BucketOrder.new BucketOrder() {...},18,0,0,0,3,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,LuceneNumericTermsAggregation.Builder,15,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,LuceneTextFieldAggregationBuilderFactory,52,0,2,0,15,0,6,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,AbstractLuceneFacetsBasedTermsAggregation,229,0,22,0,45,0,16,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,LuceneNumericFieldAggregationBuilderFactory,50,0,0,0,13,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,AbstractLuceneBucketAggregation,11,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,AbstractLuceneStandardFieldAggregationBuilderFactory.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,LuceneNumericRangeAggregation.Builder,69,0,0,0,16,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,LuceneGeoPointFieldAggregationBuilderFactory,84,0,12,0,20,0,12,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.aggregation.impl,LuceneNumericTermsAggregation,101,0,10,0,24,0,12,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.sort.impl,LuceneIndexOrderSortBuilder,12,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.sort.impl,LuceneSearchSortBuilderFactoryImpl,111,0,4,0,26,0,13,0,11,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.sort.impl,LuceneScoreSortBuilder,23,0,2,0,6,0,4,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.sort.impl,LuceneUserProvidedLuceneSortFieldSortBuilder,11,0,0,0,5,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.sort.impl,LuceneUserProvidedLuceneSortSortBuilder,12,0,0,0,5,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.sort.impl,LuceneSearchSortBuilderFactoryImpl.SortBuilderFactoryRetrievalStrategy,23,0,0,0,6,0,6,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.sort.impl,LuceneSearchSort,28,0,2,0,9,0,4,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.sort.impl,AbstractLuceneSearchSortBuilder,9,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.dsl.impl,LuceneSearchPredicateFactoryImpl,14,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.predicate.dsl.impl,LuceneQueryPredicateFinalStep,12,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.execution.impl,LuceneIndexWorkspace,66,0,2,0,16,0,6,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.execution.impl,LuceneIndexingPlanWriteWorkSet,112,0,8,0,33,0,7,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.execution.impl,LuceneIndexIndexingPlan,191,0,4,0,45,0,10,0,8,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.execution.impl,LuceneIndexIndexer,52,0,0,0,13,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory.spi,DirectoryProvider,1,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,AbstractLuceneWriteWork,8,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,LuceneQueryBasedDeleteEntryWork,11,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,LuceneWorkFactoryImpl,59,0,0,0,12,0,10,0,10,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,LuceneTermBasedDeleteEntryWork,13,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,LuceneFlushWork,43,0,0,0,13,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,LuceneSearchWork,77,0,2,0,17,0,5,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,LuceneTermBasedUpdateEntryWork,15,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,LuceneCountWork,53,0,0,0,13,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,LuceneQueryBasedDeleteAllEntriesWork,9,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,LuceneOptimizeWork,43,0,0,0,13,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,AbstractLuceneDeleteAllEntriesWork,51,0,0,0,13,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,LuceneAddEntryWork,66,0,0,0,17,0,5,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,LuceneQueryBasedUpdateEntryWork,16,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,AbstractLuceneUpdateEntryWork,71,0,0,0,17,0,5,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,AbstractLuceneDeleteEntryWork,66,0,0,0,16,0,5,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,LuceneDeleteAllEntriesWork,7,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.work.impl,LuceneExplainWork,95,0,2,0,22,0,6,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.impl,LuceneIndexFieldType,75,0,4,0,18,0,5,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.reader.spi,SimpleIndexReaderHolder,13,0,0,0,6,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.reader.spi,IndexReaderHolder,5,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.impl,LuceneBackendImpl,194,0,14,0,34,0,17,0,10,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.impl,LuceneBackendFactory.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.impl,LuceneBeanConfigurer,64,0,0,0,14,0,8,0,8,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.impl,LuceneBackendFactory,257,0,15,0,60,0,17,0,9,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.writer.impl,HibernateSearchConcurrentMergeScheduler,83,0,0,0,23,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.writer.impl,IndexWriterDelegatorImpl,260,0,10,0,72,0,22,0,17,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.impl,AbstractLuceneStandardFieldSortBuilder.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.impl,LuceneNumericFieldSortBuilder,57,0,4,0,9,0,4,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.impl,AbstractLuceneStandardFieldSortBuilder,121,0,10,0,35,0,13,0,8,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.impl,LuceneTextFieldSortBuilderFactory,25,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.impl,AbstractLuceneStandardFieldSortBuilderFactory,87,0,14,0,25,0,13,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.impl,SortMissingValue,38,0,0,0,3,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.impl,LuceneGeoPointDistanceSortBuilder,48,0,4,0,10,0,4,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.impl,LuceneNumericFieldSortBuilderFactory,25,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.impl,LuceneTextFieldSortBuilder,57,0,4,0,7,0,5,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.sort.impl,LuceneGeoPointFieldSortBuilderFactory,58,0,6,0,17,0,10,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.query.impl,LuceneSearcherImpl,452,0,26,0,94,0,26,0,13,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.query.impl,LuceneChildrenCollector,38,0,0,0,9,0,5,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.query.impl,LuceneSearchQueryRequestContext,34,0,0,0,10,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.query.impl,LuceneSearchQueryImpl,203,0,4,0,43,0,13,0,11,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.query.impl,LuceneSearchResultImpl,6,0,0,0,2,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.query.impl,LuceneChildrenCollector.FieldLeafCollector,54,0,4,0,12,0,5,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.query.impl,LuceneSearchQueryExtractContext,65,0,0,0,17,0,8,0,8,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.query.impl,LuceneSearchQueryBuilderFactory,98,0,2,0,15,0,8,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.query.impl,LuceneLoadableSearchResult,86,0,6,0,24,0,5,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.query.impl,LuceneSearchQueryBuilder,234,0,26,0,56,0,23,0,10,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory,LockingStrategyName,84,0,0,0,12,0,6,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory,FileSystemAccessStrategyName,84,0,0,0,12,0,6,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.util.impl,AnalyzerConstants,8,0,0,0,3,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.util.impl,LuceneFields,123,0,2,0,35,0,14,0,13,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.util.impl,FuzzyQueryBuilder,19,0,0,0,5,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.util.impl,FieldContextSimpleQueryParser,183,0,12,0,31,0,12,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.cfg,LuceneIndexSettings,3,0,0,0,2,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.cfg,LuceneBackendSettings,3,0,0,0,2,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.cfg,LuceneIndexSettings.Defaults,3,0,0,0,2,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.cfg,LuceneIndexSettings.ShardingRadicals,3,0,0,0,2,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.cfg,LuceneBackendSettings.Defaults,10,0,0,0,5,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.cfg,LuceneBackendSettings.DirectoryRadicals,3,0,0,0,2,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.projection.dsl.impl,LuceneSearchProjectionFactoryImpl,21,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.aggregation.dsl.impl,LuceneSearchAggregationFactoryImpl,7,0,0,0,3,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.dsl,LuceneIndexFieldTypeFactory,6,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory.impl,DirectoryProviderInitializationContextImpl.new Object() {...},33,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory.impl,LocalFileSystemDirectoryHolder,57,0,2,0,18,0,6,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory.impl,DirectoryCreationContextImpl,27,0,0,0,9,0,5,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory.impl,LocalFileSystemDirectoryProvider,122,0,2,0,29,0,8,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory.impl,DirectoryProviderInitializationContextImpl,112,0,5,0,34,0,13,0,9,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory.impl,LocalHeapDirectoryProvider,21,0,0,0,5,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory.impl,LocalHeapDirectoryHolder,27,0,2,0,10,0,5,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory.impl,FileSystemAccessStrategy,83,0,5,0,11,0,9,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory.impl,FileSystemUtils,35,0,6,0,9,0,6,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory.impl,FileSystemAccessStrategy.new FileSystemAccessStrategy() {...},10,0,0,0,2,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory.impl,FileSystemAccessStrategy.new FileSystemAccessStrategy() {...},12,0,0,0,2,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory.impl,FileSystemAccessStrategy.new FileSystemAccessStrategy() {...},12,0,0,0,2,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory.impl,FileSystemAccessStrategy.new FileSystemAccessStrategy() {...},12,0,0,0,2,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.directory.impl,FileSystemAccessStrategy.new Object() {...},33,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.aggregation.impl,LuceneSearchAggregationBuilderFactory,101,0,6,0,26,0,9,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.aggregation.impl,LuceneSearchAggregationBuilderFactory.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.aggregation.impl,AggregationExtractContext,24,0,0,0,8,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.aggregation.impl,LuceneSearchAggregationBuilderFactory.AggregationBuilderFactoryRetrievalStrategy,23,0,0,0,6,0,6,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,SortedNumericDoubleValues,24,0,0,0,5,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,LuceneLongDomain,84,0,0,0,18,0,15,0,15,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,LuceneIntegerDomain.IntegerFieldComparator,48,0,6,0,12,0,5,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,OnTheFlyNestedSorter,145,0,24,0,38,0,19,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,SortableLongBitsToNumericDoubleValues,19,0,0,0,6,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,GeoPointDistanceDocValues,39,0,0,0,10,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,NestedDocsProvider,48,0,2,0,10,0,4,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,LuceneLongDomain.LongFieldComparator,47,0,6,0,12,0,5,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,LuceneFloatDomain.FloatFieldComparator,49,0,6,0,12,0,5,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,NumericDoubleValues,13,0,0,0,4,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,LuceneIntegerDomain,89,0,0,0,19,0,15,0,15,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,FacetCountsUtils,135,0,20,0,30,0,13,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,NumericDoubleValues.new NumericDocValues() {...},37,0,0,0,9,0,7,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,LuceneDoubleDomain.DoubleFieldComparator,48,0,6,0,12,0,5,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,NumericDoubleValues.new NumericDocValues() {...},39,0,0,0,9,0,7,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,OnTheFlyNestedSorter.new NumericDocValues() {...},114,0,12,0,21,0,14,0,8,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,OnTheFlyNestedSorter.new NumericDoubleValues() {...},91,0,10,0,14,0,9,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,OnTheFlyNestedSorter.new SortedDocValues() {...},127,0,14,0,21,0,17,0,10,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,LuceneDoubleDomain,86,0,0,0,18,0,15,0,15,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,SingletonSortedNumericDoubleValues,20,0,0,0,7,0,5,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,SingleFloatValues,18,0,0,0,5,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.lowlevel.impl,LuceneFloatDomain,88,0,0,0,19,0,15,0,15,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.model.impl,LuceneAnalysisDefinitionRegistry.new LuceneAnalysisDefinitionCollector() {...},42,0,8,0,9,0,7,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.analysis.model.impl,LuceneAnalysisDefinitionRegistry,46,0,0,0,12,0,5,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.projection.impl,LuceneStandardFieldProjectionBuilderFactory,118,0,14,0,30,0,15,0,8,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.projection.impl,LuceneGeoPointFieldProjectionBuilderFactory.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.projection.impl,LuceneStandardFieldProjectionBuilderFactory.new Object() {...},19,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.projection.impl,LuceneGeoPointFieldProjectionBuilderFactory,125,0,14,0,30,0,15,0,8,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.predicate.parse.impl,LuceneWildcardExpressionHelper,67,0,6,0,18,0,6,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.query.dsl.impl,LuceneSearchQueryOptionsStepImpl,29,0,0,0,8,0,6,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.search.query.dsl.impl,LuceneSearchQueryHitTypeStepImpl,110,0,0,0,27,0,12,0,12,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.lowlevel.reader.impl,HolderMultiReader,164,0,18,0,30,0,15,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.orchestration.impl,LuceneWriteWorkOrchestrator,15,0,0,0,3,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.orchestration.impl,LuceneReadWorkOrchestratorImpl,70,0,4,0,21,0,9,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.orchestration.impl,LuceneSingleWriteWorkSet,45,0,0,0,16,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.orchestration.impl,LuceneEnsureIndexExistsWriteWorkSet,25,0,0,0,11,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.orchestration.impl,LuceneReadWorkOrchestratorImpl.ReadTask,43,0,0,0,15,0,6,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.orchestration.impl,LuceneBatchingWriteWorkOrchestrator,48,0,0,0,14,0,6,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.orchestration.impl,LuceneWriteWorkExecutionContextImpl,3,12,0,0,1,5,1,2,1,2
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.orchestration.impl,LuceneWriteWorkProcessor,121,113,5,9,34,35,5,12,2,8
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneFieldFieldCodec,103,0,16,0,28,0,16,0,8,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneOffsetDateTimeFieldCodec,66,0,6,0,19,0,10,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneBigDecimalFieldCodec,127,0,14,0,26,0,18,0,11,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneFieldCodec,8,0,0,0,4,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneByteFieldCodec,43,0,2,0,12,0,7,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneGeoPointFieldCodec,184,0,30,0,40,0,24,0,9,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneLocalTimeFieldCodec,80,0,6,0,25,0,10,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneLongFieldCodec,35,0,2,0,11,0,7,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneLocalDateTimeFieldCodec,71,0,6,0,20,0,10,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneMonthDayFieldCodec,81,0,6,0,23,0,10,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneOffsetTimeFieldCodec,80,0,6,0,24,0,10,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneBigIntegerFieldCodec,133,0,14,0,27,0,18,0,11,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneShortFieldCodec,43,0,2,0,12,0,7,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneLocalDateFieldCodec,67,0,6,0,20,0,10,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneZonedDateTimeFieldCodec,73,0,6,0,24,0,10,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneInstantFieldCodec,56,0,6,0,15,0,10,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,AbstractLuceneNumericFieldCodec,131,0,30,0,30,0,19,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneStringFieldCodec,175,0,40,0,42,0,27,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneYearFieldCodec,43,0,2,0,12,0,7,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneDoubleFieldCodec,35,0,2,0,11,0,7,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneIntegerFieldCodec,35,0,2,0,11,0,7,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneYearMonthFieldCodec,77,0,6,0,21,0,10,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneFloatFieldCodec,35,0,2,0,11,0,7,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.types.codec.impl,LuceneBooleanFieldCodec,55,0,8,0,12,0,10,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.index.impl,ShardHolder,321,0,24,0,64,0,25,0,13,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.index.impl,LuceneIndexScopeBuilder,96,0,2,0,23,0,6,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.index.impl,NoShardingStrategy,17,0,0,0,6,0,5,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.index.impl,Shard,121,0,8,0,25,0,12,0,8,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.index.impl,IndexManagerBackendContext,251,0,2,0,49,0,13,0,12,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.index.impl,LuceneIndexManagerImpl,210,0,12,0,44,0,23,0,17,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.index.impl,LuceneIndexManagerBuilder,52,0,0,0,16,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.index.impl,ShardingStrategyInitializationContextImpl,145,0,8,0,43,0,13,0,9,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.index.impl,HashShardingStrategy,126,0,10,0,31,0,13,0,8,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.index.impl,ExplicitShardingStrategy,71,0,4,0,21,0,9,0,7,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.impl,LuceneIndexEntryFactory,30,0,0,0,8,0,2,0,2,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.impl,AbstractLuceneDocumentBuilder,199,0,28,0,55,0,23,0,9,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.impl,LuceneNestedObjectDocumentBuilder,80,0,0,0,17,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.impl,AbstractLuceneNonFlattenedDocumentBuilder.EncounteredFieldStatus,38,0,0,0,3,0,4,0,4,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.impl,LuceneIndexFieldReference,33,0,2,0,7,0,6,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.impl,LuceneIndexEntry,45,0,0,0,13,0,3,0,3,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.impl,AbstractLuceneNonFlattenedDocumentBuilder,93,0,6,0,22,0,9,0,6,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.impl,LuceneIndexObjectFieldReference,23,0,2,0,8,0,6,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.impl,LuceneFlattenedObjectDocumentBuilder,40,0,2,0,13,0,6,0,5,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.impl,AbstractLuceneDocumentBuilder.new Object() {...},12,0,0,0,1,0,1,0,1,0
+Hibernate Search Backend - Lucene,org.hibernate.search.backend.lucene.document.impl,LuceneRootDocumentBuilder,111,0,4,0,22,0,6,0,4,0

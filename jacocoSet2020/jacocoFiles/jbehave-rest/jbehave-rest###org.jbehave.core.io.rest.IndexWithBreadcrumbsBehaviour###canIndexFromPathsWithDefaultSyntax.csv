@@ -1,0 +1,36 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JBehave REST,org.jbehave.core.io.rest.confluence,Confluence,100,0,2,0,21,0,5,0,4,0
+JBehave REST,org.jbehave.core.io.rest.confluence,LoadFromConfluence,326,0,30,0,62,0,25,0,10,0
+JBehave REST,org.jbehave.core.io.rest.confluence,Confluence.Page,63,0,6,0,18,0,14,0,11,0
+JBehave REST,org.jbehave.core.io.rest.confluence,IndexFromConfluence,179,0,18,0,33,0,17,0,8,0
+JBehave REST,org.jbehave.core.io.rest.confluence,Confluence.Link,17,0,0,0,7,0,5,0,5,0
+JBehave REST,org.jbehave.core.io.rest.confluence,Confluence.Group,10,0,0,0,4,0,3,0,3,0
+JBehave REST,org.jbehave.core.io.rest.confluence,Confluence.Results,10,0,0,0,4,0,3,0,3,0
+JBehave REST,org.jbehave.core.io.rest.xwiki,LoadFromXWiki,61,0,3,0,13,0,6,0,4,0
+JBehave REST,org.jbehave.core.io.rest.xwiki,LoadFromXWiki.Page,3,0,0,0,1,0,1,0,1,0
+JBehave REST,org.jbehave.core.io.rest.xwiki,UploadToXWiki.Page,3,0,0,0,1,0,1,0,1,0
+JBehave REST,org.jbehave.core.io.rest.xwiki,IndexFromXWiki.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0
+JBehave REST,org.jbehave.core.io.rest.xwiki,IndexFromXWiki.Page,3,0,0,0,1,0,1,0,1,0
+JBehave REST,org.jbehave.core.io.rest.xwiki,IndexFromXWiki,97,23,4,0,16,6,6,3,4,3
+JBehave REST,org.jbehave.core.io.rest.xwiki,UploadToXWiki,80,0,5,0,20,0,6,0,3,0
+JBehave REST,org.jbehave.core.io.rest,IndexWithBreadcrumbs.ToLowerCase,0,6,0,0,0,2,0,2,0,2
+JBehave REST,org.jbehave.core.io.rest,RESTClient.Type,21,29,0,0,1,2,2,2,2,2
+JBehave REST,org.jbehave.core.io.rest,RESTClient,74,12,2,0,12,5,6,1,5,1
+JBehave REST,org.jbehave.core.io.rest,IndexWithBreadcrumbs,34,202,2,16,8,47,4,17,2,10
+JBehave REST,org.jbehave.core.io.rest,LoadFromREST,24,29,0,0,7,8,2,5,2,5
+JBehave REST,org.jbehave.core.io.rest,UploadToREST,59,0,0,0,17,0,7,0,7,0
+JBehave REST,org.jbehave.core.io.rest,Resource,35,50,4,2,8,18,8,12,6,11
+JBehave REST,org.jbehave.core.io.rest.filesystem,ImportToFilesystem,120,0,6,0,27,0,8,0,5,0
+JBehave REST,org.jbehave.core.io.rest.filesystem,ExportFromFilesystem,123,0,8,0,28,0,9,0,5,0
+JBehave REST,org.jbehave.core.io.rest.filesystem,FilesystemUtils,31,11,2,0,3,2,3,2,2,2
+JBehave REST,org.jbehave.core.io.rest.mojo,ImportToFilesystemMojo,80,0,0,0,19,0,3,0,3,0
+JBehave REST,org.jbehave.core.io.rest.mojo,ExportFromFilesystemMojo,94,0,0,0,22,0,3,0,3,0
+JBehave REST,org.jbehave.core.io.rest.mojo,AbstractFilesystemMojo,147,0,16,0,20,0,12,0,4,0
+JBehave REST,org.jbehave.core.io.rest.redmine,IndexFromRedmine.Page,3,0,0,0,1,0,1,0,1,0
+JBehave REST,org.jbehave.core.io.rest.redmine,IndexFromRedmine,121,0,4,0,20,0,9,0,7,0
+JBehave REST,org.jbehave.core.io.rest.redmine,UploadToRedmine.Page,3,0,0,0,1,0,1,0,1,0
+JBehave REST,org.jbehave.core.io.rest.redmine,LoadFromRedmine,74,0,3,0,16,0,7,0,5,0
+JBehave REST,org.jbehave.core.io.rest.redmine,UploadToRedmine.Entity,3,0,0,0,1,0,1,0,1,0
+JBehave REST,org.jbehave.core.io.rest.redmine,LoadFromRedmine.WikiPage,3,0,0,0,1,0,1,0,1,0
+JBehave REST,org.jbehave.core.io.rest.redmine,UploadToRedmine,64,0,2,0,14,0,5,0,4,0
+JBehave REST,org.jbehave.core.io.rest.redmine,IndexFromRedmine.new TypeToken() {...},6,0,0,0,1,0,1,0,1,0

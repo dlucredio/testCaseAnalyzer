@@ -1,0 +1,14 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+protostuff :: msgpack,io.protostuff,MsgpackIOUtil,166,183,1,5,55,51,12,13,11,11
+protostuff :: msgpack,io.protostuff,MsgpackGenerator.ArrayValueImpl,167,37,14,2,38,9,18,4,11,3
+protostuff :: msgpack,io.protostuff,MsgpackIOUtil.new Pipe() {...},32,0,6,0,8,0,6,0,3,0
+protostuff :: msgpack,io.protostuff,MsgpackWriteSink,305,147,45,11,51,28,32,13,5,12
+protostuff :: msgpack,io.protostuff,MsgpackXIOUtil,163,80,20,8,48,21,17,4,5,2
+protostuff :: msgpack,io.protostuff,MsgpackOutput,210,119,6,2,37,26,18,9,15,8
+protostuff :: msgpack,io.protostuff,MsgpackInputException,4,0,0,0,2,0,1,0,1,0
+protostuff :: msgpack,io.protostuff,MsgpackGenerator.ImmutableFloatValueImpl,110,0,12,0,30,0,23,0,17,0
+protostuff :: msgpack,io.protostuff,MsgpackGenerator,16,104,2,6,4,27,4,9,2,7
+protostuff :: msgpack,io.protostuff,MsgpackXOutput,344,446,49,27,85,117,53,22,18,19
+protostuff :: msgpack,io.protostuff,MsgpackInput,121,23,4,0,34,7,22,5,20,5
+protostuff :: msgpack,io.protostuff,MsgpackParser,72,121,4,12,23,33,15,11,11,7
+protostuff :: msgpack,io.protostuff,MsgpackGenerator.AbstractValue,88,3,0,0,22,1,22,1,22,1

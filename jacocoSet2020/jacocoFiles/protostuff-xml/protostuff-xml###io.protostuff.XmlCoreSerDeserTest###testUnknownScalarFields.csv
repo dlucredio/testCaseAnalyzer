@@ -1,0 +1,10 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+protostuff :: xml,io.protostuff,XmlXIOUtil,166,69,5,1,37,14,6,2,3,2
+protostuff :: xml,io.protostuff,XmlInput,182,163,15,14,40,47,24,21,12,17
+protostuff :: xml,io.protostuff,XmlOutputException,8,0,0,0,4,0,2,0,2,0
+protostuff :: xml,io.protostuff,XmlIOUtil.new Pipe() {...},75,0,12,0,20,0,9,0,3,0
+protostuff :: xml,io.protostuff,XmlXOutput,452,167,8,0,103,27,26,6,22,6
+protostuff :: xml,io.protostuff,XmlIOFactoryUtil,80,134,10,12,20,37,9,7,1,4
+protostuff :: xml,io.protostuff,XmlIOUtil,420,128,42,6,124,41,43,9,19,9
+protostuff :: xml,io.protostuff,XmlInputException,8,0,0,0,4,0,2,0,2,0
+protostuff :: xml,io.protostuff,XmlOutput,160,153,8,2,38,43,17,15,13,14
