@@ -1,4 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-JBehave Scala,org.jbehave.core.configuration.scala,ScalaContext.ScalaInstanceNotFound,0,9,0,0,0,4,0,2,0,2
-JBehave Scala,org.jbehave.core.configuration.scala,ScalaContext,25,57,3,3,5,14,3,6,1,5
-JBehave Scala,org.jbehave.core.steps.scala,ScalaStepsFactory,33,7,4,0,6,3,4,1,2,1

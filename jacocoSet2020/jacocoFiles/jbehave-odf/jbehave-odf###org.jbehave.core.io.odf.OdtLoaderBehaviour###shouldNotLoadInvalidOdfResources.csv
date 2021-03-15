@@ -1,6 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-JBehave ODF,org.jbehave.core.io.odf,OdfUtils.OdfDocumentParsingFailed,11,0,0,0,2,0,1,0,1,0
-JBehave ODF,org.jbehave.core.io.odf,OdfUtils.OdfDocumentLoadingFailed,0,11,0,0,0,2,0,1,0,1
-JBehave ODF,org.jbehave.core.io.odf,LoadOdtFromClasspath,0,22,0,0,0,7,0,3,0,3
-JBehave ODF,org.jbehave.core.io.odf,LoadOdtFromURL,0,16,0,0,0,4,0,2,0,2
-JBehave ODF,org.jbehave.core.io.odf,OdfUtils,10,121,1,9,2,27,2,11,1,7

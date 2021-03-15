@@ -1,8 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-JBehave Guice,org.jbehave.core.junit.guice,GuiceAnnotatedEmbedderRunner,14,0,0,0,4,0,2,0,2,0
-JBehave Guice,org.jbehave.core.junit.guice,GuiceAnnotatedPathRunner,10,0,0,0,3,0,2,0,2,0
-JBehave Guice,org.jbehave.core.steps.guice,GuiceStepsFactory,117,0,14,0,26,0,12,0,5,0
-JBehave Guice,org.jbehave.core.configuration.guice,GuiceAnnotationBuilder.new AbstractModule() {...},0,33,0,2,0,6,0,3,0,2
-JBehave Guice,org.jbehave.core.configuration.guice,GuiceAnnotationBuilder.new TypeLiteral() {...},0,6,0,0,0,1,0,1,0,1
-JBehave Guice,org.jbehave.core.configuration.guice,GuiceAnnotationBuilder,60,227,9,23,11,47,10,16,2,8
-JBehave Guice,org.jbehave.core.configuration.guice,GuiceAnnotationBuilder.new AbstractModule() {...},0,7,0,0,0,2,0,2,0,2

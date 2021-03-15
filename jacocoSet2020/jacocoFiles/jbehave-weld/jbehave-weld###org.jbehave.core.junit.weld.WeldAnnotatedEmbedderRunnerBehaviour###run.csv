@@ -1,7 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-JBehave Weld,org.jbehave.core.junit.weld,WeldAnnotatedEmbedderRunner,0,23,0,0,0,6,0,2,0,2
-JBehave Weld,org.jbehave.core.junit.weld,WeldAnnotatedPathRunner,22,0,2,0,6,0,3,0,2,0
-JBehave Weld,org.jbehave.core.steps.weld,WeldStepsFactory,6,44,2,4,1,9,2,4,0,3
-JBehave Weld,org.jbehave.core.configuration.weld,WeldBootstrap,0,27,0,0,0,6,0,4,0,4
-JBehave Weld,org.jbehave.core.configuration.weld,WeldBootstrap.InstanceManager,0,66,1,5,0,13,1,5,0,3
-JBehave Weld,org.jbehave.core.configuration.weld,WeldAnnotationBuilder,5,66,2,4,2,17,2,6,0,5

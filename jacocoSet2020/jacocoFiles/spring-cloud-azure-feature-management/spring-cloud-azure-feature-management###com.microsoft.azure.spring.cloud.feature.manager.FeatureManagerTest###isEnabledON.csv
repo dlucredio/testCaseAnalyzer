@@ -1,8 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-Spring Cloud Feature Management,com.microsoft.azure.spring.cloud.feature.manager,FeatureManagementConfiguration,8,0,0,0,2,0,2,0,2,0
-Spring Cloud Feature Management,com.microsoft.azure.spring.cloud.feature.manager,FeatureManager,30,101,8,12,7,27,7,9,0,6
-Spring Cloud Feature Management,com.microsoft.azure.spring.cloud.feature.manager,FilterNotFoundException,30,0,2,0,6,0,3,0,2,0
-Spring Cloud Feature Management,com.microsoft.azure.spring.cloud.feature.manager,FeatureManagementConfigProperties,13,0,0,0,5,0,3,0,3,0
-Spring Cloud Feature Management,com.microsoft.azure.spring.cloud.feature.manager.entities,FeatureFilterEvaluationContext,0,17,0,0,0,7,0,5,0,5
-Spring Cloud Feature Management,com.microsoft.azure.spring.cloud.feature.manager.entities,Feature,29,20,5,1,6,9,3,6,0,6
-Spring Cloud Feature Management,com.microsoft.azure.spring.cloud.feature.manager.entities,FeatureSet,64,116,12,8,9,30,8,11,0,9

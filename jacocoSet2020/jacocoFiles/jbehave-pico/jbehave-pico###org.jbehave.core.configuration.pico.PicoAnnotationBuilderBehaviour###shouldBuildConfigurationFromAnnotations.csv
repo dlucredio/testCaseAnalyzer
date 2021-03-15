@@ -1,5 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-JBehave PicoContainer,org.jbehave.core.steps.pico,PicoStepsFactory,51,0,6,0,12,0,6,0,3,0
-JBehave PicoContainer,org.jbehave.core.configuration.pico,PicoAnnotationBuilder,59,120,6,12,12,29,8,9,3,5
-JBehave PicoContainer,org.jbehave.core.junit.pico,PicoAnnotatedEmbedderRunner,14,0,0,0,4,0,2,0,2,0
-JBehave PicoContainer,org.jbehave.core.junit.pico,PicoAnnotatedPathRunner,10,0,0,0,3,0,2,0,2,0
