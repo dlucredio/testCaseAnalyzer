@@ -1,3 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-Spring Initializr :: Version Resolver,io.spring.initializr.versionresolver,DependencyManagementVersionResolver,5,0,0,0,1,0,1,0,1,0
-Spring Initializr :: Version Resolver,io.spring.initializr.versionresolver,MavenResolverDependencyManagementVersionResolver,0,193,0,0,0,36,0,6,0,6

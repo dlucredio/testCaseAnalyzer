@@ -1,7 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-javaparser-core-serialization,com.github.javaparser.serialization,JavaParserJsonDeserializer,58,320,5,29,7,68,6,23,1,11
-javaparser-core-serialization,com.github.javaparser.serialization,JavaParserJsonSerializer.JsonToken,24,34,0,0,2,6,3,2,3,2
-javaparser-core-serialization,com.github.javaparser.serialization,JavaParserJsonSerializer,17,236,2,14,1,55,3,13,1,7
-javaparser-core-serialization,com.github.javaparser.serialization,JavaParserJsonSerializer.JsonTokenRange,24,34,0,0,2,6,3,2,3,2
-javaparser-core-serialization,com.github.javaparser.serialization,JavaParserJsonSerializer.JsonRange,24,56,0,0,2,8,3,2,3,2
-javaparser-core-serialization,com.github.javaparser.serialization,JavaParserJsonSerializer.JsonNode,24,58,0,0,2,8,3,2,3,2
