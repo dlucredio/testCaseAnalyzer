@@ -1,8 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-spring-cloud-azure-storage,com.microsoft.azure.spring.cloud.storage,BlobStorageResource,124,95,3,7,27,22,11,11,8,9
-spring-cloud-azure-storage,com.microsoft.azure.spring.cloud.storage,AzureStorageResource,21,82,2,6,3,18,2,9,0,7
-spring-cloud-azure-storage,com.microsoft.azure.spring.cloud.storage,AzureStorageUtils,3,19,0,0,1,3,1,2,1,2
-spring-cloud-azure-storage,com.microsoft.azure.spring.cloud.storage,StorageRuntimeException,9,0,0,0,4,0,2,0,2,0
-spring-cloud-azure-storage,com.microsoft.azure.spring.cloud.storage,FileStorageResource,224,0,10,0,49,0,22,0,17,0
-spring-cloud-azure-storage,com.microsoft.azure.spring.cloud.storage,StorageType,9,37,0,0,0,6,2,3,2,3
-spring-cloud-azure-storage,com.microsoft.azure.spring.cloud.storage,AzureStorageProtocolResolver,18,48,5,3,4,12,4,6,0,6

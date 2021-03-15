@@ -1,0 +1,43 @@
+Author,Project,URL
+Google,guice,https://github.com/google/guice
+Google,gson,https://github.com/google/gson
+Google,closure-compiler,https://github.com/google/closure-compiler
+Google,open-location-code,https://github.com/google/open-location-code
+Google,google-java-format,https://github.com/google/google-java-format
+Google,error-prone,https://github.com/google/error-prone
+Google,truth,https://github.com/google/truth
+Google,jimfs,https://github.com/google/jimfs
+Google,compile-testing,https://github.com/google/compile-testing
+Google,closure-templates,https://github.com/google/closure-templates
+Amazon,ion-java,https://github.com/amzn/ion-java
+Twitter,Nodes,https://github.com/twitter/nodes
+Twitter,hraven,https://github.com/twitter/hraven
+Twitter,ambrose,https://github.com/twitter/ambrose
+Twitter,GraphJet,https://github.com/twitter/GraphJet
+Twitter,hbc,https://github.com/twitter/hbc
+Apache,incubator-datasketches-java,https://github.com/apache/incubator-datasketches-java
+Microsoft,spring-cloud-azure,https://github.com/microsoft/spring-cloud-azure
+Microsoft,spring-data-cosmosdb,https://github.com/microsoft/spring-data-cosmosdb
+Microsoft,spring-data-gremlin,https://github.com/microsoft/spring-data-gremlin
+Microsoft,Git-Credential-Manager-for-Mac-and-Linux,https://github.com/microsoft/Git-Credential-Manager-for-Mac-and-Linux
+spring.io,initializr,https://github.com/spring-io/initializr
+javaparser,javaparser,https://github.com/javaparser/javaparser
+plutext,docx4j,https://github.com/plutext/docx4j
+jbehave,jbehave-core ,https://github.com/jbehave/jbehave-core
+hibernate,hibernate-ogm ,https://github.com/hibernate/hibernate-ogm,mvn clean compile test -s settings-example.xml -DskipITs -DskipDocs -DskipDistro
+shopizer-ecommerce,shopizer,https://github.com/shopizer-ecommerce/shopizer
+kiegroup,optaplanner-core,https://github.com/kiegroup/optaplanner
+swagger-api,swagger-core,https://github.com/swagger-api/swagger-core
+rampatra,jbot,https://github.com/rampatra/jbot
+NanoHttpd,nanohttpd,https://github.com/NanoHttpd/nanohttpd
+digitalfondue,lavagna,https://github.com/digitalfondue/lavagna
+protostuff,protostuff-core,https://github.com/protostuff/protostuff
+hibernate,hibernate-search,https://github.com/hibernate/hibernate-search
+easymock,objenesis,https://github.com/easymock/objenesis
+oskopek,javaanpr,https://github.com/oskopek/javaanpr
+greenmail-mail-test,greenmail,https://github.com/greenmail-mail-test/greenmail,
+Netflix,zuul,https://github.com/Netflix/zuul,./gradlew build
+Netflix,mantis,https://github.com/Netflix/mantis,./gradlew build
+Netflix,hollow,https://github.com/Netflix/hollow,./gradlew build
+Netflix,governator,https://github.com/Netflix/governator,./gradlew build
+Netflix,Fenzo,https://github.com/Netflix/Fenzo,./gradlew build

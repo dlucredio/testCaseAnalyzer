@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            id="br.ufscar.dc.dlucredio.fse-analyzer.commands.category"
+            name="Test Case Analyzer">
+      </category>
+      <command
+            categoryId="br.ufscar.dc.dlucredio.fse-analyzer.commands.category"
+            name="Run"
+            id="br.ufscar.dc.dlucredio.fse-analyzer.commands.sampleCommand">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="br.ufscar.dc.dlucredio.fseanalyzer.handlers.SampleHandler"
+            commandId="br.ufscar.dc.dlucredio.fse-analyzer.commands.sampleCommand">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="br.ufscar.dc.dlucredio.fse-analyzer.commands.sampleCommand"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            contextId="org.eclipse.ui.contexts.window"
+            sequence="M1+6">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               id="br.ufscar.dc.dlucredio.fse-analyzer.menus.sampleMenu"
+               label="Test Case Analyzer"
+               mnemonic="T">
+            <command
+                  commandId="br.ufscar.dc.dlucredio.fse-analyzer.commands.sampleCommand"
+                  id="br.ufscar.dc.dlucredio.fse-analyzer.menus.sampleCommand"
+                  mnemonic="S">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+
+</plugin>
