@@ -173,6 +173,6 @@ write.csv(resulth6,"files/analysisResultH06.csv", row.names = TRUE)
 write.csv(resulth7,"files/analysisResultH07.csv", row.names = TRUE)
 write.csv(resulth10,"files/analysisResultH10.csv", row.names = TRUE)
 write.csv(resulth14,"files/analysisResultH14.csv", row.names = TRUE)
-write.csv(resulth14,"files/analysisResultH18.csv", row.names = TRUE)
+write.csv(resulth18,"files/analysisResultH18.csv", row.names = TRUE)
 
 print("Done!")
