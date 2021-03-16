@@ -1,12 +1,9 @@
-# H3 Good test cases should check for normal and exceptional flow.
+# H7 Large test cases are often hard to understand and maintain.
 
 # How to measure:
-# - number of methods invoked with exception handling in a test case AND number of bug fixes in its history
-# - Only observations with at least one exception thrown.
-#   Because this is a neglected area, the number of test
-#   cases exploring exception handling is too low.
+# - number of LOC in a test case AND Cyclomatic complexity
 
-testH3b <- function(staticAnalysisCommitsClones) {
+testH7 <- function(locComplexityEntropyCommitsClones) {
   result = list(numObservations = 0,
                 normalityLeft = 0,
                 normalityRight = 0,
@@ -18,21 +15,23 @@ testH3b <- function(staticAnalysisCommitsClones) {
                 pearsonPValue = 0)
   
   
-  # For H3b, we need the number of exceptions being thrown in a test case
-  staticAnalysisCommitsClones$numberOfExceptionsThrown = as.numeric(staticAnalysisCommitsClones$numberOfExceptionsThrown)
+  # For H7, we need the number of LOC and cyclomatic complexity
+  locComplexityEntropyCommitsClones$CountLineCode = as.numeric(locComplexityEntropyCommitsClones$CountLineCode)
+  locComplexityEntropyCommitsClones$Cyclomatic = as.numeric(locComplexityEntropyCommitsClones$Cyclomatic)
+  
 
-  # Only observations with at least one exception thrown.
-  data <- staticAnalysisCommitsClones[staticAnalysisCommitsClones$numberOfExceptionsThrown != 0,]
-
+  # All observations
+  data <- locComplexityEntropyCommitsClones
   result$numObservations = nrow(data)
+  
   tryCatch(
   expr = {
       if(nrow(data) < 5000) {
-        normalityLeft <- shapiro.test(data$numberOfExceptionsThrown)
-        normalityRight <- shapiro.test(data$noCommitFixes)
+        normalityLeft <- shapiro.test(data$CountLineCode)
+        normalityRight <- shapiro.test(data$Cyclomatic)
       } else {
-        normalityLeft <- shapiro.test(sample(data$numberOfExceptionsThrown,5000))
-        normalityRight <- shapiro.test(sample(data$noCommitFixes,5000))
+        normalityLeft <- shapiro.test(sample(data$CountLineCode,5000))
+        normalityRight <- shapiro.test(sample(data$Cyclomatic,5000))
       }
       result$normalityLeft <- normalityLeft$p.value
       result$normalityRight <- normalityRight$p.value
@@ -47,8 +46,8 @@ testH3b <- function(staticAnalysisCommitsClones) {
   )
   tryCatch(
     expr = {
-      hKendall <- cor.test(data$numberOfExceptionsThrown,
-                   data$noCommitFixes,
+      hKendall <- cor.test(data$CountLineCode,
+                   data$Cyclomatic,
                    method="kendall",
                    exact=FALSE)
       result$kendallTau <- hKendall$estimate
@@ -64,8 +63,8 @@ testH3b <- function(staticAnalysisCommitsClones) {
   )
   tryCatch(
     expr = {
-      hSpearman <- cor.test(data$numberOfExceptionsThrown,
-                            data$noCommitFixes,
+      hSpearman <- cor.test(data$CountLineCode,
+                            data$Cyclomatic,
                             method="spearman",
                             exact=FALSE)
       result$spearmanRho <- hSpearman$estimate
@@ -81,8 +80,8 @@ testH3b <- function(staticAnalysisCommitsClones) {
   )
   tryCatch(
     expr = {
-      hPearson <- cor.test(data$numberOfExceptionsThrown,
-                             data$noCommitFixes,
+      hPearson <- cor.test(data$CountLineCode,
+                             data$Cyclomatic,
                              method="pearson")
       result$pearsonCor <- hPearson$estimate
       result$pearsonPValue <- hPearson$p.value

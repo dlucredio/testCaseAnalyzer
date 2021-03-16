@@ -1,6 +1,6 @@
 These scripts are used to collect different data and inputs from projects. The following guide is a brief description of all steps used to reproduce everything. Please feel free to submit a pull request to fix something or provide more info.
 
-In the following instructions, the input/output file names are only suggestions. But if you follow all suggestions it is easier to understand how all files are merged together. If the default file name is not the same described here, rename it to make the steps easier to follow.
+In the following instructions, the input/output file names are only suggestions. But if you follow all suggestions it is easier to understand how all files are merged together. If the default file name produced by a script is not the same described here, rename it to make the steps easier to follow.
 
 ### Preparation
 
@@ -35,7 +35,7 @@ Run [testCaseAnalyzerPlugin](./testCaseAnalyzerPlugin) with ```PARSE_TEST_CASE_M
 
 Before running this step, there might be necessary to manually adjust some project names:
 
-Run ```analyzeProjectNames.py``` and manually adjust the names based on the output
+Run ```analyzeProjectNames.py``` and manually adjust the names in ```commitsClones.csv``` based on the output
 - Input ```staticAnalysis.csv``` and ```commitsClones.csv```
 - Output name: ```commitsClonesCorrectNames.csv```
 
@@ -81,5 +81,8 @@ The R scripts will need the following files:
 - ```staticAnalysisCommitsClonesCoverage.csv``` (output from Step 7)
 - ```locComplexityEntropyCommitsClones.csv``` (output from Step 10)
 
+The main script is [fullAnalysis.r](./staticAnalysis/fullAnalysis.r). It calls other scripts, one for each hypothesis tested.
+
+The output of this analysis are the files named ```analysisResultHX.csv```, in folder [files](../files). Each file has, on the first line, the results for all projects, and in the next lines, one result per project.
 
 

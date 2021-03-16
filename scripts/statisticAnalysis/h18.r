@@ -1,12 +1,9 @@
-# H3 Good test cases should check for normal and exceptional flow.
+# H18 A good test case should be readable and understandable
 
 # How to measure:
-# - number of methods invoked with exception handling in a test case AND number of bug fixes in its history
-# - Only observations with at least one exception thrown.
-#   Because this is a neglected area, the number of test
-#   cases exploring exception handling is too low.
+# - Readability AND number of bug fixes in its history
 
-testH3b <- function(staticAnalysisCommitsClones) {
+testH18 <- function(locComplexityEntropyCommitsClones) {
   result = list(numObservations = 0,
                 normalityLeft = 0,
                 normalityRight = 0,
@@ -18,20 +15,24 @@ testH3b <- function(staticAnalysisCommitsClones) {
                 pearsonPValue = 0)
   
   
-  # For H3b, we need the number of exceptions being thrown in a test case
-  staticAnalysisCommitsClones$numberOfExceptionsThrown = as.numeric(staticAnalysisCommitsClones$numberOfExceptionsThrown)
+  # For H18, we need readability, which is measured based on entropy
+  locComplexityEntropyCommitsClones$halsteadVolume = as.numeric(locComplexityEntropyCommitsClones$halsteadVolume)
+  locComplexityEntropyCommitsClones$CountLineCode = as.numeric(locComplexityEntropyCommitsClones$CountLineCode)
+  locComplexityEntropyCommitsClones$entropy = as.numeric(locComplexityEntropyCommitsClones$entropy)
+  locComplexityEntropyCommitsClones$readability = 8.87 - 0.033 * locComplexityEntropyCommitsClones$halsteadVolume + 0.4 * locComplexityEntropyCommitsClones$CountLineCode - 1.5 * locComplexityEntropyCommitsClones$entropy
+  
 
-  # Only observations with at least one exception thrown.
-  data <- staticAnalysisCommitsClones[staticAnalysisCommitsClones$numberOfExceptionsThrown != 0,]
-
+  # All observations
+  data <- locComplexityEntropyCommitsClones
   result$numObservations = nrow(data)
+  
   tryCatch(
   expr = {
       if(nrow(data) < 5000) {
-        normalityLeft <- shapiro.test(data$numberOfExceptionsThrown)
+        normalityLeft <- shapiro.test(data$readability)
         normalityRight <- shapiro.test(data$noCommitFixes)
       } else {
-        normalityLeft <- shapiro.test(sample(data$numberOfExceptionsThrown,5000))
+        normalityLeft <- shapiro.test(sample(data$readability,5000))
         normalityRight <- shapiro.test(sample(data$noCommitFixes,5000))
       }
       result$normalityLeft <- normalityLeft$p.value
@@ -47,7 +48,7 @@ testH3b <- function(staticAnalysisCommitsClones) {
   )
   tryCatch(
     expr = {
-      hKendall <- cor.test(data$numberOfExceptionsThrown,
+      hKendall <- cor.test(data$readability,
                    data$noCommitFixes,
                    method="kendall",
                    exact=FALSE)
@@ -64,7 +65,7 @@ testH3b <- function(staticAnalysisCommitsClones) {
   )
   tryCatch(
     expr = {
-      hSpearman <- cor.test(data$numberOfExceptionsThrown,
+      hSpearman <- cor.test(data$readability,
                             data$noCommitFixes,
                             method="spearman",
                             exact=FALSE)
@@ -81,7 +82,7 @@ testH3b <- function(staticAnalysisCommitsClones) {
   )
   tryCatch(
     expr = {
-      hPearson <- cor.test(data$numberOfExceptionsThrown,
+      hPearson <- cor.test(data$readability,
                              data$noCommitFixes,
                              method="pearson")
       result$pearsonCor <- hPearson$estimate

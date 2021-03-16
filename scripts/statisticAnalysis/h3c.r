@@ -48,12 +48,12 @@ testH3c <- function(staticAnalysisCommitsClones) {
   )
   tryCatch(
     expr = {
-      h1Kendall <- cor.test(data$totalExceptions,
+      hKendall <- cor.test(data$totalExceptions,
                    data$noCommitFixes,
                    method="kendall",
                    exact=FALSE)
-      result$kendallTau <- h1Kendall$estimate
-      result$kendallPValue <- h1Kendall$p.value
+      result$kendallTau <- hKendall$estimate
+      result$kendallPValue <- hKendall$p.value
     },
     warning = function(warning_condition) { 
       print(cat("...Warning during kendall test: ",paste( unlist(warning_condition), collapse=' ')))
@@ -65,12 +65,12 @@ testH3c <- function(staticAnalysisCommitsClones) {
   )
   tryCatch(
     expr = {
-      h1Spearman <- cor.test(data$totalExceptions,
+      hSpearman <- cor.test(data$totalExceptions,
                             data$noCommitFixes,
                             method="spearman",
                             exact=FALSE)
-      result$spearmanRho <- h1Spearman$estimate
-      result$spearmanPValue <- h1Spearman$p.value
+      result$spearmanRho <- hSpearman$estimate
+      result$spearmanPValue <- hSpearman$p.value
     },
     warning = function(warning_condition) { 
       print(cat("...Warning during spearman test: ",paste( unlist(warning_condition), collapse=' ')))
@@ -82,11 +82,11 @@ testH3c <- function(staticAnalysisCommitsClones) {
   )
   tryCatch(
     expr = {
-      h1Pearson <- cor.test(data$totalExceptions,
+      hPearson <- cor.test(data$totalExceptions,
                              data$noCommitFixes,
                              method="pearson")
-      result$pearsonCor <- h1Pearson$estimate
-      result$pearsonPValue <- h1Pearson$p.value
+      result$pearsonCor <- hPearson$estimate
+      result$pearsonPValue <- hPearson$p.value
     },
     warning = function(warning_condition) { 
       print(cat("...Warning during pearson test: ",paste( unlist(warning_condition), collapse=' ')))
