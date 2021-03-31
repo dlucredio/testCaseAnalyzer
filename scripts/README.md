@@ -81,7 +81,7 @@ The R scripts will need the following files:
 - ```staticAnalysisCommitsClonesCoverage.csv``` (output from Step 7)
 - ```locComplexityEntropyCommitsClones.csv``` (output from Step 10)
 
-The main script is [fullAnalysis.r](./staticAnalysis/fullAnalysis.r). It calls other scripts, one for each hypothesis tested.
+The main script is [fullAnalysis.r](./statisticAnalysis/fullAnalysis.r). It calls other scripts, one for each hypothesis tested.
 
 The output of this analysis are the files named ```analysisResultHX.csv```, in folder [files](../files). Each file has, on the first line, the results for all projects, and in the next lines, one result per project.
 
