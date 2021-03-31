@@ -5,7 +5,7 @@ import fnmatch
 
 csv.field_size_limit(sys.maxsize)
 
-CSV_HEADER = ["Project", "isBugFix", "CommitHash", "CommitMessage", "Level", "TestCase"]
+CSV_HEADER = ["Project", "isBugFix", "CommitHash", "CommitMessage", "Level", "TestCase", "path", "line_of_code"]
 
 def main():
     args = sys.argv
@@ -24,6 +24,8 @@ def main():
                 csv_reader = csv.DictReader(csv_file, delimiter=',')
                 for row in csv_reader:
                     csv_data = []
+                    if row.get("level") is None:
+                        continue
                     if row["level"] == "COMMIT" and row["is_test_file"]:
                         csv_data.append(filename) # Project Name
                         csv_data.append(row["is_bug_fix"]) # Is bug fix
@@ -31,6 +33,8 @@ def main():
                         csv_data.append(row["commitMessage"])
                         csv_data.append("COMMIT")
                         csv_data.append("")
+                        csv_data.append(row["path"])
+                        csv_data.append(row["line_of_code"])
                         csv_rows.append(csv_data)
                     elif row["level"] == "METHOD" and row ["test_case"] != "null":
                         csv_data.append(filename) # Project Name
@@ -39,6 +43,8 @@ def main():
                         csv_data.append(row["commitMessage"])
                         csv_data.append("METHOD")
                         csv_data.append(row["test_case"])
+                        csv_data.append(row["path"])
+                        csv_data.append(row["line_of_code"])
                         csv_rows.append(csv_data)
 
         with open(dest, "w") as csv_file:
