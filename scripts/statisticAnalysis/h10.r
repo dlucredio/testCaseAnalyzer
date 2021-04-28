@@ -2,6 +2,7 @@
 
 # How to measure:
 # - Cyclomatic complexity AND number of bug fixes in its history
+# In the paper, this corresponds to metrics: cycl and bfCommits
 
 testH10 <- function(locComplexityEntropyCommitsClones) {
   result = list(numObservations = 0,
