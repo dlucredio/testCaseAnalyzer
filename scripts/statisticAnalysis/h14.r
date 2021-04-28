@@ -5,6 +5,7 @@
 # - But only observations where the footprint was successfully
 #   collected. Many projects could not be executed by our
 #   automated scripts through JaCoCo.
+# In the paper, this corresponds to metrics: footprint and bfCommits
 
 testH14 <- function(staticAnalysisCommitsClonesCoverage) {
   result = list(numObservations = 0,
