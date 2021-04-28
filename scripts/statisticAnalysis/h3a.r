@@ -3,6 +3,7 @@
 # How to measure:
 # - number of methods invoked with exception handling in a test case AND number of bug fixes in its history
 # - all observations
+# In the paper, this corresponds to metrics: invWithEx and bfCommits
 
 
 testH3a <- function(staticAnalysisCommitsClones) {
