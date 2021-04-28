@@ -1,8 +1,9 @@
 # H2 Test cases in a test suite should be self-contained,
 # i.e., independent of one another.
+# This variant of H2 was NOT included in the paper as there was no clear justification for it.
 
 # How to measure:
-# - number of methods invoked with exception handling in a test case AND number of bug fixes in its history
+# - number of distinct test case method invocations in same class AND number of bug fixes in its history
 # - all observations
 
 testH2c <- function(staticAnalysisCommitsClones) {
