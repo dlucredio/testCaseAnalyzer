@@ -5,6 +5,7 @@
 # - Only observations with at least one exception thrown.
 #   Because this is a neglected area, the number of test
 #   cases exploring exception handling is too low.
+# In the paper, this corresponds to metrics: invWithEx and bfCommits
 
 testH3b <- function(staticAnalysisCommitsClones) {
   result = list(numObservations = 0,
