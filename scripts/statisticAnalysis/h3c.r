@@ -3,6 +3,7 @@
 # How to measure:
 # - Number of exceptions being caught or expected AND number of bug fixes in its history
 # - All observations
+# In the paper, this corresponds to metrics: invWithExC and bfCommits
 
 testH3c <- function(staticAnalysisCommitsClones) {
   result = list(numObservations = 0,
