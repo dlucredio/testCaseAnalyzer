@@ -2,6 +2,7 @@
 
 # How to measure:
 # - Readability AND number of bug fixes in its history
+# In the paper, this corresponds to metrics: read and bfCommits
 
 testH18 <- function(locComplexityEntropyCommitsClones) {
   result = list(numObservations = 0,
