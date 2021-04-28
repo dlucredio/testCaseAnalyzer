@@ -8,6 +8,7 @@
 #   because they use an assert framework not considered
 #   here (Junit, Truth, AssertJ, Hamcrest), or because
 #   the assertion is too deep in the call hierarchy
+# In the paper, this corresponds to metrics: assert(T) and bfCommits(T)
 
 testH1 <- function(staticAnalysisCommitsClones) {
   result = list(numObservations = 0,
