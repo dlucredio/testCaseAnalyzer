@@ -2,6 +2,7 @@
 
 # How to measure:
 # - number of LOC in a test case AND Cyclomatic complexity
+# In the paper, this corresponds to metrics: loc and cycl
 
 testH7 <- function(locComplexityEntropyCommitsClones) {
   result = list(numObservations = 0,
