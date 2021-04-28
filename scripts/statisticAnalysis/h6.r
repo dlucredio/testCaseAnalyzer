@@ -2,6 +2,7 @@
 
 # How to measure:
 # - number of LOC in a test case AND number of bug fixes in its history
+# In the paper, this corresponds to metrics: loc and bfCommits
 
 testH6 <- function(locComplexityEntropyCommitsClones) {
   result = list(numObservations = 0,
