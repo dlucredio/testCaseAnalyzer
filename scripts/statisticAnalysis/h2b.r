@@ -4,6 +4,7 @@
 # How to measure:
 # - number of distinct method invocations in same class AND number of bug fixes in its history
 # - all observations
+# In the paper, this corresponds to metrics: eCouplingTC(T) and bfCommits(T)
 
 testH2b <- function(staticAnalysisCommitsClones) {
   result = list(numObservations = 0,
