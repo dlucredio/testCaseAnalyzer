@@ -7,7 +7,8 @@
 # - all observations
 
 testH2c <- function(staticAnalysisCommitsClones) {
-  result = list(numObservations = 0,
+  result = list(hipothesis = "h2c",
+                numObservations = 0,
                 normalityLeft = 0,
                 normalityRight = 0,
                 kendallTau = 0,
@@ -15,7 +16,11 @@ testH2c <- function(staticAnalysisCommitsClones) {
                 spearmanRho = 0,
                 spearmanPValue = 0,
                 pearsonCor = 0,
-                pearsonPValue = 0)
+                pearsonPValue = 0,
+                numObservationsIneffective = 0,
+                numObservationsEffective = 0,
+                conditionNumObservationsIneffective = "",
+                conditionNumObservationsEffective = "")  
   
   # For H2c, we need the number of distinct test case invocations in the same class
   staticAnalysisCommitsClones$numberOfDistinctTestCaseMethodInvocationsInSameClass = as.numeric(staticAnalysisCommitsClones$numberOfDistinctTestCaseMethodInvocationsInSameClass)
@@ -93,6 +98,29 @@ testH2c <- function(staticAnalysisCommitsClones) {
     },
     finally={ }
   )  
+  
+  ggplot(data,aes(noCommitFixes,noCommitFixes))+geom_bar(stat="identity",width=1)
+  
+  # Balancing
+  # <=0 and >3 = -385 !This is the best balancing
+  # <=0 and >4 =  402 
+  
+  result$conditionNumObservationsIneffective = "<=0"
+  result$conditionNumObservationsEffective = ">3"
+  
+  dataIneffective <- data[data$noCommitFixes == 0,]
+  dataEffective <- data[data$noCommitFixes >3,]
+  
+  result$numObservationsIneffective = nrow(dataIneffective)
+  result$numObservationsEffective = nrow(dataEffective)
+  result$balancing = nrow(dataIneffective)-nrow(dataEffective)
+  
+  w = wilcox.test(dataEffective$numberOfDistinctTestCaseMethodInvocationsInSameClass, dataIneffective$numberOfDistinctTestCaseMethodInvocationsInSameClass, paired = F)
+  result$wilcox <- w$statistic
+  result$wilcoxPvalue <- w$p.value
+  resDelta <- cliff.delta(dataEffective$numberOfDistinctTestCaseMethodInvocationsInSameClass, dataIneffective$numberOfDistinctTestCaseMethodInvocationsInSameClass, paired = F)
+  result$cliffDelta <- as.character(resDelta$magnitude)
+  result$cliffEstimate <- resDelta$estimate
   
   return(result)
 }

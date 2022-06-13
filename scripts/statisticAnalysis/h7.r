@@ -5,7 +5,8 @@
 # In the paper, this corresponds to metrics: loc and cycl
 
 testH7 <- function(locComplexityEntropyCommitsClones) {
-  result = list(numObservations = 0,
+  result = list(hipothesis = "h7",
+                numObservations = 0,
                 normalityLeft = 0,
                 normalityRight = 0,
                 kendallTau = 0,
@@ -13,7 +14,11 @@ testH7 <- function(locComplexityEntropyCommitsClones) {
                 spearmanRho = 0,
                 spearmanPValue = 0,
                 pearsonCor = 0,
-                pearsonPValue = 0)
+                pearsonPValue = 0,
+                numObservationsIneffective = 0,
+                numObservationsEffective = 0,
+                conditionNumObservationsIneffective = "",
+                conditionNumObservationsEffective = "")  
   
   
   # For H7, we need the number of LOC and cyclomatic complexity
@@ -95,6 +100,29 @@ testH7 <- function(locComplexityEntropyCommitsClones) {
     },
     finally={ }
   )  
+  
+  ggplot(data,aes(Cyclomatic,Cyclomatic))+geom_bar(stat="identity",width=1)
+ 
+   # Balancing
+  # <=1 and >1 = 21277   !This is the best balancing (the only one possible, actually)
+  # <=0 and >2 = 21983  
+
+    result$conditionNumObservationsIneffective = "<=1"
+  result$conditionNumObservationsEffective = ">1"
+  
+  dataIneffective <- data[data$Cyclomatic <= 1,]
+  dataEffective <- data[data$Cyclomatic >1,]
+  
+  result$numObservationsIneffective = nrow(dataIneffective)
+  result$numObservationsEffective = nrow(dataEffective)
+  result$balancing = nrow(dataIneffective)-nrow(dataEffective)
+  
+  w = wilcox.test(dataEffective$CountLineCode, dataIneffective$CountLineCode, paired = F)
+  result$wilcox <- w$statistic
+  result$wilcoxPvalue <- w$p.value
+  resDelta <- cliff.delta(dataEffective$CountLineCode, dataIneffective$CountLineCode, paired = F)
+  result$cliffDelta <- as.character(resDelta$magnitude)
+  result$cliffEstimate <- resDelta$estimate 
   
   return(result)
 }
