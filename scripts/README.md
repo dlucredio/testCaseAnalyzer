@@ -73,13 +73,15 @@ Run ```mergeLocComplexityEntropyCommitsClones.py```
 - Input: ```locComplexity.csv``` and ```entropyCommitsClones.csv```
 - Output name: ```locComplexityEntropyCommitsClones.csv```
 
+### Step 11: Merge all files into a single csv
+
+Run ```mergeFinal.py```
+- Input: ```staticAnalysisCommitsClones.csv```, ```staticAnalysisCommitsClonesCoverage.csv``` and ```locComplexityEntropyCommitsClones.csv```
+- Output name: ```mergedFinal.csv```
+
 ### Importing into R Studio
 
-The R scripts will need the following files:
-
-- ```staticAnalysisCommitsClones.csv``` (output from Step 5)
-- ```staticAnalysisCommitsClonesCoverage.csv``` (output from Step 7)
-- ```locComplexityEntropyCommitsClones.csv``` (output from Step 10)
+The R scripts will need only the ```mergedFinal.csv``` file (output from Step 11)
 
 The main script is [fullAnalysis.r](./statisticAnalysis/fullAnalysis.r). It calls other scripts, one for each hypothesis tested.
 
