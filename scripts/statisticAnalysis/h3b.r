@@ -5,127 +5,17 @@
 # - Only observations with at least one exception thrown.
 #   Because this is a neglected area, the number of test
 #   cases exploring exception handling is too low.
-# In the paper, this corresponds to metrics: invWithEx and bfCommits
+# In the paper, this corresponds to metrics: invWithExC and bfCommits
 
-testH3b <- function(staticAnalysisCommitsClones) {
-  result = list(hipothesis = "h3b",
-                numObservations = 0,
-                normalityLeft = 0,
-                normalityRight = 0,
-                kendallTau = 0,
-                kendallPValue = 0,
-                spearmanRho = 0,
-                spearmanPValue = 0,
-                pearsonCor = 0,
-                pearsonPValue = 0,
-                numObservationsIneffective = 0,
-                numObservationsEffective = 0,
-                conditionNumObservationsIneffective = "",
-                conditionNumObservationsEffective = "")  
+testH3b <- function(dataEffective, dataIneffective) {
+  result = list(hipothesis = "h3b", method="Wilcoxon")  
   
-  
-  # For H3b, we need the number of exceptions being thrown in a test case
-  staticAnalysisCommitsClones$numberOfExceptionsThrown = as.numeric(staticAnalysisCommitsClones$numberOfExceptionsThrown)
-
-  # Only observations with at least one exception thrown.
-  data <- staticAnalysisCommitsClones[staticAnalysisCommitsClones$numberOfExceptionsThrown != 0,]
-
-  result$numObservations = nrow(data)
-  tryCatch(
-  expr = {
-      if(nrow(data) < 5000) {
-        normalityLeft <- shapiro.test(data$numberOfExceptionsThrown)
-        normalityRight <- shapiro.test(data$noCommitFixes)
-      } else {
-        normalityLeft <- shapiro.test(sample(data$numberOfExceptionsThrown,5000))
-        normalityRight <- shapiro.test(sample(data$noCommitFixes,5000))
-      }
-      result$normalityLeft <- normalityLeft$p.value
-      result$normalityRight <- normalityRight$p.value
-    },
-    warning = function(warning_condition) { 
-      print(cat("...Warning during normality test: ",paste( unlist(warning_condition), collapse=' ')))
-    },
-    error = function(error_condition) {
-      print(cat("...Error during normality test: ",paste( unlist(error_condition), collapse=' ')))
-    },
-    finally={ }
-  )
-  tryCatch(
-    expr = {
-      hKendall <- cor.test(data$numberOfExceptionsThrown,
-                   data$noCommitFixes,
-                   method="kendall",
-                   exact=FALSE)
-      result$kendallTau <- hKendall$estimate
-      result$kendallPValue <- hKendall$p.value
-    },
-    warning = function(warning_condition) { 
-      print(cat("...Warning during kendall test: ",paste( unlist(warning_condition), collapse=' ')))
-    },
-    error = function(error_condition) {
-      print(cat("...Error during kendall test: ",paste( unlist(error_condition), collapse=' ')))
-    },
-    finally={ }
-  )
-  tryCatch(
-    expr = {
-      hSpearman <- cor.test(data$numberOfExceptionsThrown,
-                            data$noCommitFixes,
-                            method="spearman",
-                            exact=FALSE)
-      result$spearmanRho <- hSpearman$estimate
-      result$spearmanPValue <- hSpearman$p.value
-    },
-    warning = function(warning_condition) { 
-      print(cat("...Warning during spearman test: ",paste( unlist(warning_condition), collapse=' ')))
-    },
-    error = function(error_condition) {
-      print(cat("...Error during spearman test: ",paste( unlist(error_condition), collapse=' ')))
-    },
-    finally={ }
-  )
-  tryCatch(
-    expr = {
-      hPearson <- cor.test(data$numberOfExceptionsThrown,
-                             data$noCommitFixes,
-                             method="pearson")
-      result$pearsonCor <- hPearson$estimate
-      result$pearsonPValue <- hPearson$p.value
-    },
-    warning = function(warning_condition) { 
-      print(cat("...Warning during pearson test: ",paste( unlist(warning_condition), collapse=' ')))
-    },
-    error = function(error_condition) {
-      print(cat("...Error during pearson test: ",paste( unlist(error_condition), collapse=' ')))
-    },
-    finally={ }
-  )
-  
-  ggplot(data,aes(noCommitFixes,noCommitFixes))+geom_bar(stat="identity",width=1)
-  
-  # Balancing
-  # <=0 and >1 = -375
-  # <=0 and >2 = -97  !This is the best balancing
-  # <=0 and >3 = 98 
-
-  result$conditionNumObservationsIneffective = "<=0"
-  result$conditionNumObservationsEffective = ">2"
-  
-  dataIneffective <- data[data$noCommitFixes == 0,]
-  dataEffective <- data[data$noCommitFixes >2,]
-  
-  result$numObservationsIneffective = nrow(dataIneffective)
-  result$numObservationsEffective = nrow(dataEffective)
-  result$balancing = nrow(dataIneffective)-nrow(dataEffective)
-  
-  w = wilcox.test(dataEffective$numberOfExceptionsThrown, dataIneffective$numberOfExceptionsThrown, paired = F)
-  result$wilcox <- w$statistic
-  result$wilcoxPvalue <- w$p.value
-  resDelta <- cliff.delta(dataEffective$numberOfExceptionsThrown, dataIneffective$numberOfExceptionsThrown, paired = F)
-  result$cliffDelta <- as.character(resDelta$magnitude)
-  result$cliffEstimate <- resDelta$estimate
-  
+  w = wilcox.test(dataEffective$totalExceptions, dataIneffective$totalExceptions, paired = F, alternative = "greater")
+  resDelta <- cliff.delta(dataEffective$totalExceptions, dataIneffective$totalExceptions, paired = F, alternative = "greater")
+  result$statistic <- w$statistic
+  result$pvalue <- w$p.value
+  result$delta <- as.character(resDelta$magnitude)
+  result$estimate <- resDelta$estimate  
   return(result)
 }
 
