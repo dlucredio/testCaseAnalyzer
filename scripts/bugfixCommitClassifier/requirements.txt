@@ -1,0 +1,5 @@
+# tested witn python 3.10.9
+pymongo==4.3.3
+pandas==1.5.2
+ipython==8.8.0
+auto-sklearn==0.15.0 
