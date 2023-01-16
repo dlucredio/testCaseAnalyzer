@@ -1,10 +1,18 @@
+# This scripts loads commits from 'commits.parquet.gzip', annotations from 'hunk_labels.json'
+# and saves the merge result in 'commits_annotated.parquet.gzip'
+# Merge is based on consensus: if 3 or more users annotated a commit as a bugfix, a value 'True'
+# is saved. 'False' otherwise.
+# Uses packages from requirements.txt
+# Tested on Python 3.11.1
+
 import pandas as pd
+import psutil
 
 dfLabels = pd.read_json('hunk_labels.json') 
 # The following columns exist in dfLabels
 # 'lines_manual', 'file', 'issue_id', 'revision_hash', 'hunk_id', 'repository_url', 'project'
 
-dfCommits = pd.read_json('commits.jsonl', lines=True)
+dfCommits = pd.read_parquet('commits.parquet.gzip')
 # The following columns exist in dfCommits
 # '_id', 'revision_hash', 'message'
 
@@ -32,12 +40,12 @@ for index, row in dfCommits.iterrows():
         # different users marked this commit as a bigfix,
         # it is a bugfix (consensual)
         if len(label_dict_bugfix) >= 3:
-            row['isBugfix'] = True
             dfCommits.loc[index,'isBugfix'] = True
-    print(f'{index} - revision_hash: {revision_hash} - isBugfix: {row["isBugfix"]}')
+    if index % 100 == 0:
+        print(f'Processing commit number {index} - RAM Used (GB): {psutil.virtual_memory()[3]/1000000}')
 
 dfCommits = dfCommits.drop_duplicates(subset=['revision_hash'])
 
-f = open('commits_annotated.jsonl','w')
-print(dfCommits.to_json(orient='records', lines=True), file=f, flush=False)
-f.close()
+dfCommits.to_parquet('commits_annotated.parquet.gzip',compression='gzip')
+
+print('Saved data to file "commits_annotated.parquet.gzip"')
