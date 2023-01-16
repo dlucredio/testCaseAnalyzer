@@ -1,5 +1,5 @@
-# tested witn python 3.10.9
+# To connect to MongoDB
 pymongo==4.3.3
+
+# To perform data manipulation
 pandas==1.5.2
-ipython==8.8.0
-auto-sklearn==0.15.0 
