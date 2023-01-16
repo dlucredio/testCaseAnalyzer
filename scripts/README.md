@@ -6,32 +6,36 @@ In the following instructions, the input/output file names are only suggestions.
 
 Manually clone and compile all projects from the [projects list](../projects) into a folder.
 
-### Step 1: Code commits
+### Step 1: Train commit classifier (optional, you can train the model again or just use the trained model)
+
+See [bugfixCommitClassifier](./bugfixCommitClassifier/) for details
+
+### Step 2: Code commits
 
 Run [commitAnalyzer](./commitAnalyzer)
 - Input: projects folder
 - Output name: ```commits.csv```
 
-### Step 2: Code clones
+### Step 3: Code clones
 
 Run [codeCloneDetection](./codeCloneDetection)
 - Input: projects folder
 - Output name: ```clones.csv```
 
-### Step 3: Merge commits and clones
+### Step 4: Merge commits and clones
 
 Run ```mergeCommitsAndClones.py```
 - This merges the output from commits and clones analyzers.
 - Inputs: ```commits.csv``` and ```clones.csv```
 - Output name: ```commitsClones.csv```
 
-### Step 4: Run static analysis
+### Step 5: Run static analysis
 
 Run [testCaseAnalyzerPlugin](./testCaseAnalyzerPlugin) with ```PARSE_TEST_CASE_MODE = true```
 - Input: projects folder
 - Output name: ```staticAnalysis.csv```
 
-### Step 5: Merge static analysis and clones/commits
+### Step 6: Merge static analysis and clones/commits
 
 Before running this step, there might be necessary to manually adjust some project names:
 
@@ -43,37 +47,37 @@ Run ```mergeStaticAnalysisCommitsClones.py```
 - Input ```staticAnalysis.csv``` and ```commitsClonesCorrectNames.csv```
 - Output: ```staticAnalsysisCommitsClones.csv```
 
-### Step 6: Run coverage analysis
+### Step 7: Run coverage analysis
 
 Run [testCaseAnalyzerPlugin](./testCaseAnalyzerPlugin) with ```COVERAGE_MODE = true```
 - Input: projects folder
 - Output name: ```coverage.csv```
 
-### Step 7: Merge coverage with static analysis, commits and clones
+### Step 8: Merge coverage with static analysis, commits and clones
 
 Run ```mergeStaticAnalysisCommitsClonesCoverage.py```
 - Input: ```staticAnalysisCommitsClones.csv``` and ```coverage.csv```
 - Output name: ```staticAnalysisCommitsClonesCoverage.csv```
 
-### Step 8: Basic LOC and Complexity analysis
+### Step 9: Basic LOC and Complexity analysis
 
 Run [locAndComplexityAnalyzer](./locAndComplexityAnalyzer)
 - Input: projects folder
 - Output name: ```locComplexity.csv```
 
-### Step 9: Entropy analysis
+### Step 10: Entropy analysis
 
 Run [entropyAnalyzer](./entropyAnalyzer)
 - Input: projects folder and ```commitsClonesCorrectNames.csv```
 - Output name: ```entropyCommitsClones.csv```
 
-### Step 10: Merge LOC and complexity with entropy, commits and clones
+### Step 11: Merge LOC and complexity with entropy, commits and clones
 
 Run ```mergeLocComplexityEntropyCommitsClones.py```
 - Input: ```locComplexity.csv``` and ```entropyCommitsClones.csv```
 - Output name: ```locComplexityEntropyCommitsClones.csv```
 
-### Step 11: Merge all files into a single csv
+### Step 12: Merge all files into a single csv
 
 Run ```mergeFinal.py```
 - Input: ```staticAnalysisCommitsClones.csv```, ```staticAnalysisCommitsClonesCoverage.csv``` and ```locComplexityEntropyCommitsClones.csv```
