@@ -6,7 +6,7 @@ In the following instructions, the input/output file names are only suggestions.
 
 Manually clone and compile all projects from the [projects list](../projects) into a folder.
 
-### Step 1: Train commit classifier (optional, you can train the model again or just use the trained model)
+### Step 1: Train or reuse commit classifier
 
 See [bugfixCommitClassifier](./bugfixCommitClassifier/) for details
 
