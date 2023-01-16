@@ -1,5 +1,19 @@
+# Tested with Python 3.11.1 or 3.10.9 (see more below)
+
 # To connect to MongoDB
 pymongo==4.3.3
 
 # To perform data manipulation
 pandas==1.5.2
+
+# Pyarrow is used by pandas to save/load parquet files
+pyarrow==10.0.1
+
+# To prepare data (with NLTK)
+nltk==3.8.1
+
+# If you plan to use bugfix_classifier_linearsvc_countvectorizer.joblib, use the following, as it is more recent. Tested with Python 3.11.1
+#scikit-learn==1.2.0
+
+# If you plan to use bugfix_classifier_automl_countvectorizer.joblib, use the following. Tested with Python 3.10.9
+auto-sklearn==0.15.0
