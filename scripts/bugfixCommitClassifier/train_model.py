@@ -49,12 +49,18 @@ df_commits_annotated['input_feature'] = df_commits_annotated['message']\
     .str.lower().progress_apply(lower_case_and_remove_stopwords)
 df_commits_annotated['target'] = df_commits_annotated['isBugfix']\
     .progress_apply(lambda x: 1 if x else 0)
-y = df_commits_annotated['target'] # target
+    
+y = df_commits_annotated['target']
+X = df_commits_annotated['input_feature']
 
-# Vectorize text input and split data into train/test
+# Split data into train/test and vectorize
+X_train_untransformed, X_test_untransformed, y_train, y_test = train_test_split(X, y, test_size=0.15, random_state=42)
+
 vect = CountVectorizer()
-X = vect.fit_transform(df_commits_annotated['input_feature'])
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.15, random_state=42)
+vect.fit(X_train_untransformed)
+
+X_train = vect.transform(X_train_untransformed)
+X_test = vect.transform(X_test_untransformed)
 
 # Train model
 clf = LinearSVC()
