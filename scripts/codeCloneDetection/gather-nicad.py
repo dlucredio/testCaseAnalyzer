@@ -1,7 +1,6 @@
 import sys
 import csv
 import re
-import csv
 import os
 result = {}
 
