@@ -4,7 +4,7 @@ In the following instructions, the input/output file names are only suggestions.
 
 ### Preparation
 
-Manually clone and compile all projects from the [projects list](../projects) into a folder.
+Manually clone and compile all projects from the [projects list](../projects) into a folder. You can use [this script](./cloneAll.sh) to speed thing up.
 
 ### Step 1: Train or reuse commit classifier
 
