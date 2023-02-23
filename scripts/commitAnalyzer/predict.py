@@ -26,11 +26,12 @@ vect = model['vect']
 
 csv_data = pd.read_csv('prepared.csv')  # load csv file
 
-print('Loaded '+str(len(csv_data))+' commits')
+print('Loaded '+str(len(csv_data))+' commits from prepared.csv')
 
-csv_data_with_messages = csv_data.dropna(subset=['CommitMessage'])
+# csv_data_with_messages = csv_data.dropna(subset=['CommitMessage'])
+# print('Only '+str(len(csv_data_with_messages))+' have commit messages')
+csv_data_with_messages = csv_data
 
-print('Only '+str(len(csv_data_with_messages))+' have commit messages')
 
 num_true = 0
 num_false = 0
@@ -62,3 +63,5 @@ print('True    '+str(num_true))
 print('False   '+str(num_false))
 
 csv_data_with_messages.to_csv('commits.csv')
+
+print('Saved predictions to commits.csv')

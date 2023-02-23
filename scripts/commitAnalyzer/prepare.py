@@ -27,7 +27,7 @@ def main():
                     if row.get("level") is None:
                         continue
                     if row["level"] == "COMMIT" and row["is_test_file"]:
-                        csv_data.append(filename[:-4]) # Project Name
+                        csv_data.append(filename) # Project Name
                         csv_data.append(row["is_bug_fix"]) # Is bug fix
                         csv_data.append(row["commit"]) # Commit hash
                         csv_data.append(row["commitMessage"].replace('\n', ' ').replace('\r', ''))
@@ -37,7 +37,7 @@ def main():
                         csv_data.append(row["line_of_code"])
                         csv_rows.append(csv_data)
                     elif row["level"] == "METHOD" and row ["test_case"] != "null":
-                        csv_data.append(filename[:-4]) # Project Name
+                        csv_data.append(filename) # Project Name
                         csv_data.append(row["is_bug_fix"]) # Is bug fix
                         csv_data.append(row["commit"]) # Commit hash
                         csv_data.append(row["commitMessage"].replace('\n', ' ').replace('\r', ''))

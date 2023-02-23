@@ -20,14 +20,17 @@ Run [commitAnalyzer](./commitAnalyzer)
 
 Run [codeCloneDetection](./codeCloneDetection)
 - Input: projects folder
-- Output name: ```clones.csv```
+- Output name: many `*_result.csv` files (one for each project)
 
 ### Step 4: Merge commits and clones
 
 Run ```mergeCommitsAndClones.py```
 - This merges the output from commits and clones analyzers.
-- Inputs: ```commits.csv``` and ```clones.csv```
+- Inputs: ```commits.csv``` and ```*_results.csv```
 - Output name: ```commitsClones.csv```
+- Command:
+
+```python mergeCommitsAndClones.py --beagle <<folder with commits.csv>> --nicad <<folder with *_results.csv>>```
 
 ### Step 5: Run static analysis
 
