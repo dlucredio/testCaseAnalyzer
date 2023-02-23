@@ -7,6 +7,7 @@ result = {}
 args = sys.argv
 project_name = args[args.index("--project")+1]
 project_path = args[args.index("--path")+1]
+output_path = args[args.index("--output")+1]
 
 with open(os.path.join(project_path, "{0}_functions-blind-clones/{0}_functions-blind-clones-0.30-classes-withsource.xml".format(project_name))) as nicad_file:
     data = nicad_file.readlines()
@@ -23,7 +24,7 @@ with open(os.path.join(project_path, "{0}_functions-blind-clones/{0}_functions-b
             else:
                 result[function_name] += 1
 
-with open("{}_result.csv".format(project_name), 'w') as csv_out:
+with open("{}/{}_result.csv".format(output_path,project_name), 'w') as csv_out:
     fieldnames = ['TestCase', 'Clones']
     writer = csv.DictWriter(csv_out, fieldnames=fieldnames)
     writer.writeheader()

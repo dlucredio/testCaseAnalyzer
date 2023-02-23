@@ -1,41 +1,41 @@
-python gather-nicad.py --path $1 --project ambrose
-python gather-nicad.py --path $1 --project closure-compiler
-python gather-nicad.py --path $1 --project closure-templates
-python gather-nicad.py --path $1 --project compile-testing
-python gather-nicad.py --path $1 --project docx4j
-python gather-nicad.py --path $1 --project error-prone
-python gather-nicad.py --path $1 --project Fenzo
-python gather-nicad.py --path $1 --project Git-Credential-Manager-for-Mac-and-Linux
-python gather-nicad.py --path $1 --project google-java-format
-python gather-nicad.py --path $1 --project governator
-python gather-nicad.py --path $1 --project GraphJet
-python gather-nicad.py --path $1 --project greenmail
-python gather-nicad.py --path $1 --project gson
-python gather-nicad.py --path $1 --project guice
-python gather-nicad.py --path $1 --project hbc
-python gather-nicad.py --path $1 --project hibernate-ogm
-python gather-nicad.py --path $1 --project hibernate-search
-python gather-nicad.py --path $1 --project hollow
-python gather-nicad.py --path $1 --project hraven
-python gather-nicad.py --path $1 --project incubator-datasketches-java
-python gather-nicad.py --path $1 --project initializr
-python gather-nicad.py --path $1 --project ion-java
-python gather-nicad.py --path $1 --project javaanpr
-python gather-nicad.py --path $1 --project javaparser
-python gather-nicad.py --path $1 --project jbehave-core
-python gather-nicad.py --path $1 --project jbot
-python gather-nicad.py --path $1 --project jimfs
-python gather-nicad.py --path $1 --project lavagna
-python gather-nicad.py --path $1 --project mantis
-python gather-nicad.py --path $1 --project nanohttpd
-python gather-nicad.py --path $1 --project nodes
-python gather-nicad.py --path $1 --project objenesis
-python gather-nicad.py --path $1 --project open-location-code
-python gather-nicad.py --path $1 --project optaplanner
-python gather-nicad.py --path $1 --project protostuff
-python gather-nicad.py --path $1 --project shopizer
-python gather-nicad.py --path $1 --project spring-cloud-azure
-python gather-nicad.py --path $1 --project spring-data-gremlin
-python gather-nicad.py --path $1 --project swagger-core
-python gather-nicad.py --path $1 --project truth
-python gather-nicad.py --path $1 --project zuul
+python gather-nicad.py --output $1 --path $1 --project ambrose
+python gather-nicad.py --output $1 --path $1 --project closure-compiler
+python gather-nicad.py --output $1 --path $1 --project closure-templates
+python gather-nicad.py --output $1 --path $1 --project compile-testing
+python gather-nicad.py --output $1 --path $1 --project docx4j
+python gather-nicad.py --output $1 --path $1 --project error-prone
+python gather-nicad.py --output $1 --path $1 --project Fenzo
+python gather-nicad.py --output $1 --path $1 --project Git-Credential-Manager-for-Mac-and-Linux
+python gather-nicad.py --output $1 --path $1 --project google-java-format
+python gather-nicad.py --output $1 --path $1 --project governator
+python gather-nicad.py --output $1 --path $1 --project GraphJet
+python gather-nicad.py --output $1 --path $1 --project greenmail
+python gather-nicad.py --output $1 --path $1 --project gson
+python gather-nicad.py --output $1 --path $1 --project guice
+python gather-nicad.py --output $1 --path $1 --project hbc
+python gather-nicad.py --output $1 --path $1 --project hibernate-ogm
+python gather-nicad.py --output $1 --path $1 --project hibernate-search
+python gather-nicad.py --output $1 --path $1 --project hollow
+python gather-nicad.py --output $1 --path $1 --project hraven
+python gather-nicad.py --output $1 --path $1 --project incubator-datasketches-java
+python gather-nicad.py --output $1 --path $1 --project initializr
+python gather-nicad.py --output $1 --path $1 --project ion-java
+python gather-nicad.py --output $1 --path $1 --project javaanpr
+python gather-nicad.py --output $1 --path $1 --project javaparser
+python gather-nicad.py --output $1 --path $1 --project jbehave-core
+python gather-nicad.py --output $1 --path $1 --project jbot
+python gather-nicad.py --output $1 --path $1 --project jimfs
+python gather-nicad.py --output $1 --path $1 --project lavagna
+python gather-nicad.py --output $1 --path $1 --project mantis
+python gather-nicad.py --output $1 --path $1 --project nanohttpd
+python gather-nicad.py --output $1 --path $1 --project nodes
+python gather-nicad.py --output $1 --path $1 --project objenesis
+python gather-nicad.py --output $1 --path $1 --project open-location-code
+python gather-nicad.py --output $1 --path $1 --project optaplanner
+python gather-nicad.py --output $1 --path $1 --project protostuff
+python gather-nicad.py --output $1 --path $1 --project shopizer
+python gather-nicad.py --output $1 --path $1 --project spring-cloud-azure
+python gather-nicad.py --output $1 --path $1 --project spring-data-gremlin
+python gather-nicad.py --output $1 --path $1 --project swagger-core
+python gather-nicad.py --output $1 --path $1 --project truth
+python gather-nicad.py --output $1 --path $1 --project zuul
