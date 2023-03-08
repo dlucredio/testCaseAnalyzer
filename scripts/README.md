@@ -72,9 +72,9 @@ Example of how to run:
 
 ### Step 7: Run coverage analysis
 
-Run [testCaseAnalyzerPlugin](./testCaseAnalyzerPlugin) with ```COVERAGE_MODE = true```
+Run [coverageAnalyzer](./coverageAnalyzer)
 - Input: projects folder
-- Output name: ```coverage.csv```
+- Output: ```coverage.csv```
 
 ### Step 8: Merge coverage with static analysis, commits and clones
 
