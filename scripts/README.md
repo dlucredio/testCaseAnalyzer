@@ -42,13 +42,33 @@ Run [testCaseAnalyzerPlugin](./testCaseAnalyzerPlugin) with ```PARSE_TEST_CASE_M
 
 Before running this step, there might be necessary to manually adjust some project names:
 
-Run ```analyzeProjectNames.py``` and manually adjust the names in ```commitsClones.csv``` based on the output
+Run ```analyzeProjectNames.py``` and manually adjust the names in ```commitsClones.csv``` based on the output.
+
 - Input ```staticAnalysis.csv``` and ```commitsClones.csv```
 - Output name: ```commitsClonesCorrectNames.csv```
 
+For example, the following output could be shown:
+
+```
+python analyzeProjectNames.py ../files/staticAnalysis.csv ../files/commitsClones.csv 
+Reading static analysis file ../files/staticAnalysis.csv
+Read 19733 rows
+Reading commits and clones file ../files/commitsClones.csv
+Read 60772 rows
+Different in static analysis file:hbc-twitter / hbc-twitter4j
+```
+
+This means that project with name `hbc-twitter` must be renamed to `hbc-twitter4j` so that the next scripts won't fail. Do these changes manually and save the result as `commitsClonesCorrectNames.csv`. If there are no differences, just rename `commitsClones.csv` to `commitsClonesCorrectNames.csv`.
+
+Next, run [mergeStaticAnalysisCommitsClones.py](./mergeStaticAnalysisCommitsClones.py) to merge the outputs of the two analys made so far. This script also cleans the output, removing duplicate entries and unused entries in one file.
+
 Run ```mergeStaticAnalysisCommitsClones.py```
 - Input ```staticAnalysis.csv``` and ```commitsClonesCorrectNames.csv```
-- Output: ```staticAnalsysisCommitsClones.csv```
+- Output: ```staticAnalsysisCommitsClones.csv```, ```uplicatedStaticAnalysis.csv```, ```duplicatedCommitsClones.csv```,  ```unusedCommitsClones.csv```
+
+Example of how to run:
+
+```python mergeStaticAnalysisCommitsClones.py ../files/staticAnalysis.csv ../files/commitsClonesCorrectNames.csv ../files/staticAnalysisCommitsClones.csv ../files/duplicatedStaticAnalysis.csv ../files/duplicatedCommitsClones.csv ../files/unusedCommitsClones.csv```
 
 ### Step 7: Run coverage analysis
 

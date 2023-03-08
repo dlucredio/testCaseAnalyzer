@@ -6,56 +6,56 @@ import csv
 parser = argparse.ArgumentParser(
     description='Analyzes project main names and subproject names')
 
-parser.add_argument('csv_file_daniel',
+parser.add_argument('csv_file_static_analysis',
                     type=str,
-                    help='the first file - Daniel')
+                    help='the first file - Static analysis')
 
-parser.add_argument('csv_file_andrew',
+parser.add_argument('csv_file_commits_and_clones',
                     type=str,
-                    help='the second file - Andrew')
+                    help='the second file - Commits and clones')
 
 args = parser.parse_args()
 
-fDaniel = open(args.csv_file_daniel, "r")
-fAndrew = open(args.csv_file_andrew, "r")
+fStaticAnalysis = open(args.csv_file_static_analysis, "r")
+fCommitsAndClones = open(args.csv_file_commits_and_clones, "r")
 
-readerDaniel = csv.reader(fDaniel, delimiter=",")
-readerAndrew = csv.reader(fAndrew, delimiter=",")
+readerStaticAnalysis = csv.reader(fStaticAnalysis, delimiter=",")
+readerCommitsAndClones = csv.reader(fCommitsAndClones, delimiter=",")
 
-dataDaniel = []
-dataAndrew = []
+dataStaticAnalysis = []
+dataCommitsAndClones = []
 
-print("Reading Daniel's file "+fDaniel.name)
+print("Reading static analysis file "+fStaticAnalysis.name)
 rownum = 0
-for row in readerDaniel:
+for row in readerStaticAnalysis:
     if rownum > 0:
-        dataDaniel.append(row)
+        dataStaticAnalysis.append(row)
     rownum += 1
 
-fDaniel.close()
+fStaticAnalysis.close()
 print("Read %i rows" % rownum)
 
-print("Reading Andrew's file "+fAndrew.name)
+print("Reading commits and clones file "+fCommitsAndClones.name)
 rownum = 0
-for row in readerAndrew:
+for row in readerCommitsAndClones:
     if rownum > 0:
-        dataAndrew.append(row)
+        dataCommitsAndClones.append(row)
     rownum += 1
 
-fAndrew.close()
+fCommitsAndClones.close()
 print("Read %i rows" % rownum)
 
-for lineDaniel in dataDaniel:
-    mainProjectName = lineDaniel[0]
-    projectName = lineDaniel[1]
-    filePath = lineDaniel[2]
+for lineStaticAnalysis in dataStaticAnalysis:
+    mainProjectName = lineStaticAnalysis[0]
+    projectName = lineStaticAnalysis[1]
+    filePath = lineStaticAnalysis[2]
     projectNameFromFilePath = filePath.split("/")[1]
     if( projectName != projectNameFromFilePath):
-        print("Different Daniel:"+projectName+" / "+projectNameFromFilePath)
+        print("Different in static analysis file:"+projectName+" / "+projectNameFromFilePath)
 
-# for lineAndrew in dataAndrew:
-#     projectName = lineAndrew[0]
-#     filePath = lineAndrew[2]
+# for lineCommitsClones in dataCommitsAndClones:
+#     projectName = lineCommitsClones[0]
+#     filePath = lineCommitsClones[2]
 #     projectNameFromFilePath = filePath.split("/")[0]
 #     if( projectName != projectNameFromFilePath):
-#         print("Different Andrew:"+projectName+" / "+projectNameFromFilePath)
+#         print("Different in commits and clones file:"+projectName+" / "+projectNameFromFilePath)

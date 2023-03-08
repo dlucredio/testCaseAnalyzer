@@ -72,10 +72,13 @@ with open("commitsClones.csv", 'w') as csv_out:
         for testCase in projects.get(project):
             if testCase.split(': ')[-1].strip() == '':
                 continue
+            filePath = testCase.split(': ')[0]
+            if not filePath.endswith('.java'):
+                continue
             writer.writerow({
                 'Project': project,
                 'TestCase': testCase.split(': ')[-1],
-                'FilePath': testCase.split(': ')[0],
+                'FilePath': filePath,
                 'NoBugFixes': len(projects.get(project).get(testCase).get("bugFixes")),
                 'NoCommitFixes' : len(set(projects.get(project).get(testCase).get("bugFixes"))),
                 'NoClones': projects.get(project).get(testCase).get("clones")

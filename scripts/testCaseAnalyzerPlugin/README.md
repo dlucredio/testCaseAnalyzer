@@ -21,3 +21,11 @@ In this same class, make sure:
 4) On the workspace of the new instance, import all projects again (choose Smart import of Git Projects, one by one) and make sure they compile correctly. Runtime and Maven/Gradle dependency errors can be ignored.
 
 5) A new menu will be available. Just run it to start the plugin.
+
+6) Output will be produced in the folder specified in step 2. One `.csv` file will be generated for each project.
+
+7) Run [mergeMultipleFiles.py](../mergeMultipleFiles.py) to merge all `.csv` files into a single one.
+
+```sh
+python mergeMultipleFiles.py --input <<folder with all .csv>> --output <<output folder>>/staticAnalysis.csv
+```

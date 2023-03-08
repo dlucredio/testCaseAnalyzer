@@ -3,101 +3,101 @@ import argparse
 import glob
 import csv
 
-def findLinesDaniel(mainProjectName, projectName, filePath, testName, dataDaniel):
-# Daniel's file:
+def findLineStaticAnalysis(mainProjectName, projectName, filePath, testName, dataStaticAnalysis):
+# Static analysis file:
 # mainProjectName = 0
 # projectName = 1
 # filePath = 2 (ex: /optaplanner-core/src/test/java/org/optaplanner/core/api/score/stream/uni/UniConstraintStreamTest.java)
 # testName = 4
     className = filePath.split("/")[-1]
     retLine = []
-    for line in dataDaniel:
+    for line in dataStaticAnalysis:
         lineClassName = line[2].split("/")[-1]
         if line[0] == mainProjectName and line[1] == projectName and lineClassName == className and line[4] == testName:
             retLine.append(line)
     return retLine
 
-def findLinesAndrewProjectNameOnly(projectName, filePath, testName, dataAndrew):
-# Andrew's file:
+def findLinesCommitsClonesProjectNameOnly(projectName, filePath, testName, dataCommitsClones):
+# CommitsClones's file:
 # projectName = 0
 # testName = 1
 # filePath = 2 (ex: optaplanner-core/src/test/java/org/optaplanner/core/api/score/stream/uni/UniConstraintStreamTest.java)
     className = filePath.split("/")[-1]
     retLine = []
-    for line in dataAndrew:
+    for line in dataCommitsClones:
         lineClassName = line[2].split("/")[-1]
         if line[0] == projectName and lineClassName == className and line[1] == testName:
             retLine.append(line)
     return retLine
 
-def findLinesAndrewMainProjectNameOnly(mainProjectName, filePath, testName, dataAndrew):
-# Andrew's file:
+def findLinesCommitsClonesMainProjectNameOnly(mainProjectName, filePath, testName, dataCommitsClones):
+# CommitsClones's file:
 # projectName = 0
 # testName = 1
 # filePath = 2 (ex: optaplanner-core/src/test/java/org/optaplanner/core/api/score/stream/uni/UniConstraintStreamTest.java)
     className = filePath.split("/")[-1]
     retLine = []
-    for line in dataAndrew:
+    for line in dataCommitsClones:
         lineClassName = line[2].split("/")[-1]
         if line[0] == mainProjectName and lineClassName == className and line[1] == testName:
             retLine.append(line)
     return retLine
 
-def findLinesAndrewProjectNameOnlyWithoutClass(projectName, testName, dataAndrew):
-# Andrew's file:
+def findLinesCommitsClonesProjectNameOnlyWithoutClass(projectName, testName, dataCommitsClones):
+# CommitsClones's file:
 # projectName = 0
 # testName = 1
 # filePath = 2 (ex: optaplanner-core/src/test/java/org/optaplanner/core/api/score/stream/uni/UniConstraintStreamTest.java)
     retLine = []
-    for line in dataAndrew:
+    for line in dataCommitsClones:
         if line[0] == projectName and line[1] == testName:
             retLine.append(line)
     return retLine
 
-def findLinesAndrewMainProjectNameOnlyWithoutClass(mainProjectName, testName, dataAndrew):
-# Andrew's file:
+def findLinesCommitsClonesMainProjectNameOnlyWithoutClass(mainProjectName, testName, dataCommitsClones):
+# CommitsClones's file:
 # projectName = 0
 # testName = 1
 # filePath = 2 (ex: optaplanner-core/src/test/java/org/optaplanner/core/api/score/stream/uni/UniConstraintStreamTest.java)
     retLine = []
-    for line in dataAndrew:
+    for line in dataCommitsClones:
         if line[0] == mainProjectName and line[1] == testName:
             retLine.append(line)
     return retLine
 
-def findLinesAndrewMainProjectAndProjectNames(mainProjectName, projectName, filePath, testName, dataAndrew):
-# Andrew's file:
+def findLinesCommitsClonesMainProjectAndProjectNames(mainProjectName, projectName, filePath, testName, dataCommitsClones):
+# CommitsClones's file:
 # projectName = 0
 # testName = 1
 # filePath = 2 (ex: optaplanner-core/src/test/java/org/optaplanner/core/api/score/stream/uni/UniConstraintStreamTest.java)
     className = filePath.split("/")[-1]
     retLine = []
-    for line in dataAndrew:
+    for line in dataCommitsClones:
         lineClassName = line[2].split("/")[-1]
         if (line[0] == mainProjectName or line[0] == projectName) and lineClassName == className and line[1] == testName:
             retLine.append(line)
     return retLine
 
-# def findLineAndrew(mainProjectName, projectName, filePath, testName, dataAndrew):
-# # Andrew's file:
+# def findLineCommitsClones(mainProjectName, projectName, filePath, testName, dataCommitsClones):
+# # CommitsClones's file:
 # # projectName = 0
 # # testName = 1
 # # filePath = 2 (ex: optaplanner-core/src/test/java/org/optaplanner/core/api/score/stream/uni/UniConstraintStreamTest.java)
 #     className = filePath.split("/")[-1]
 #     ret = 0
-#     for line in dataAndrew:
+#     for line in dataCommitsClones:
 #         lineClassName = line[2].split("/")[-1]
 #         if (line[0] == mainProjectName or line[0] == projectName) and lineClassName == className and line[1] == testName:
 #             return line
 #     return None
 
-# def findLineAndrewWithoutClass(mainProjectName, projectName, testName, dataAndrew):
-# # Andrew's file:
+# def findLineCommitsClonesWithoutClass(mainProjectName, projectName, testName, dataCommitsClones):
+# # CommitsClones's file:
 # # projectName = 0
 # # testName = 1
 # # filePath = 2 (ex: optaplanner-core/src/test/java/org/optaplanner/core/api/score/stream/uni/UniConstraintStreamTest.java)
 #     ret = 0
-#     for line in dataAndrew:
+#     for line in dataCommitsClones:
 #         if (line[0] == mainProjectName or line[0] == projectName) and line[1] == testName:
 #             return line
 #     return None
@@ -106,11 +106,11 @@ def findLinesAndrewMainProjectAndProjectNames(mainProjectName, projectName, file
 parser = argparse.ArgumentParser(
     description='Merges static analysis, commits and clones into one')
 
-parser.add_argument('csv_file_daniel',
+parser.add_argument('csv_file_static_analysis',
                     type=str,
                     help='the first file - Static Analysis')
 
-parser.add_argument('csv_file_andrew',
+parser.add_argument('csv_file_commits_clones',
                     type=str,
                     help='the second file - Commits and clones')
 
@@ -118,15 +118,15 @@ parser.add_argument('csv_file_merged',
                     type=str,
                     help='the merged file')
 
-parser.add_argument('csv_file_duplicated_daniel',
+parser.add_argument('csv_file_duplicated_static_analysis',
                     type=str,
                     help='the file containing methods that have the same names in Static Analysis\'s file')
 
-parser.add_argument('csv_file_duplicated_andrew',
+parser.add_argument('csv_file_duplicated_commits_clones',
                     type=str,
                     help='the file containing methods that have the same names in Commits and clones\'s file')
 
-parser.add_argument('csv_file_unused_andrew',
+parser.add_argument('csv_file_unused_commits_clones',
                     type=str,
                     help='the file containing lines from Commits and Clones\'s file that were never used')
 
@@ -163,7 +163,7 @@ header = [ 'mainProjectName', # Main project name (GitHub project)
                 'hasCommitData', # Whether this test case has commit data gathered by NICAD
                 'mainProjectName2',  # Main project name (GitHub project) - repeated from mainProjectName for matching
                 'methodName2', # Aggregated list of test cases for each project which has code clone or edited at some time - repeated from methodName for matching
-                'filePath2', # The path to the file containing the test case in Andrew's file (the first slash is not present here)
+                'filePath2', # The path to the file containing the test case in CommitsClones's file (the first slash is not present here)
                 'noBugFixes', # The number of changes to that test case which considered a bug fix
                 'noCommitFixes', # The number of commits changes that test case and classified as a bug fix
                 'noClones' # The number of code clones detected by Nicad5 Tool                
@@ -171,88 +171,88 @@ header = [ 'mainProjectName', # Main project name (GitHub project)
 
 args = parser.parse_args()
 
-fDaniel = open(args.csv_file_daniel, "r")
-fAndrew = open(args.csv_file_andrew, "r")
+fStaticAnalysis = open(args.csv_file_static_analysis, "r")
+fCommitsClones = open(args.csv_file_commits_clones, "r")
 fMerged = open(args.csv_file_merged, "w")
-fDuplicatedDaniel = open(args.csv_file_duplicated_daniel, "w")
-fDuplicatedAndrew = open(args.csv_file_duplicated_andrew, "w")
-fUnusedAndrew = open(args.csv_file_unused_andrew, "w")
+fDuplicatedStaticAnalysis = open(args.csv_file_duplicated_static_analysis, "w")
+fDuplicatedCommitsClones = open(args.csv_file_duplicated_commits_clones, "w")
+fUnusedCommitsClones = open(args.csv_file_unused_commits_clones, "w")
 
-readerDaniel = csv.reader(fDaniel, delimiter=",")
-readerAndrew = csv.reader(fAndrew, delimiter=",")
+readerStaticAnalysis = csv.reader(fStaticAnalysis, delimiter=",")
+readerCommitsClones = csv.reader(fCommitsClones, delimiter=",")
 
-dataDaniel = []
-dataAndrew = []
-duplicateTestCasesDaniel = []
-duplicateTestCasesAndrew = []
+dataStaticAnalysis = []
+dataCommitsClones = []
+duplicateStaticAnalysis = []
+duplicateCommitsClones = []
 
-print("Reading Daniel's file "+fDaniel.name)
+print("Reading static analysis file "+fStaticAnalysis.name)
 rownum = 0
-for row in readerDaniel:
+for row in readerStaticAnalysis:
     if rownum > 0:
-        dataDaniel.append(row)
+        dataStaticAnalysis.append(row)
     rownum += 1
 
-fDaniel.close()
+fStaticAnalysis.close()
 print("Read %i rows" % rownum)
 
 
-print("Reading Andrew's file "+fAndrew.name)
+print("Reading commits clones file "+fCommitsClones.name)
 rownum = 0
-for row in readerAndrew:
+for row in readerCommitsClones:
     if rownum > 0:
-        dataAndrew.append(row)
+        dataCommitsClones.append(row)
     rownum += 1
 
-fAndrew.close()
+fCommitsClones.close()
 print("Read %i rows" % rownum)
 
 fMerged.write(','.join(header)+'\n')
 
 rownum = 0
-for lineDaniel in dataDaniel:
-    mainProjectName = lineDaniel[0]
-    projectName = lineDaniel[1]
-    filePath = lineDaniel[2]
-    testName = lineDaniel[4]
+for lineStaticAnalysis in dataStaticAnalysis:
+    mainProjectName = lineStaticAnalysis[0]
+    projectName = lineStaticAnalysis[1]
+    filePath = lineStaticAnalysis[2]
+    testName = lineStaticAnalysis[4]
     print("Processing row %i - project %s/%s, file %s, test %s" %(rownum, mainProjectName, projectName, filePath, testName))
     rownum += 1
 
-    if len(findLinesDaniel(mainProjectName, projectName, filePath, testName, dataDaniel)) > 1:
-        duplicateTestCasesDaniel.append(lineDaniel)
+    if len(findLineStaticAnalysis(mainProjectName, projectName, filePath, testName, dataStaticAnalysis)) > 1:
+        duplicateStaticAnalysis.append(lineStaticAnalysis)
     else:
-        foundLines = findLinesAndrewProjectNameOnly(projectName, filePath, testName, dataAndrew)
+        foundLines = findLinesCommitsClonesProjectNameOnly(projectName, filePath, testName, dataCommitsClones)
         if len(foundLines) == 0:
-            foundLines = findLinesAndrewMainProjectNameOnly(mainProjectName, filePath, testName, dataAndrew)
+            foundLines = findLinesCommitsClonesMainProjectNameOnly(mainProjectName, filePath, testName, dataCommitsClones)
         if len(foundLines) == 0:
-            foundLines = findLinesAndrewMainProjectAndProjectNames(mainProjectName, projectName, filePath, testName, dataAndrew)
+            foundLines = findLinesCommitsClonesMainProjectAndProjectNames(mainProjectName, projectName, filePath, testName, dataCommitsClones)
         if len(foundLines) == 0:
-            foundLines = findLinesAndrewProjectNameOnlyWithoutClass(projectName, testName, dataAndrew)
+            foundLines = findLinesCommitsClonesProjectNameOnlyWithoutClass(projectName, testName, dataCommitsClones)
         if len(foundLines) == 0:
-            foundLines = findLinesAndrewMainProjectNameOnlyWithoutClass(mainProjectName, testName, dataAndrew)
+            foundLines = findLinesCommitsClonesMainProjectNameOnlyWithoutClass(mainProjectName, testName, dataCommitsClones)
         if len(foundLines) == 0:
-            lineDaniel.append('notfound')
+            lineStaticAnalysis.append('notfound')
         elif len(foundLines) > 1:
-            duplicateTestCasesAndrew.append(lineDaniel)
-            lineDaniel.append("duplicated_%i" % len(foundLines))
+            duplicateCommitsClones.append(lineStaticAnalysis)
+            lineStaticAnalysis.append("duplicated_%i" % len(foundLines))
         else:
-            lineDaniel.append('yes')
-            lineDaniel.extend(foundLines[0])
+            lineStaticAnalysis.append('yes')
+            lineStaticAnalysis.extend(foundLines[0])
             foundLines[0].append('ok')
-        fMerged.write(','.join(lineDaniel)+'\n')
+        fMerged.write(','.join(lineStaticAnalysis)+'\n')
 
 fMerged.close()
 
 rownum = 0
-for line in dataAndrew:
+for line in dataCommitsClones:
     if line[-1] != "ok":
-        fUnusedAndrew.write(','.join(line)+'\n')
-fUnusedAndrew.close()
+        fUnusedCommitsClones.write(','.join(line)+'\n')
+fUnusedCommitsClones.close()
 
-for dtcd in duplicateTestCasesDaniel:
-    fDuplicatedDaniel.write(','.join(dtcd)+'\n')
-fDuplicatedDaniel.close()
+for dtcd in duplicateStaticAnalysis:
+    fDuplicatedStaticAnalysis.write(','.join(dtcd)+'\n')
+fDuplicatedStaticAnalysis.close()
 
-for dtca in duplicateTestCasesAndrew:
-    fDuplicatedAndrew.write(','.join(dtca)+'\n')
-fDuplicatedAndrew.close()
+for dtca in duplicateCommitsClones:
+    fDuplicatedCommitsClones.write(','.join(dtca)+'\n')
+fDuplicatedCommitsClones.close()
