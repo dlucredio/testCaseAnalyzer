@@ -179,8 +179,9 @@ public class MethodDeclarationVisitor extends ASTVisitor {
 		try (PrintWriter pw = new PrintWriter(new FileWriter(
 				new File(Constants.OUTPUT_FOLDER, javaProject.getElementName() + "coverageScript.sh"), true))) {
 			pw.append("cd " + projectFolder + "\n");
-			pw.append("rm -f " + projectFolder + "/target/site/jacoco/jacoco.csv\n");
-			pw.append("mvn test -Dtest=" + className + "#" + method.getElementName() + " -DfailIfNoTests=false\n");
+			pw.append("rm -rf " + projectFolder + "/target/site/\n");
+			pw.append("rm -f " + projectFolder + "/target/jacoco.exec\n");
+			pw.append("mvn test jacoco:report -Dtest=" + className + "#" + method.getElementName() + " -DfailIfNoTests=false -P coverage \n");
 			pw.append(
 					"mkdir -p " + Constants.OUTPUT_FOLDER + "/coverageReports/" + javaProject.getElementName() + "\n");
 			pw.append("cp " + projectFolder + "/target/site/jacoco/jacoco.csv " + Constants.OUTPUT_FOLDER

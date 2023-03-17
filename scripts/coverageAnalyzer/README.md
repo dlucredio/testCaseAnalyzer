@@ -1,15 +1,6 @@
-Run [testCaseAnalyzerPlugin](./testCaseAnalyzerPlugin) with ```COVERAGE_MODE = true``` and ```PARSE_TEST_CASE_MODE = false``` (these variables are in file `Constants.java`, change them before running the new Eclipse instance with the plugin)
+1. The first step is to compile all projects. Navigate into each project and run ```mvn compile``` (or a different goal might exist, such as `hibernate-search`, which is compiled with ```mvnw clean install -DskipTests```). Fix any compilation problems you might encounter, as many as possible.
 
-- Input: projects folder
-- Output: one `.sh` file for each project, in the folder configured inside the plugin (also located in file `Constants.java`).
-
-IMPORTANT: the output folder must be empty, otherwise no script will be generated.
-
-Each .sh file will run `mvn test`, which will generate a coverage report using [JaCoCo](https://www.eclemma.org/jacoco/). The script then copies the generated report to the output folder, properly renaming it.
-
-But before running these `.sh` files, you must be able to compile and run tests in all projects. You will need to:
-
-1. Maven will try to download all dependencies for the projects. But some are old, and a small hack is necessary.
+In the process, Maven will try to download all dependencies for the projects. But some are old, and two small hacks may be necessary.
 
 Edit file `<maven home>/conf/settings.xml`, to override the default http blocker. Modify this part here:
 
@@ -24,20 +15,26 @@ Edit file `<maven home>/conf/settings.xml`, to override the default http blocker
     </mirror>
 ```
 
-2. Now try to compile each project. Enter the parent folder (e.g: `/projects/ambrose`) and run `mvn clean test`
-* In some cases, you might need to adjust the source and target version (a message will be shown to indicate that this is necessary)
-* In some cases, there are broken dependencies. This is too hard to fix and we will not do it, since each case might be for a different reason. But feel free to analyze and attempt to fix as many projects as possible.
+Next, tell Maven to ignore some old restrictions regarding checks that did not exist before Java 9:
 
-3. If at least one subproject runs correctly, you are good to go. Let's configure JaCoCo.
+```export MAVEN_OPTS="--add-opens java.base/java.lang=ALL-UNNAMED"```
+
+2. For each project, we must be able to run the test and get coverage information. This will be done using [JaCoCo](https://www.eclemma.org/jacoco/).
+
 * Open `pom.xml`
-* Search for `surefire` or `failsafe`. If there is not an entry, add the following piece of XML in `build/plugins` tag (warning, NOT `build/pluginManagement/plugins`):
+* Search for `surefire` or `failsafe`. If there is not an entry, add the following piece of XML in `build/plugins` tag (warning, NOT `build/pluginManagement/plugins`). If there is an entry, but no `<testFailureIgnore>true</testFailureIgnore>` tag, include it. This tells surefire to continue running even if there are failing tests. There might be some failing tests, but we do not care. We only want to get as much coverage data as possible for each individual test:
 
 ```xml
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>
+    <configuration>
+        <testFailureIgnore>true</testFailureIgnore>
+    </configuration>
 </plugin>
 ```
+
+If there are additional tags in the surefire configuration, it might be necessary to remove them and keep the config as simple as above. But only do it if a problem occurs.
 
 * Search for `jacoco`. If there is not an entry, add the following piece of XML in `build/plugins` tag (warning, NOT `build/pluginManagement/plugins`):
 
@@ -52,21 +49,33 @@ Edit file `<maven home>/conf/settings.xml`, to override the default http blocker
                 <goal>prepare-agent</goal>
             </goals>
         </execution>
-        <execution>
-            <id>report</id>
-            <phase>test</phase>
-            <goals>
-                <goal>report</goal>
-            </goals>
-        </execution>
     </executions>
 </plugin>
 ```
 
-4. Run `mvn test`
-5. Check if at least some sub project had success, and if a `target/site/jacoco` directory was generated for it. If not, you may delete this project folder, as no coverage data was collected.
-6. Once all projects are configured, navigate to the same folder with the `.sh` files and run ```runMultipleSh.sh``` to execute all `.sh` files. This will take a very long time, depending on how many projects are being analyzed. This will produce many `.csv` files, organized by project in a new folder called `coverageReports` generated where you executed the script.
+If there is already a `jacoco` entry, the project is already configured. But it might be missing the `report` execution goal. Complete it if necessary.
 
-7. Now run ```combineIndividualMethodCoverageIntoSingleCsv.py``` to combine all .csv files into a single one.
+* Run `mvn test jacoco:report`. In some cases it might be worth to try `mvn clean test jacoco:report`. If jacoco is configured in a Maven profile, the command must be `mvn clean test jacoco:report -P coverage` (where `coverage` is the name of the profile)
+
+* Check if at least some sub project had success, and if a `target/site/jacoco` directory was generated for it. If not, you may delete this project folder, as no coverage data was collected. Or you can keep it, no problem, but it may slow down the entire process a bit.
+
+3. Now let's generate the coverage scripts.
+
+* Run [testCaseAnalyzerPlugin](./testCaseAnalyzerPlugin) with ```COVERAGE_MODE = true``` and ```PARSE_TEST_CASE_MODE = false``` (these variables are in file `Constants.java`, change them before running the new Eclipse instance with the plugin)
+
+- Input: projects folder
+- Output: one `.sh` file for each project, in the folder configured inside the plugin (also located in file `Constants.java`).
+
+IMPORTANT: the output folder must be empty, otherwise no script will be generated.
+
+Each .sh file will run `mvn test`, which will generate a coverage report using [JaCoCo](https://www.eclemma.org/jacoco/). The script then copies the generated report to the output folder, properly renaming it.
+
+* Navigate to the same folder with the `.sh` files and copy the script [runMultipleSh.sh](./runMultipleSh.sh). This will execute all `.sh` filesm and will take a very long time, depending on how many projects are being analyzed. This will produce many `.csv` files, organized by project in a new folder called `coverageReports` generated where you executed the script.
+
+* Important, you might have to re-run the following command to set the variable before executing all scripts:
+
+```export MAVEN_OPTS="--add-opens java.base/java.lang=ALL-UNNAMED"```
+
+*. Now run [combineIndividualMethodCoverageIntoSingleCsv.py](./combineIndividualMethodCoverageIntoSingleCsv.py) to combine all .csv files into a single one.
 
 ```python combineIndividualMethodCoverageIntoSingleCsv.py ./coverageReports coverage.csv```
