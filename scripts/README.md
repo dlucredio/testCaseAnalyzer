@@ -78,9 +78,14 @@ Run [coverageAnalyzer](./coverageAnalyzer)
 
 ### Step 8: Merge coverage with static analysis, commits and clones
 
-Run ```mergeStaticAnalysisCommitsClonesCoverage.py```
+Run [mergeStaticAnalysisCommitsClonesAndCoverage.py](./mergeStaticAnalysisCommitsClonesAndCoverage.py)
 - Input: ```staticAnalysisCommitsClones.csv``` and ```coverage.csv```
 - Output name: ```staticAnalysisCommitsClonesCoverage.csv```
+
+Command:
+```sh
+python mergeStaticAnalysisCommitsClonesAndCoverage.py ../files/staticAnalysisCommitsClones.csv ../files/coverage.csv ../files/staticAnalisysCommitsClonesCoverage.csv
+```
 
 ### Step 9: Basic LOC and Complexity analysis
 

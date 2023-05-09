@@ -28,17 +28,22 @@ for row in reader:
     rownum += 1
 fin.close()
 
+rownum = 0
+
 # Write output file
 fout = open(args.out_csv, "w")
 fout.write("Project,Kind,MethodName,FilePath,CountLineCode,Cyclomatic,CyclomaticModified,CyclomaticStrict\n")
 for d in dataIn:
     if "method" in d[0].lower():
-        d[1] = d[1].split(".")[-1]
-        projectName = d[2].split("/")[0]
-        filePath = d[2].split("/",1)[1]
-        d[2] = filePath
-        d.insert(0,projectName)
-        fout.write(','.join(d)+'\n')
+        try:
+            d[1] = d[1].split(".")[-1]
+            projectName = d[2].split("/")[0]
+            filePath = d[2].split("/",1)[1]
+            d[2] = filePath
+            d.insert(0,projectName)
+            fout.write(','.join(d)+'\n')
+        except:
+            print('Row number '+str(rownum)+' is not properly formatted')
     rownum += 1
 
 fin.close()
