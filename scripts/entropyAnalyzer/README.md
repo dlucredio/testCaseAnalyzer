@@ -15,3 +15,7 @@ The, run the maven project, specifying the folder with the projects, the input .
 ```$ java -jar ./target/testcaseparser-1.0-SNAPSHOT-jar-with-dependencies.jar /home/daniel/GitProjectsFSE2 /home/daniel/GitProjects/testCaseAnalyzer/workspaceJan2021/testcaseparser/in/output_1.csv /home/daniel/GitProjects/testCaseAnalyzer/workspaceJan2021/testcaseparser/out/entropy_1.csv -Xmx4g -XX:+UseConcMarkSweepGC -XX:-UseGCOverheadLimit```
 
 After you run the script in all files, merge them all using ```append.py```.
+
+```sh
+python append.py ./out/ entropyCommitsClones.csv
+```
