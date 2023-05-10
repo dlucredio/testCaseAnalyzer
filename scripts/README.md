@@ -84,7 +84,7 @@ Run [mergeStaticAnalysisCommitsClonesAndCoverage.py](./mergeStaticAnalysisCommit
 
 Command:
 ```sh
-python mergeStaticAnalysisCommitsClonesAndCoverage.py ../files/staticAnalysisCommitsClones.csv ../files/coverage.csv ../files/staticAnalisysCommitsClonesCoverage.csv
+python mergeStaticAnalysisCommitsClonesAndCoverage.py ../files/staticAnalysisCommitsClones.csv ../files/coverage.csv ../files/staticAnalysisCommitsClonesCoverage.csv
 ```
 
 ### Step 9: Basic LOC and Complexity analysis
@@ -116,6 +116,10 @@ python mergeLocComplexityEntropyCommitsClones.py locComplexity.csv entropyCommit
 Run ```mergeFinal.py```
 - Input: ```staticAnalysisCommitsClones.csv```, ```staticAnalysisCommitsClonesCoverage.csv``` and ```locComplexityEntropyCommitsClones.csv```
 - Output name: ```mergedFinal.csv```
+
+```sh
+python mergeFinal.py staticAnalysisCommitsClones.csv staticAnalysisCommitsClonesCoverage.csv locComplexityEntropyCommitsClones.csv mergedFinal.csv
+```
 
 ### Importing into R Studio
 

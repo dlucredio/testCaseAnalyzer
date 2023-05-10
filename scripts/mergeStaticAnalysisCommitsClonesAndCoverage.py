@@ -104,7 +104,7 @@ def main():
         print("Processing row %i - project %s, type %s, test %s" %(rownum, projectName, typeName, testName))
         rownum += 1
 
-        if lineMerged[28] == 'yes':
+        if lineMerged[30] == 'yes':
             adjustMergedLine(lineMerged)
             cla = countLinesJaCoCoFile(projectName, typeName, testName, dataJaCoCo)
             if cla == 0:
