@@ -105,6 +105,12 @@ Run ```mergeLocComplexityEntropyCommitsClones.py```
 - Input: ```locComplexity.csv``` and ```entropyCommitsClones.csv```
 - Output name: ```locComplexityEntropyCommitsClones.csv```
 
+This script will also output duplicate and unused entries in separate files. Run as follows:
+
+```sh
+python mergeLocComplexityEntropyCommitsClones.py locComplexity.csv entropyCommitsClones.csv locComplexityEntropyCommitsClones.csv locComplexityEntropyCommitsClonesDuplicatedUnderstand.csv locComplexityEntropyCommitsClonesDuplicatedCommitsClones.csv locComplexityEntropyCommitsClonesUnusedCommitsClones.csv
+```
+
 ### Step 12: Merge all files into a single csv
 
 Run ```mergeFinal.py```

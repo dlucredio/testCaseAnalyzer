@@ -14,13 +14,13 @@ def findLinesUnderstand(projectName, filePath, testName, dataUnderstand):
             retLine.append(line)
     return retLine
 
-def findLinesAndrew(projectName, filePath, testName, dataAndrewEntropy):
-# Andrew's and Entropy file:
+def findLinesCommitsClones(projectName, filePath, testName, dataCommitsClonesEntropy):
+# CommitsClones's and Entropy file:
 # projectName = 0
 # filePath = 1 (ex: optaplanner-core/src/test/java/org/optaplanner/core/api/score/stream/uni/UniConstraintStreamTest.java)
 # testName = 2
     retLine = []
-    for line in dataAndrewEntropy:
+    for line in dataCommitsClonesEntropy:
         if line[0] == projectName and line[2] == testName and line[1] == filePath:
             retLine.append(line)
     return retLine
@@ -32,7 +32,7 @@ parser.add_argument('csv_file_understand',
                     type=str,
                     help='the first file - Understand')
 
-parser.add_argument('csv_file_andrew',
+parser.add_argument('csv_file_commitsclones',
                     type=str,
                     help='the second file - Commit/Clones + Entropy')
 
@@ -44,11 +44,11 @@ parser.add_argument('csv_file_duplicated_understand',
                     type=str,
                     help='the file containing methods that have the same names in Understand\'s file')
 
-parser.add_argument('csv_file_duplicated_andrew',
+parser.add_argument('csv_file_duplicated_commitsclones',
                     type=str,
                     help='the file containing methods that have the same names in Commit/Clones/Entropy\'s file')
 
-parser.add_argument('csv_file_unused_andrew',
+parser.add_argument('csv_file_unused_commitsclones',
                     type=str,
                     help='the file containing lines from Commit/Clones/Entropy\'s file that were never used')
 
@@ -75,19 +75,19 @@ header = [ 		'projectName', # Eclipse project name (subproject/module in GitHub)
 args = parser.parse_args()
 
 fUnderstand = open(args.csv_file_understand, "r")
-fAndrew = open(args.csv_file_andrew, "r")
+fCommitsClones = open(args.csv_file_commitsclones, "r")
 fMerged = open(args.csv_file_merged, "w")
 fDuplicatedUnderstand = open(args.csv_file_duplicated_understand, "w")
-fDuplicatedAndrew = open(args.csv_file_duplicated_andrew, "w")
-fUnusedAndrew = open(args.csv_file_unused_andrew, "w")
+fDuplicatedCommitsClones = open(args.csv_file_duplicated_commitsclones, "w")
+fUnusedCommitsClones = open(args.csv_file_unused_commitsclones, "w")
 
 readerUnderstand = csv.reader(fUnderstand, delimiter=",")
-readerAndrew = csv.reader(fAndrew, delimiter=",")
+readerCommitsClones = csv.reader(fCommitsClones, delimiter=",")
 
 dataUnderstand = []
-dataAndrew = []
+dataCommitsClones = []
 duplicateTestCasesUnderstand = []
-duplicateTestCasesAndrew = []
+duplicateTestCasesCommitsClones = []
 
 print("Reading Understand's file "+fUnderstand.name)
 rownum = 0
@@ -100,14 +100,14 @@ fUnderstand.close()
 print("Read %i rows" % rownum)
 
 
-print("Reading Andrew's file "+fAndrew.name)
+print("Reading CommitsClones's file "+fCommitsClones.name)
 rownum = 0
-for row in readerAndrew:
+for row in readerCommitsClones:
     if rownum > 0:
-        dataAndrew.append(row)
+        dataCommitsClones.append(row)
     rownum += 1
 
-fAndrew.close()
+fCommitsClones.close()
 print("Read %i rows" % rownum)
 
 fMerged.write(','.join(header)+'\n')
@@ -123,7 +123,7 @@ for lineUnderstand in dataUnderstand:
     if len(findLinesUnderstand(projectName, filePath, testName, dataUnderstand)) > 1:
         duplicateTestCasesUnderstand.append(lineUnderstand)
     else:
-        foundLines = findLinesAndrew(projectName, filePath, testName, dataAndrew)
+        foundLines = findLinesCommitsClones(projectName, filePath, testName, dataCommitsClones)
         if len(foundLines) == 1:
             lineUnderstand.extend(foundLines[0])
             foundLines[0].append('ok')
@@ -132,15 +132,15 @@ for lineUnderstand in dataUnderstand:
 fMerged.close()
 
 rownum = 0
-for line in dataAndrew:
+for line in dataCommitsClones:
     if line[-1] != "ok":
-        fUnusedAndrew.write(','.join(line)+'\n')
-fUnusedAndrew.close()
+        fUnusedCommitsClones.write(','.join(line)+'\n')
+fUnusedCommitsClones.close()
 
 for dtcu in duplicateTestCasesUnderstand:
     fDuplicatedUnderstand.write(','.join(dtcu)+'\n')
 fDuplicatedUnderstand.close()
 
-for dtca in duplicateTestCasesAndrew:
-    fDuplicatedAndrew.write(','.join(dtca)+'\n')
-fDuplicatedAndrew.close()
+for dtca in duplicateTestCasesCommitsClones:
+    fDuplicatedCommitsClones.write(','.join(dtca)+'\n')
+fDuplicatedCommitsClones.close()
