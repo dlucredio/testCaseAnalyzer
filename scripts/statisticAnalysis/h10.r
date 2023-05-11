@@ -9,6 +9,7 @@ testH10 <- function(dataEffective, dataIneffective) {
   
   w = wilcox.test(dataEffective$Cyclomatic, dataIneffective$Cyclomatic, paired = F, alternative = "greater")
   resDelta <- cliff.delta(dataEffective$Cyclomatic, dataIneffective$Cyclomatic, paired = F, alternative = "greater")
+  result$observations <- nrow(dataEffective) + nrow(dataIneffective)
   result$statistic <- w$statistic
   result$pvalue <- w$p.value
   result$delta <- as.character(resDelta$magnitude)

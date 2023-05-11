@@ -13,6 +13,7 @@ testH7 <- function(data) {
                        exact=FALSE)
 
   
+  result$observations <- nrow(data)
   result$statistic <- hKendall$estimate
   result$pvalue <- hKendall$p.value
   result$delta <- ""

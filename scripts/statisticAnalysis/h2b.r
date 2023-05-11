@@ -12,6 +12,7 @@ testH2b <- function(dataEffective, dataIneffective) {
   w = wilcox.test(dataEffective$numberOfDistinctMethodInvocationsInSameClass, dataIneffective$numberOfDistinctMethodInvocationsInSameClass, paired = F, alternative = "greater")
   resDelta <- cliff.delta(dataEffective$numberOfDistinctMethodInvocationsInSameClass, dataIneffective$numberOfDistinctMethodInvocationsInSameClass, paired = F, alternative = "greater")
 
+  result$observations <- nrow(dataEffective) + nrow(dataIneffective)
   result$statistic <- w$statistic
   result$pvalue <- w$p.value
   result$delta <- as.character(resDelta$magnitude)

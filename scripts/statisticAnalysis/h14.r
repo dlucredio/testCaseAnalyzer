@@ -13,6 +13,7 @@ testH14 <- function(dataEffective, dataIneffective) {
   w = wilcox.test(dataEffective$LINE_covered, dataIneffective$LINE_covered, paired = F, alternative = "greater")
 
   resDelta <- cliff.delta(dataEffective$LINE_covered, dataIneffective$LINE_covered, paired = F, alternative = "greater")
+  result$observations <- nrow(dataEffective) + nrow(dataIneffective)
   result$statistic <- w$statistic
   result$pvalue <- w$p.value
   result$delta <- as.character(resDelta$magnitude)

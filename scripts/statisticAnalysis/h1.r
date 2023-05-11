@@ -16,6 +16,7 @@ testH1 <- function(dataEffective, dataIneffective) {
   w = wilcox.test(dataEffective$finalNumberOfAssertions, dataIneffective$finalNumberOfAssertions, paired = F, alternative = "greater")
   resDelta <- cliff.delta(dataEffective$finalNumberOfAssertions, dataIneffective$finalNumberOfAssertions, paired = F, alternative = "greater")
 
+  result$observations <- nrow(dataEffective) + nrow(dataIneffective)
   result$statistic <- w$statistic
   result$pvalue <- w$p.value
   result$delta <- as.character(resDelta$magnitude)
