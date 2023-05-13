@@ -67,6 +67,7 @@ dataset$readability = 8.87 - 0.033 * dataset$halsteadVolume + 0.4 * dataset$Coun
 
 write.csv(table(dataset$noCommitFixes),"./files/dataset.csv")
 
+nrow(dataset)
 
 # Balancing
 # <=1 and >1 = -1701
@@ -75,11 +76,15 @@ write.csv(table(dataset$noCommitFixes),"./files/dataset.csv")
 
 dataIneffective <- dataset[dataset$noCommitFixes <=1,]
 dataEffective <- dataset[dataset$noCommitFixes >2,]
+nrow(dataIneffective)
+nrow(dataEffective)
 nrow(dataIneffective)-nrow(dataEffective)
 
 # This next dataset cannot be easily balanced, because there is a lot of observations with Cyclomatic = 1
 dataSimple <- dataset[dataset$Cyclomatic <=1,]
 dataComplex <- dataset[dataset$Cyclomatic >1,]
+nrow(dataSimple)
+nrow(dataComplex)
 nrow(dataSimple)-nrow(dataComplex)
 
 # Balancing
@@ -87,8 +92,11 @@ nrow(dataSimple)-nrow(dataComplex)
 # <=1 and >2 = 56 <- this is the best balancing
 # <=1 and >2 = 484
 datasetCoverage <- dataset[dataset$hasCoverageData=="yes",]
+nrow(datasetCoverage)
 dataCoverageIneffective <- datasetCoverage[datasetCoverage$noCommitFixes <= 1,]
 dataCoverageEffective <- datasetCoverage[datasetCoverage$noCommitFixes > 2,]
+nrow(dataCoverageIneffective)
+nrow(dataCoverageEffective)
 nrow(dataCoverageIneffective)-nrow(dataCoverageEffective)
 
 # Initializing the result data frame
