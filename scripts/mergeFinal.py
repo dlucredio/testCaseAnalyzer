@@ -26,25 +26,22 @@ def findLines3(projectName, filePath, testName, data3):
     return retLine
 
 parser = argparse.ArgumentParser(
-    description='Merges staticAnalysisCommitsClones.csv, staticAnalysisCommitsClonesCoverage.csv and locComplexityEntropyCommitsClones.csv')
-
-parser.add_argument('csv_file_1',
-                    type=str,
-                    help='the first file - staticAnalysisCommitsClones')
+    description='Merges staticAnalysisCommitsClonesCoverage.csv and locComplexityEntropy.csv')
 
 parser.add_argument('csv_file_2',
                     type=str,
-                    help='the second file - staticAnalysisCommitsClonesCoverage')
+                    help='the first file - staticAnalysisCommitsClonesCoverage')
 
 parser.add_argument('csv_file_3',
                     type=str,
-                    help='the third file - locComplexityEntropyCommitsClones')
+                    help='the second file - locComplexityEntropy')
 
 parser.add_argument('csv_file_merged',
                     type=str,
                     help='the merged file')
 
-header_file_1 = [ 
+
+header_file_2 = [ 
     'mainProjectName',
     'projectName',
     'filePath',
@@ -81,44 +78,6 @@ header_file_1 = [
     'filePath2',
     'noBugFixes',
     'noCommitFixes',
-    'noClones'
-]
-
-header_file_2 = [ 
-    'mainProjectName',
-    'projectName',
-    'filePath',
-    'typeName',
-    'methodName',
-    'methodShortSignature',
-    'methodVerboseSignature',
-    'methodAnnotations',
-    'numberOfFirstLevelStatements',
-    'numberOfStatements',
-    'numberOfMethodInvocations',
-    'distinctMethodInvocations',
-    'numberOfDistinctMethodInvocations',
-    'distinctMethodInvocationsInSameClass',
-    'numberOfDistinctMethodInvocationsInSameClass',
-    'distinctTestCaseMethodInvocationsInSameClass',
-    'numberOfDistinctTestCaseMethodInvocationsInSameClass',
-    'numberOfMethodInvocationsWithExceptions',
-    'numberOfExceptionsThrown',
-    'numberOfExceptionsThrownAndCaughtExact',
-    'numberOfExceptionsThrownAndCaughtPartial',
-    'exceptionsThrownInMethodInvocations',
-    'numberOfAssertions',
-    'numberOfAssertionsWithRecursion',
-    'distinctMethodsInSameClassThatCallThisOne',
-    'numberOfdistinctMethodsInSameClassThatCallThisOne',
-    'distinctTestCasesInSameClassThatCallThisOne',
-    'numberOfdistinctTestCasesInSameClassThatCallThisOne',
-    'hasCommitData',
-    'mainProjectName2',
-    'methodName2',
-    'filePath2',
-    'noBugFixes',
-    'noCommitFixes',
     'noClones',
     'hasCoverageData',
     'projectName3',
@@ -140,9 +99,6 @@ header_file_3 = [
     'projectName2',
     'filePath2',
     'testCase2',
-    'noBugFixes',
-    'noCommitFixes',
-    'noClones',
     'halsteadLength',
     'halsteadVocabulary',
     'halsteadVolume',
@@ -205,30 +161,16 @@ header_merged = [
 
 args = parser.parse_args()
 
-f1 = open(args.csv_file_1, "r")
 f2 = open(args.csv_file_2, "r")
 f3 = open(args.csv_file_3, "r")
 fMerged = open(args.csv_file_merged, "w")
 
-reader1 = csv.reader(f1, delimiter=",")
 reader2 = csv.reader(f2, delimiter=",")
 reader3 = csv.reader(f3, delimiter=",")
 
-data1 = []
 data2 = []
 data3 = []
 dataMerged = []
-
-print("Reading file 1: "+f1.name)
-rownum = 0
-for row in reader1:
-    if rownum > 0:
-        data1.append(row)
-    rownum += 1
-
-f1.close()
-print("Read %i rows" % rownum)
-
 
 print("Reading file 2: "+f2.name)
 rownum = 0
@@ -251,37 +193,32 @@ f3.close()
 print("Read %i rows" % rownum)
 
 rownum = 0
-for line1 in data1:
+for line2 in data2:
 
     mergedLine = []
-    projectName = line1[0]
-    filePath = line1[2]
-    testName = line1[4]
+    projectName = line2[0]
+    filePath = line2[2]
+    testName = line2[4]
     print("Processing row %i - project %s, file %s, test %s" %(rownum, projectName, filePath, testName))
     rownum += 1
 
-    mergedLine.extend(line1[0:37])
+    mergedLine.extend(line2[0:42])
 
-    foundLines = findLines2(projectName, filePath, testName, data2)
-    if len(foundLines) == 1:
-        mergedLine.extend(foundLines[0][35:40])
-    else:
-        mergedLine.extend(['no','','','',''])
-    
     foundLines = findLines3(projectName, filePath, testName, data3)
     if len(foundLines) == 1:
         mergedLine.append('yes')
         mergedLine.extend(foundLines[0][4:8])
-        mergedLine.extend(foundLines[0][14:18])
+        mergedLine.extend(foundLines[0][11:15])
     elif len(foundLines) > 1:
         mergedLine.extend(['duplicated','','','','','','','',''])
     else:
         mergedLine.extend(['no','','','','','','','',''])
 
+
     # line[30] == hasCommitData
     # line[37] == hasCoverageData
     # line[42] == hasLocComplexityEntropy
-    if mergedLine[30] == 'yes':
+    if mergedLine[30] == 'yes' or mergedLine[30] == 'notfound':
         dataMerged.append(mergedLine)
 
 fMerged.write(','.join(header_merged)+'\n')

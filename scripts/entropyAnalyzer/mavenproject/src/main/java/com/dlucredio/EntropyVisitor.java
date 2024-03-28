@@ -20,21 +20,15 @@ public class EntropyVisitor extends Java9BaseVisitor<Void> {
     String project;
     String testCase;
     String filePath;
-    String noBugFixes;
-    String noCommitFixes;
-    String noClones;
 
     public EntropyVisitor(Map<String, String> cache, CommonTokenStream cts, PrintWriter pw, String project,
-            String testCase, String filePath, String noBugFixes, String noCommitFixes, String noClones) {
+            String testCase, String filePath) {
         this.cache = cache;
         this.cts = cts;
         this.pw = pw;
         this.project = project;
         this.testCase = testCase;
         this.filePath = filePath;
-        this.noBugFixes = noBugFixes;
-        this.noCommitFixes = noCommitFixes;
-        this.noClones = noClones;
     }
 
     @Override
@@ -80,9 +74,9 @@ public class EntropyVisitor extends Java9BaseVisitor<Void> {
         }
 
         String cacheKey = project + "$" + filePath + "$" + methodName;
-        String cacheEntry = project + "," + filePath + "," + methodName + "," + noBugFixes + "," + noCommitFixes + ","
-                + noClones + "," + halsteadLength + "," + halsteadVocabulary + "," + halsteadVolume + "," + entropy;
-        if(methodName.equals(testCase)) {
+        String cacheEntry = project + "," + filePath + "," + methodName + "," + halsteadLength + ","
+                + halsteadVocabulary + "," + halsteadVolume + "," + entropy;
+        if (methodName.equals(testCase)) {
             pw.println(cacheEntry);
             pw.flush();
         } else {

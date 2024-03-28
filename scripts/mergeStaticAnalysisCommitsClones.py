@@ -232,6 +232,12 @@ for lineStaticAnalysis in dataStaticAnalysis:
             foundLines = findLinesCommitsClonesMainProjectNameOnlyWithoutClass(mainProjectName, testName, dataCommitsClones)
         if len(foundLines) == 0:
             lineStaticAnalysis.append('notfound')
+            lineStaticAnalysis.append(mainProjectName)
+            lineStaticAnalysis.append('')
+            lineStaticAnalysis.append('')
+            lineStaticAnalysis.append('0')
+            lineStaticAnalysis.append('0')
+            lineStaticAnalysis.append('0')
         elif len(foundLines) > 1:
             duplicateCommitsClones.append(lineStaticAnalysis)
             lineStaticAnalysis.append("duplicated_%i" % len(foundLines))

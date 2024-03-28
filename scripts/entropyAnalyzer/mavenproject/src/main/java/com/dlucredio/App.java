@@ -30,7 +30,7 @@ public class App {
         Map<String, String> cache = new HashMap<>();
         try (PrintWriter pw = new PrintWriter(new FileWriter(outputFile))) {
             pw.println(
-                    "project,filePath,methodName,noBugFixes,noCommitFixes,noClones,halsteadLength,halsteadVocabulary,halsteadVolume,entropy");
+                    "project,filePath,methodName,halsteadLength,halsteadVocabulary,halsteadVolume,entropy");
             pw.flush();
             try (BufferedReader br = new BufferedReader(new FileReader(inputFile))) {
                 String line = br.readLine();
@@ -41,51 +41,52 @@ public class App {
                 while ((line = br.readLine()) != null) {
                     numberOfEntries++;
                     StringTokenizer st = new StringTokenizer(line, ",");
-                    String project = st.nextToken();
-                    String testCase = st.nextToken();
+                    String mainProjectName = st.nextToken();
+                    String projectName = st.nextToken();
                     String filePath = st.nextToken();
-                    String noBugFixes = st.nextToken();
-                    String noCommitFixes = st.nextToken();
-                    String noClones = st.nextToken();
-                    if (projectPaths.containsKey(project) && projectPaths.get(project) != null) {
+                    String typeName = st.nextToken();
+                    String methodName = st.nextToken();
+                    if (projectPaths.containsKey(mainProjectName) && projectPaths.get(mainProjectName) != null) {
                         // already found
-                    } else if (projectPaths.containsKey(project) && projectPaths.get(project) == null) {
+                    } else if (projectPaths.containsKey(mainProjectName) && projectPaths.get(mainProjectName) == null) {
                         // already found to be missing
                     } else {
-                        File f = new File(rootDir + File.separator + project);
+                        File f = new File(rootDir + File.separator + mainProjectName);
                         if (f.exists() && f.isDirectory()) {
-                            projectPaths.put(project, f);
+                            projectPaths.put(mainProjectName, f);
                         } else {
-                            f = new File(rootDir + File.separator + project + "-core");
+                            f = new File(rootDir + File.separator + mainProjectName + "-core");
                             if (f.exists() && f.isDirectory()) {
-                                projectPaths.put(project, f);
+                                projectPaths.put(mainProjectName, f);
                             } else {
-                                File subDir = tryToFindInSubDir(rootDir, project, 5);
+                                File subDir = tryToFindInSubDir(rootDir, mainProjectName, 5);
                                 if (subDir != null) {
-                                    projectPaths.put(project, subDir);
+                                    projectPaths.put(mainProjectName, subDir);
                                 } else {
-                                    projectPaths.put(project, null);
+                                    projectPaths.put(mainProjectName, null);
                                 }
                             }
                         }
                     }
-                    File projectDir = projectPaths.get(project);
+                    File projectDir = projectPaths.get(mainProjectName);
                     if (projectDir != null) {
                         File fileToParse = new File(projectDir, filePath);
                         if (!fileToParse.exists()) {
                             fileToParse = new File(projectDir.getParent(), filePath);
                         }
                         if (!fileToParse.exists()) {
-                            fileToParse = new File(projectDir, project + File.separator + filePath);
+                            fileToParse = new File(projectDir, mainProjectName + File.separator + filePath);
                         }
                         if (!fileToParse.exists()) {
-                            fileToParse = new File(projectDir.getParent(), project + File.separator + filePath);
+                            fileToParse = new File(projectDir.getParent(), mainProjectName + File.separator + filePath);
                         }
                         if (fileToParse.exists() && fileToParse.isFile()) {
                             numberFound++;
-                            parse(numberFound, cache, fileToParse, pw, project, testCase, filePath, noBugFixes,
-                                    noCommitFixes, noClones);
+                            parse(numberFound, cache, fileToParse, pw, mainProjectName, methodName, filePath);
                         } else {
+                            pw.println(
+                                    mainProjectName + "," + filePath + "," + methodName + ",0,0,0,0");
+                            pw.flush();
                             numberMissing++;
                         }
                     }
@@ -118,8 +119,7 @@ public class App {
     }
 
     private static void parse(int numberFound, Map<String, String> cache, File fileToParse, PrintWriter pw,
-            String project, String testCase, String filePath, String noBugFixes, String noCommitFixes,
-            String noClones) {
+            String project, String testCase, String filePath) {
         try {
             String cacheKey = project + "$" + filePath + "$" + testCase;
             String cacheEntry = cache.get(cacheKey);
@@ -164,8 +164,7 @@ public class App {
 
             });
             Java9Parser.CompilationUnitContext tree = parser.compilationUnit();
-            EntropyVisitor v = new EntropyVisitor(cache, tokens, pw, project, testCase, filePath, noBugFixes, noCommitFixes,
-                    noClones);
+            EntropyVisitor v = new EntropyVisitor(cache, tokens, pw, project, testCase, filePath);
             v.visitCompilationUnit(tree);
         } catch (IOException e) {
             e.printStackTrace();

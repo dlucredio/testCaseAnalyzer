@@ -1,61 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.dlucredio.AppTest" time="0.022" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.dlucredio.AppTest" time="0.04" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="sun.cpu.isalist" value=""/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/daniel/GitProjects/testCaseAnalyzer/workspaceJan2021/testcaseparser/mavenproject/target/test-classes:/home/daniel/GitProjects/testCaseAnalyzer/workspaceJan2021/testcaseparser/mavenproject/target/classes:/home/daniel/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/daniel/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/daniel/.m2/repository/org/antlr/antlr4/4.9.1/antlr4-4.9.1-complete.jar:/home/daniel/.m2/repository/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar:/home/daniel/.m2/repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar:/home/daniel/.m2/repository/org/antlr/ST4/4.3/ST4-4.3.jar:/home/daniel/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/home/daniel/.m2/repository/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar:/home/daniel/.m2/repository/com/ibm/icu/icu4j/61.1/icu4j-61.1.jar:"/>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\dlucr\GitProjects\testCaseAnalyzer\scripts\entropyAnalyzer\mavenproject\target\test-classes;C:\Users\dlucr\GitProjects\testCaseAnalyzer\scripts\entropyAnalyzer\mavenproject\target\classes;C:\Users\dlucr\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\dlucr\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\dlucr\.m2\repository\org\antlr\antlr4\4.9.1\antlr4-4.9.1-complete.jar;C:\Users\dlucr\.m2\repository\org\antlr\antlr4-runtime\4.9.1\antlr4-runtime-4.9.1.jar;C:\Users\dlucr\.m2\repository\org\antlr\antlr-runtime\3.5.2\antlr-runtime-3.5.2.jar;C:\Users\dlucr\.m2\repository\org\antlr\ST4\4.3\ST4-4.3.jar;C:\Users\dlucr\.m2\repository\org\abego\treelayout\org.abego.treelayout.core\1.0.3\org.abego.treelayout.core-1.0.3.jar;C:\Users\dlucr\.m2\repository\org\glassfish\javax.json\1.0.4\javax.json-1.0.4.jar;C:\Users\dlucr\.m2\repository\com\ibm\icu\icu4j\61.1\icu4j-61.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="user.timezone" value=""/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="os.name" value="Linux"/>
-    <property name="user.country" value="BR"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="/home/daniel/Programs/jdk1.8.0_212/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/daniel/GitProjects/testCaseAnalyzer/workspaceJan2021/testcaseparser/mavenproject/target/surefire/surefirebooter7964348269532713613.jar /home/daniel/GitProjects/testCaseAnalyzer/workspaceJan2021/testcaseparser/mavenproject/target/surefire 2021-03-04T15-09-24_036-jvmRun1 surefire5329137591453583738tmp surefire_04879434034501434113tmp"/>
-    <property name="surefire.test.class.path" value="/home/daniel/GitProjects/testCaseAnalyzer/workspaceJan2021/testcaseparser/mavenproject/target/test-classes:/home/daniel/GitProjects/testCaseAnalyzer/workspaceJan2021/testcaseparser/mavenproject/target/classes:/home/daniel/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/daniel/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/daniel/.m2/repository/org/antlr/antlr4/4.9.1/antlr4-4.9.1-complete.jar:/home/daniel/.m2/repository/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar:/home/daniel/.m2/repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar:/home/daniel/.m2/repository/org/antlr/ST4/4.3/ST4-4.3.jar:/home/daniel/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/home/daniel/.m2/repository/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar:/home/daniel/.m2/repository/com/ibm/icu/icu4j/61.1/icu4j-61.1.jar:"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Users\dlucr\Programas\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\dlucr\AppData\Local\Temp\surefire16345093978976438330\surefirebooter16793230709569262481.jar C:\Users\dlucr\AppData\Local\Temp\surefire16345093978976438330 2024-03-25T16-01-15_298-jvmRun1 surefire1467581734392786331tmp surefire_017691371365137984192tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\dlucr\GitProjects\testCaseAnalyzer\scripts\entropyAnalyzer\mavenproject\target\test-classes;C:\Users\dlucr\GitProjects\testCaseAnalyzer\scripts\entropyAnalyzer\mavenproject\target\classes;C:\Users\dlucr\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\dlucr\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\dlucr\.m2\repository\org\antlr\antlr4\4.9.1\antlr4-4.9.1-complete.jar;C:\Users\dlucr\.m2\repository\org\antlr\antlr4-runtime\4.9.1\antlr4-runtime-4.9.1.jar;C:\Users\dlucr\.m2\repository\org\antlr\antlr-runtime\3.5.2\antlr-runtime-3.5.2.jar;C:\Users\dlucr\.m2\repository\org\antlr\ST4\4.3\ST4-4.3.jar;C:\Users\dlucr\.m2\repository\org\abego\treelayout\org.abego.treelayout.core\1.0.3\org.abego.treelayout.core-1.0.3.jar;C:\Users\dlucr\.m2\repository\org\glassfish\javax.json\1.0.4\javax.json-1.0.4.jar;C:\Users\dlucr\.m2\repository\com\ibm\icu\icu4j\61.1\icu4j-61.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/home/daniel"/>
+    <property name="user.home" value="C:\Users\dlucr"/>
     <property name="user.language" value="pt"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.home" value="/home/daniel/Programs/jdk1.8.0_212/jre"/>
-    <property name="basedir" value="/home/daniel/GitProjects/testCaseAnalyzer/workspaceJan2021/testcaseparser/mavenproject"/>
-    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2024-03-19"/>
+    <property name="java.home" value="C:\Users\dlucr\Programas\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\dlucr\GitProjects\testCaseAnalyzer\scripts\entropyAnalyzer\mavenproject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/daniel/GitProjects/testCaseAnalyzer/workspaceJan2021/testcaseparser/mavenproject/target/surefire/surefirebooter7964348269532713613.jar"/>
-    <property name="sun.boot.class.path" value="/home/daniel/Programs/jdk1.8.0_212/jre/lib/resources.jar:/home/daniel/Programs/jdk1.8.0_212/jre/lib/rt.jar:/home/daniel/Programs/jdk1.8.0_212/jre/lib/sunrsasign.jar:/home/daniel/Programs/jdk1.8.0_212/jre/lib/jsse.jar:/home/daniel/Programs/jdk1.8.0_212/jre/lib/jce.jar:/home/daniel/Programs/jdk1.8.0_212/jre/lib/charsets.jar:/home/daniel/Programs/jdk1.8.0_212/jre/lib/jfr.jar:/home/daniel/Programs/jdk1.8.0_212/jre/classes"/>
+    <property name="surefire.real.class.path" value="C:\Users\dlucr\AppData\Local\Temp\surefire16345093978976438330\surefirebooter16793230709569262481.jar"/>
+    <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="1.8.0_212-b10"/>
-    <property name="user.name" value="daniel"/>
-    <property name="path.separator" value=":"/>
-    <property name="os.version" value="4.19.0-1-amd64"/>
-    <property name="java.endorsed.dirs" value="/home/daniel/Programs/jdk1.8.0_212/jre/lib/endorsed"/>
+    <property name="java.runtime.version" value="22+36-2370"/>
+    <property name="user.name" value="dlucr"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="/home/daniel/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="1.8.0_212"/>
-    <property name="user.dir" value="/home/daniel/GitProjects/testCaseAnalyzer/workspaceJan2021/testcaseparser/mavenproject"/>
+    <property name="localRepository" value="C:\Users\dlucr\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\dlucr\AppData\Local\Temp\"/>
+    <property name="java.version" value="22"/>
+    <property name="user.dir" value="C:\Users\dlucr\GitProjects\testCaseAnalyzer\scripts\entropyAnalyzer\mavenproject"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\dlucr\Programas\jdk-22\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\dlucr\.pyenv\pyenv-win\versions\3.13.0a1;C:\Users\dlucr\.pyenv\pyenv-win\versions\3.13.0a1;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Calibre2\;C:\Users\dlucr\.pyenv\pyenv-win\bin;C:\Users\dlucr\.pyenv\pyenv-win\shims;C:\Program Files\Elixir\bin;C:\Program Files\Erlang OTP\bin;C:\Users\dlucr\AppData\Local\Microsoft\WindowsApps;;C:\Users\dlucr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dlucr\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\dlucr\Programas\apache-maven-3.9.6\bin\;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.212-b10"/>
-    <property name="java.ext.dirs" value="/home/daniel/Programs/jdk1.8.0_212/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="java.vm.version" value="22+36-2370"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="52.0"/>
+    <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.dlucredio.AppTest" time="0.001"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.dlucredio.AppTest" time="0.003"/>
 </testsuite>

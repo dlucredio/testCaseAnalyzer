@@ -96,29 +96,29 @@ Run [locAndComplexityAnalyzer](./locAndComplexityAnalyzer)
 ### Step 10: Entropy analysis
 
 Run [entropyAnalyzer](./entropyAnalyzer)
-- Input: projects folder and ```commitsClonesCorrectNames.csv```
-- Output name: ```entropyCommitsClones.csv```
+- Input: projects folder and ```staticAnalysisCommitsClonesCoverage.csv```
+- Output name: ```entropy.csv```
 
-### Step 11: Merge LOC and complexity with entropy, commits and clones
+### Step 11: Merge loc/complexity file with entropy file
 
-Run ```mergeLocComplexityEntropyCommitsClones.py```
-- Input: ```locComplexity.csv``` and ```entropyCommitsClones.csv```
-- Output name: ```locComplexityEntropyCommitsClones.csv```
+Run ```mergeLocComplexityEntropy.py```
+- Input: ```locComplexity.csv``` and ```entropy.csv```
+- Output name: ```locComplexityEntropy.csv```
 
-This script will also output duplicate and unused entries in separate files. Run as follows:
+Run as follows:
 
 ```sh
-python mergeLocComplexityEntropyCommitsClones.py locComplexity.csv entropyCommitsClones.csv locComplexityEntropyCommitsClones.csv locComplexityEntropyCommitsClonesDuplicatedUnderstand.csv locComplexityEntropyCommitsClonesDuplicatedCommitsClones.csv locComplexityEntropyCommitsClonesUnusedCommitsClones.csv
+python .\mergeLocComplexityEntropy.py ..\files\locComplexity.csv ..\files\entropy.csv ..\files\locComplexityEntropy.csv
 ```
 
 ### Step 12: Merge all files into a single csv
 
 Run ```mergeFinal.py```
-- Input: ```staticAnalysisCommitsClones.csv```, ```staticAnalysisCommitsClonesCoverage.csv``` and ```locComplexityEntropyCommitsClones.csv```
+- Input: ```staticAnalysisCommitsClonesCoverage.csv``` and ```locComplexityEntropy.csv```
 - Output name: ```mergedFinal.csv```
 
 ```sh
-python mergeFinal.py staticAnalysisCommitsClones.csv staticAnalysisCommitsClonesCoverage.csv locComplexityEntropyCommitsClones.csv mergedFinal.csv
+python mergeFinal.py staticAnalysisCommitsClonesCoverage.csv locComplexityEntropy.csv mergedFinal.csv
 ```
 
 ### Importing into R Studio

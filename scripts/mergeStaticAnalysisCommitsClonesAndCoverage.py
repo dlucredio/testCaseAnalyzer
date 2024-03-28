@@ -17,7 +17,7 @@ def main():
 
     parser.add_argument('csv_file_merged_2',
                         type=str,
-                        help='the merged file with JaCoCo metrics')
+                        help='the merged file with JaCoCo metrics')																																																																																																				
 
     header = [ 'mainProjectName', # Main project name (GitHub project)
                     'projectName', # Eclipse project name (subproject/module in GitHub)
@@ -41,6 +41,8 @@ def main():
                     'numberOfExceptionsThrownAndCaughtExact', # Number of exceptions thrown in method invocations and specifically caught (there is a "throw X" and a corresponding "catch X")
                     'numberOfExceptionsThrownAndCaughtPartial', # // Number of exceptions thrown in method invocations and specifically caught but not an exact match (there is a "throw X" and a "catch Y" where Y may be X or a supertype of X)
                     'exceptionsThrownInMethodInvocations', # List of exceptions thrown in all method invocations (complete AST)
+                    'listOfExpectedExceptions', # List of expected exceptions
+                    'numberOfDistinctExpectedExceptions', # Number of distinct expected exceptions
                     'numberOfAssertions', # Number of JUnit assertions, without going inside method invocations
                     'numberOfAssertionsWithRecursion', # Number of JUnit assertions, recursively going inside method invocations up to 5 recursion levels
                     'distinctMethodsInSameClassThatCallThisOne', # List of distinct methods in the same class that call this one
@@ -104,7 +106,15 @@ def main():
         print("Processing row %i - project %s, type %s, test %s" %(rownum, projectName, typeName, testName))
         rownum += 1
 
-        if lineMerged[30] == 'yes':
+        if lineMerged[30] == 'notfound':
+            lineMerged.append('')
+            lineMerged.append('')
+            lineMerged.append('')
+            lineMerged.append('0')
+            lineMerged.append('0')
+            lineMerged.append('0')
+
+        if lineMerged[30] == 'yes' or lineMerged[30] == 'notfound':
             adjustMergedLine(lineMerged)
             cla = countLinesJaCoCoFile(projectName, typeName, testName, dataJaCoCo)
             if cla == 0:
@@ -122,9 +132,9 @@ def main():
 
 
 def adjustMergedLine(lineMerged):
-    while(len(lineMerged) < 35):
+    while(len(lineMerged) < 37):
         lineMerged.append('')
-    while(len(lineMerged) > 35):
+    while(len(lineMerged) > 37):
         lineMerged.pop()
 
 def countLinesJaCoCoFile(projectName, typeName, testName, dataJaCoCo):
