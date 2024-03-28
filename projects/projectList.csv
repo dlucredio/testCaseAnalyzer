@@ -1,43 +1,44 @@
-Author,Project,URL
-Google,guice,https://github.com/google/guice
-Google,gson,https://github.com/google/gson
-Google,closure-compiler,https://github.com/google/closure-compiler
-Google,open-location-code,https://github.com/google/open-location-code
-Google,google-java-format,https://github.com/google/google-java-format
-Google,error-prone,https://github.com/google/error-prone
-Google,truth,https://github.com/google/truth
-Google,jimfs,https://github.com/google/jimfs
-Google,compile-testing,https://github.com/google/compile-testing
-Google,closure-templates,https://github.com/google/closure-templates
-Amazon,ion-java,https://github.com/amzn/ion-java
-Twitter,Nodes,https://github.com/twitter/nodes
-Twitter,hraven,https://github.com/twitter/hraven
-Twitter,ambrose,https://github.com/twitter/ambrose
-Twitter,GraphJet,https://github.com/twitter/GraphJet
-Twitter,hbc,https://github.com/twitter/hbc
-Apache,incubator-datasketches-java,https://github.com/apache/incubator-datasketches-java
-Microsoft,spring-cloud-azure,https://github.com/microsoft/spring-cloud-azure
-Microsoft,spring-data-cosmosdb,https://github.com/microsoft/spring-data-cosmosdb
-Microsoft,spring-data-gremlin,https://github.com/microsoft/spring-data-gremlin
-Microsoft,Git-Credential-Manager-for-Mac-and-Linux,https://github.com/microsoft/Git-Credential-Manager-for-Mac-and-Linux
-spring.io,initializr,https://github.com/spring-io/initializr
-javaparser,javaparser,https://github.com/javaparser/javaparser
-plutext,docx4j,https://github.com/plutext/docx4j
-jbehave,jbehave-core ,https://github.com/jbehave/jbehave-core
-hibernate,hibernate-ogm ,https://github.com/hibernate/hibernate-ogm,mvn clean compile test -s settings-example.xml -DskipITs -DskipDocs -DskipDistro
-shopizer-ecommerce,shopizer,https://github.com/shopizer-ecommerce/shopizer
-kiegroup,optaplanner-core,https://github.com/kiegroup/optaplanner
-swagger-api,swagger-core,https://github.com/swagger-api/swagger-core
-rampatra,jbot,https://github.com/rampatra/jbot
-NanoHttpd,nanohttpd,https://github.com/NanoHttpd/nanohttpd
-digitalfondue,lavagna,https://github.com/digitalfondue/lavagna
-protostuff,protostuff-core,https://github.com/protostuff/protostuff
-hibernate,hibernate-search,https://github.com/hibernate/hibernate-search
-easymock,objenesis,https://github.com/easymock/objenesis
-oskopek,javaanpr,https://github.com/oskopek/javaanpr
-greenmail-mail-test,greenmail,https://github.com/greenmail-mail-test/greenmail,
-Netflix,zuul,https://github.com/Netflix/zuul,./gradlew build
-Netflix,mantis,https://github.com/Netflix/mantis,./gradlew build
-Netflix,hollow,https://github.com/Netflix/hollow,./gradlew build
-Netflix,governator,https://github.com/Netflix/governator,./gradlew build
-Netflix,Fenzo,https://github.com/Netflix/Fenzo,./gradlew build
+Author,Project,URL,API URL
+Google,guice,https://github.com/google/guice,https://api.github.com/repos/google/guice
+Google,gson,https://github.com/google/gson,https://api.github.com/repos/google/gson
+Google,closure-compiler,https://github.com/google/closure-compiler,https://api.github.com/repos/google/closure-compiler
+Google,open-location-code,https://github.com/google/open-location-code,https://api.github.com/repos/google/open-location-code
+Google,google-java-format,https://github.com/google/google-java-format,https://api.github.com/repos/google/google-java-format
+Google,error-prone,https://github.com/google/error-prone,https://api.github.com/repos/google/error-prone
+Google,truth,https://github.com/google/truth,https://api.github.com/repos/google/truth
+Google,jimfs,https://github.com/google/jimfs,https://api.github.com/repos/google/jimfs
+Google,compile-testing,https://github.com/google/compile-testing,https://api.github.com/repos/google/compile-testing
+Google,closure-templates,https://github.com/google/closure-templates,https://api.github.com/repos/google/closure-templates
+Amazon,ion-java,https://github.com/amzn/ion-java,https://api.github.com/repos/amzn/ion-java
+Twitter,Nodes,https://github.com/twitter/nodes,https://api.github.com/repos/twitter/nodes
+Twitter,hraven,https://github.com/twitter/hraven,https://api.github.com/repos/twitter/hraven
+Twitter,ambrose,https://github.com/twitter/ambrose,https://api.github.com/repos/twitter/ambrose
+Twitter,GraphJet,https://github.com/twitter/GraphJet,https://api.github.com/repos/twitter/GraphJet
+Twitter,hbc,https://github.com/twitter/hbc,https://api.github.com/repos/twitter/hbc
+Apache,incubator-datasketches-java,https://github.com/apache/incubator-datasketches-java,https://api.github.com/repos/apache/incubator-datasketches-java
+Microsoft,spring-cloud-azure,https://github.com/microsoft/spring-cloud-azure,https://api.github.com/repos/microsoft/spring-cloud-azure
+Microsoft,spring-data-cosmosdb,https://github.com/microsoft/spring-data-cosmosdb,https://api.github.com/repos/microsoft/spring-data-cosmosdb
+Microsoft,spring-data-gremlin,https://github.com/microsoft/spring-data-gremlin,https://api.github.com/repos/microsoft/spring-data-gremlin
+Microsoft,Git-Credential-Manager-for-Mac-and-Linux,https://github.com/microsoft/Git-Credential-Manager-for-Mac-and-Linux,https://api.github.com/repos/microsoft/Git-Credential-Manager-for-Mac-and-Linux
+spring.io,initializr,https://github.com/spring-io/initializr,https://api.github.com/repos/spring-io/initializr
+javaparser,javaparser,https://github.com/javaparser/javaparser,https://api.github.com/repos/javaparser/javaparser
+plutext,docx4j,https://github.com/plutext/docx4j,https://api.github.com/repos/plutext/docx4j
+jbehave,jbehave-core,https://github.com/jbehave/jbehave-core,https://api.github.com/repos/jbehave/jbehave-core
+hibernate,hibernate-ogm,https://github.com/hibernate/hibernate-ogm,https://api.github.com/repos/hibernate/hibernate-ogm
+shopizer-ecommerce,shopizer,https://github.com/shopizer-ecommerce/shopizer,https://api.github.com/repos/shopizer-ecommerce/shopizer
+kiegroup,optaplanner-core,https://github.com/kiegroup/optaplanner,https://api.github.com/repos/kiegroup/optaplanner
+swagger-api,swagger-core,https://github.com/swagger-api/swagger-core,https://api.github.com/repos/swagger-api/swagger-core
+rampatra,jbot,https://github.com/rampatra/jbot,https://api.github.com/repos/rampatra/jbot
+NanoHttpd,nanohttpd,https://github.com/NanoHttpd/nanohttpd,https://api.github.com/repos/NanoHttpd/nanohttpd
+digitalfondue,lavagna,https://github.com/digitalfondue/lavagna,https://api.github.com/repos/digitalfondue/lavagna
+protostuff,protostuff-core,https://github.com/protostuff/protostuff,https://api.github.com/repos/protostuff/protostuff
+hibernate,hibernate-search,https://github.com/hibernate/hibernate-search,https://api.github.com/repos/hibernate/hibernate-search
+easymock,objenesis,https://github.com/easymock/objenesis,https://api.github.com/repos/easymock/objenesis
+oskopek,javaanpr,https://github.com/oskopek/javaanpr,https://api.github.com/repos/oskopek/javaanpr
+greenmail-mail-test,greenmail,https://github.com/greenmail-mail-test/greenmail,https://api.github.com/repos/greenmail-mail-test/greenmail
+Netflix,zuul,https://github.com/Netflix/zuul,https://api.github.com/repos/Netflix/zuul
+Netflix,mantis,https://github.com/Netflix/mantis,https://api.github.com/repos/Netflix/mantis
+Netflix,hollow,https://github.com/Netflix/hollow,https://api.github.com/repos/Netflix/hollow
+Netflix,governator,https://github.com/Netflix/governator,https://api.github.com/repos/Netflix/governator
+Netflix,Fenzo,https://github.com/Netflix/Fenzo,https://api.github.com/repos/Netflix/Fenzo
+Optaplanner,Optaplanner,https://api.github.com/repos/apache/incubator-kie-optaplanner,https://api.github.com/repos/apache/incubator-kie-optaplanner

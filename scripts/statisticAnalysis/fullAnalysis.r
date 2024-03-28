@@ -69,6 +69,8 @@ write.csv(table(dataset$noCommitFixes),"./files/dataset.csv")
 
 nrow(dataset)
 
+project_count <- aggregate(dataset$mainProjectName, by=list(dataset$mainProjectName), FUN = length)
+
 # Balancing
 dataIneffective <- dataset[dataset$noCommitFixes <=0,]
 dataEffective <- dataset[dataset$noCommitFixes >=1,]
