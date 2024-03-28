@@ -7,16 +7,25 @@
 
 
 testGP3a <- function(dataEffective, dataIneffective) {
-  result = list(hipothesis = "gp3a", method="Wilcoxon")  
+  result = list(goodPractice = "gp3a")  
   
-  w = wilcox.test(dataEffective$numberOfExceptionsThrown, dataIneffective$numberOfExceptionsThrown, paired = F, alternative = "greater")
-  resDelta <- cliff.delta(dataEffective$numberOfExceptionsThrown, dataIneffective$numberOfExceptionsThrown, paired = F, alternative = "greater")
+  # Hypothesis = effective test cases have more exception handling than ineffective ones
+  # Therefore we expect a positive delta
+  altHypothesis = "two.sided"
+  expectedDelta = "positive"
+  # altHypothesis = "less"
+  # altHypothesis = "greater"
+  
+  
+  w = wilcox.test(dataEffective$numberOfExceptionsThrown, dataIneffective$numberOfExceptionsThrown, , paired = FALSE, alternative = altHypothesis)
+  resDelta <- cliff.delta(dataEffective$numberOfExceptionsThrown, dataIneffective$numberOfExceptionsThrown, , paired = FALSE, alternative = altHypothesis)
 
   result$observations <- nrow(dataEffective) + nrow(dataIneffective)
   result$statistic <- w$statistic
   result$pvalue <- w$p.value
   result$delta <- as.character(resDelta$magnitude)
   result$estimate <- resDelta$estimate
+  result$expectedDelta <- expectedDelta
   
   return(result)
 }

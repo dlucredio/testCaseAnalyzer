@@ -5,15 +5,25 @@
 # In the paper, this corresponds to metrics: invWithExC and bfCommits
 
 testGP3b <- function(dataEffective, dataIneffective) {
-  result = list(hipothesis = "gp3b", method="Wilcoxon")  
+  result = list(goodPractice = "gp3b")  
   
-  w = wilcox.test(dataEffective$totalExceptions, dataIneffective$totalExceptions, paired = F, alternative = "less")
-  resDelta <- cliff.delta(dataEffective$totalExceptions, dataIneffective$totalExceptions, paired = F, alternative = "less")
+  # Hypothesis = effective test cases have more exception handling being thrown and caught than ineffective ones
+  # Therefore we expect a positive delta
+  altHypothesis = "two.sided"
+  expectedDelta = "positive"
+  # altHypothesis = "less"
+  # altHypothesis = "greater"
+  
+  
+  w = wilcox.test(dataEffective$totalExceptions, dataIneffective$totalExceptions, , paired = FALSE, alternative = altHypothesis)
+  resDelta <- cliff.delta(dataEffective$totalExceptions, dataIneffective$totalExceptions, , paired = FALSE, alternative = altHypothesis)
   result$observations <- nrow(dataEffective) + nrow(dataIneffective)
   result$statistic <- w$statistic
   result$pvalue <- w$p.value
   result$delta <- as.character(resDelta$magnitude)
-  result$estimate <- resDelta$estimate  
+  result$estimate <- resDelta$estimate
+  result$expectedDelta <- expectedDelta
+  
   return(result)
 }
 

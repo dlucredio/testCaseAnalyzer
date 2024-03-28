@@ -7,7 +7,15 @@
 # In the paper, this corresponds to metrics: loc and read
 
 testGP4b <- function(dataReadable, dataUnreadable) {
-  result = list(hipothesis = "gp4b", method="Wilcoxon")  
+  result = list(goodPractice = "gp4b")  
+  
+  # Hypothesis = readable test cases have less loc than unreadable ones
+  # Therefore we expect a negative delta
+  altHypothesis = "two.sided"
+  expectedDelta = "negative"
+  # altHypothesis = "less"
+  # altHypothesis = "greater"
+  
   
   w = wilcox.test(dataReadable$CountLineCode, dataUnreadable$CountLineCode, paired = F, alternative = "less")
   resDelta <- cliff.delta(dataReadable$CountLineCode, dataUnreadable$CountLineCode, paired = F, alternative = "less")
@@ -16,6 +24,8 @@ testGP4b <- function(dataReadable, dataUnreadable) {
   result$pvalue <- w$p.value
   result$delta <- as.character(resDelta$magnitude)
   result$estimate <- resDelta$estimate
+  result$expectedDelta <- expectedDelta
+  
   return(result)
 }
 

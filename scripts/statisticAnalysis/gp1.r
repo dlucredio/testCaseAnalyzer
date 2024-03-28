@@ -14,16 +14,24 @@
 # In the paper, this corresponds to metrics: assert(T) and bfCommits(T)
 
 testGP1 <- function(dataEffective, dataIneffective) {
-  result = list(hipothesis = "gp1", method="Wilcoxon")
-
-  w = wilcox.test(dataEffective$finalNumberOfAssertions, dataIneffective$finalNumberOfAssertions, paired = F, alternative = "greater")
-  resDelta <- cliff.delta(dataEffective$finalNumberOfAssertions, dataIneffective$finalNumberOfAssertions, paired = F, alternative = "greater")
+  result = list(goodPractice = "gp1")
+  
+  # Hypothesis = effective test cases have less assertions than ineffective ones
+  # Therefore we expect a negative delta
+  altHypothesis = "two.sided"
+  expectedDelta = "negative"
+  # altHypothesis = "less"
+  # altHypothesis = "greater"
+  
+  w = wilcox.test(dataEffective$finalNumberOfAssertions, dataIneffective$finalNumberOfAssertions, paired = FALSE, alternative = altHypothesis)
+  resDelta <- cliff.delta(dataEffective$finalNumberOfAssertions, dataIneffective$finalNumberOfAssertions, paired = FALSE, alternative = altHypothesis)
 
   result$observations <- nrow(dataEffective) + nrow(dataIneffective)
   result$statistic <- w$statistic
   result$pvalue <- w$p.value
   result$delta <- as.character(resDelta$magnitude)
   result$estimate <- resDelta$estimate
+  result$expectedDelta <- expectedDelta
   
   return(result)
 }

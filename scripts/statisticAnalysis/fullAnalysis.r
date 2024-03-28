@@ -70,10 +70,6 @@ write.csv(table(dataset$noCommitFixes),"./files/dataset.csv")
 nrow(dataset)
 
 # Balancing
-# <=1 and >1 = -1701
-# <=1 and >2 = 457 <- This is the best balancing
-# <=1 and >3 = 1145
-
 dataIneffective <- dataset[dataset$noCommitFixes <=0,]
 dataEffective <- dataset[dataset$noCommitFixes >=1,]
 nrow(dataIneffective)
@@ -86,20 +82,8 @@ nrow(dataIneffective)-nrow(dataEffective)
 quantile(dataset$readability)
 
 # This yields the following separation
-dataUnreadable <- dataset[dataset$readability < -7.373041,]
-dataReadable <- dataset[dataset$readability > 2.437962,]
-
-# Balancing
-# <=1 and >1 = -1564
-# <=1 and >2 = 56 <- this is the best balancing
-# <=1 and >2 = 484
-datasetCoverage <- dataset[dataset$hasCoverageData=="yes",]
-nrow(datasetCoverage)
-dataCoverageIneffective <- datasetCoverage[datasetCoverage$noCommitFixes <= 1,]
-dataCoverageEffective <- datasetCoverage[datasetCoverage$noCommitFixes > 2,]
-nrow(dataCoverageIneffective)
-nrow(dataCoverageEffective)
-nrow(dataCoverageIneffective)-nrow(dataCoverageEffective)
+dataUnreadable <- dataset[dataset$readability < -11.624563,]
+dataReadable <- dataset[dataset$readability > 1.401324,]
 
 # Initializing the result data frame
 results <- data.frame()
@@ -126,7 +110,7 @@ print("Testing GP4b for all projects")
 results <- rbind(results, testGP4b(dataReadable, dataUnreadable))
 
 print("Testing GP5 for all projects")
-results <- rbind(results, testGP5(dataCoverageEffective, dataCoverageIneffective))
+results <- rbind(results, testGP5(dataEffective, dataIneffective))
 
 print("Testing GP6 for all projects")
 results <- rbind(results, testGP6(dataEffective, dataIneffective))

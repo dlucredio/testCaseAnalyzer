@@ -9,16 +9,26 @@
 # In the paper, this corresponds to metrics: footprint and bfCommits
 
 testGP5 <- function(dataEffective, dataIneffective) {
-  result = list(hipothesis = "gp5", method="Wilcoxon")  
+  result = list(goodPractice = "gp5")  
   
-  w = wilcox.test(dataEffective$LINE_covered, dataIneffective$LINE_covered, paired = F, alternative = "greater")
+  # Hypothesis = effective test cases have smaller footprint
+  # Therefore we expect a negative delta
+  altHypothesis = "two.sided"
+  expectedDelta = "negative"
+  # altHypothesis = "less"
+  # altHypothesis = "greater"
+  
+  
+  w = wilcox.test(dataEffective$LINE_covered, dataIneffective$LINE_covered, , paired = FALSE, alternative = altHypothesis)
 
-  resDelta <- cliff.delta(dataEffective$LINE_covered, dataIneffective$LINE_covered, paired = F, alternative = "greater")
+  resDelta <- cliff.delta(dataEffective$LINE_covered, dataIneffective$LINE_covered, , paired = FALSE, alternative = altHypothesis)
   result$observations <- nrow(dataEffective) + nrow(dataIneffective)
   result$statistic <- w$statistic
   result$pvalue <- w$p.value
   result$delta <- as.character(resDelta$magnitude)
   result$estimate <- resDelta$estimate
+  result$expectedDelta <- expectedDelta
+  
   return(result)
 }
 

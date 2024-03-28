@@ -8,16 +8,25 @@
 # In the paper, this corresponds to metrics: eCouplingTC(T) and bfCommits(T)
 
 testGP2b <- function(dataEffective, dataIneffective) {
-  result = list(hipothesis = "gp2b", method="Wilcoxon")
+  result = list(goodPractice = "gp2b")
   
-  w = wilcox.test(dataEffective$numberOfDistinctMethodInvocationsInSameClass, dataIneffective$numberOfDistinctMethodInvocationsInSameClass, paired = F, alternative = "greater")
-  resDelta <- cliff.delta(dataEffective$numberOfDistinctMethodInvocationsInSameClass, dataIneffective$numberOfDistinctMethodInvocationsInSameClass, paired = F, alternative = "greater")
+  # Hypothesis = effective test cases have less coupling in the same class than ineffective ones
+  # Therefore we expect a negative delta
+  altHypothesis = "two.sided"
+  expectedDelta = "negative"
+  # altHypothesis = "less"
+  # altHypothesis = "greater"
+  
+  
+  w = wilcox.test(dataEffective$numberOfDistinctMethodInvocationsInSameClass, dataIneffective$numberOfDistinctMethodInvocationsInSameClass, , paired = FALSE, alternative = altHypothesis)
+  resDelta <- cliff.delta(dataEffective$numberOfDistinctMethodInvocationsInSameClass, dataIneffective$numberOfDistinctMethodInvocationsInSameClass, , paired = FALSE, alternative = altHypothesis)
 
   result$observations <- nrow(dataEffective) + nrow(dataIneffective)
   result$statistic <- w$statistic
   result$pvalue <- w$p.value
   result$delta <- as.character(resDelta$magnitude)
   result$estimate <- resDelta$estimate
+  result$expectedDelta <- expectedDelta
   
   return(result)
 }
